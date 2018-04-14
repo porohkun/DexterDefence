@@ -4,8 +4,6 @@
         {
                 _MainTex ("Sprite Texture", 2D) = "white" {}
                 _Color ("Tint", Color) = (1,1,1,1)
-                _DecalTex1("Decal1 (RGBA)", 2D) = "black" {}
-				_DecalTex2("Decal2 (RGBA)", 2D) = "black" {}
                 [MaterialToggle] PixelSnap ("Pixel snap", Float) = 0
         }
 
@@ -69,13 +67,11 @@
                         }
 
                         sampler2D _MainTex;
-                        sampler2D _DecalTex1;
-						sampler2D _DecalTex2;
                         float _AlphaSplitEnabled;
 
                         fixed4 SampleSpriteTexture (float2 uv)
                         {
-                                fixed4 color = tex2D (_DecalTex1, uv);
+                                fixed4 color = tex2D (_MainTex, uv);
                                 if (_AlphaSplitEnabled)
                                         color.a = tex2D (_MainTex, uv).r;
                                 return color;
@@ -85,11 +81,11 @@
                         {
                                 fixed4 c = SampleSpriteTexture (IN.texcoord0);
 
-                                half4 decal1 = tex2D(_DecalTex1, IN.texcoord1);
+                                half4 decal1 = tex2D(_MainTex, IN.texcoord1);
                                 c.rgb = lerp (c.rgb, decal1.rgb, decal1.a);
                                 clip(c.a - 0.5);
 
-								half4 decal2 = tex2D(_DecalTex2, IN.texcoord2);
+								half4 decal2 = tex2D(_MainTex, IN.texcoord2);
 								c.rgb = lerp(c.rgb, decal2.rgb, decal2.a);
 								clip(c.a - 0.5);
 

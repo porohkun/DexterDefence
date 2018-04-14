@@ -1,0 +1,233 @@
+﻿{
+    "texture": "waypoints",
+    "size": {
+        "x": 256,
+        "y": 256
+    },
+    "sprites": {
+        "waypoints.we": {
+            "position": {
+                "x": 0,
+                "y": 192
+            },
+            "size": {
+                "x": 64,
+                "y": 64
+            },
+            "anchor": {
+                "x": 32,
+                "y": 32
+            }
+        },
+        "waypoints.ns": {
+            "position": {
+                "x": 64,
+                "y": 192
+            },
+            "size": {
+                "x": 64,
+                "y": 64
+            },
+            "anchor": {
+                "x": 32,
+                "y": 32
+            }
+        },
+        "error": {
+            "position": {
+                "x": 192,
+                "y": 192
+            },
+            "size": {
+                "x": 64,
+                "y": 64
+            },
+            "anchor": {
+                "x": 32,
+                "y": 32
+            }
+        },
+        "waypoints.swe": {
+            "position": {
+                "x": 0,
+                "y": 128
+            },
+            "size": {
+                "x": 64,
+                "y": 64
+            },
+            "anchor": {
+                "x": 32,
+                "y": 32
+            }
+        },
+        "waypoints.nsw": {
+            "position": {
+                "x": 64,
+                "y": 128
+            },
+            "size": {
+                "x": 64,
+                "y": 64
+            },
+            "anchor": {
+                "x": 32,
+                "y": 32
+            }
+        },
+        "waypoints.nwe": {
+            "position": {
+                "x": 128,
+                "y": 128
+            },
+            "size": {
+                "x": 64,
+                "y": 64
+            },
+            "anchor": {
+                "x": 32,
+                "y": 32
+            }
+        },
+        "waypoints.nse": {
+            "position": {
+                "x": 192,
+                "y": 128
+            },
+            "size": {
+                "x": 64,
+                "y": 64
+            },
+            "anchor": {
+                "x": 32,
+                "y": 32
+            }
+        },
+        "waypoints.se": {
+            "position": {
+                "x": 0,
+                "y": 64
+            },
+            "size": {
+                "x": 64,
+                "y": 64
+            },
+            "anchor": {
+                "x": 32,
+                "y": 32
+            }
+        },
+        "waypoints.sw": {
+            "position": {
+                "x": 64,
+                "y": 64
+            },
+            "size": {
+                "x": 64,
+                "y": 64
+            },
+            "anchor": {
+                "x": 32,
+                "y": 32
+            }
+        },
+        "waypoints.nw": {
+            "position": {
+                "x": 128,
+                "y": 64
+            },
+            "size": {
+                "x": 64,
+                "y": 64
+            },
+            "anchor": {
+                "x": 32,
+                "y": 32
+            }
+        },
+        "waypoints.ne": {
+            "position": {
+                "x": 192,
+                "y": 64
+            },
+            "size": {
+                "x": 64,
+                "y": 64
+            },
+            "anchor": {
+                "x": 32,
+                "y": 32
+            }
+        },
+        "waypoints.e": {
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "size": {
+                "x": 64,
+                "y": 64
+            },
+            "anchor": {
+                "x": 32,
+                "y": 32
+            }
+        },
+        "waypoints.s": {
+            "position": {
+                "x": 64,
+                "y": 0
+            },
+            "size": {
+                "x": 64,
+                "y": 64
+            },
+            "anchor": {
+                "x": 32,
+                "y": 32
+            }
+        },
+        "waypoints.w": {
+            "position": {
+                "x": 128,
+                "y": 0
+            },
+            "size": {
+                "x": 64,
+                "y": 64
+            },
+            "anchor": {
+                "x": 32,
+                "y": 32
+            }
+        },
+        "waypoints.n": {
+            "position": {
+                "x": 192,
+                "y": 0
+            },
+            "size": {
+                "x": 64,
+                "y": 64
+            },
+            "anchor": {
+                "x": 32,
+                "y": 32
+            }
+        },
+        "empty": {
+            "position": {
+                "x": 128,
+                "y": 192
+            },
+            "size": {
+                "x": 64,
+                "y": 64
+            },
+            "anchor": {
+                "x": 32,
+                "y": 32
+            }
+        }
+    }
+}

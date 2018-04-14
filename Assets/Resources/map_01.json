@@ -15,8 +15,7 @@
                 "x": 0,
                 "y": 1
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
@@ -31,8 +30,7 @@
                 "x": 0,
                 "y": 3
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
@@ -48,31 +46,28 @@
                 "y": 5
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "e"
         },
         {
             "position": {
                 "x": 0,
                 "y": 6
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
                 "x": 0,
                 "y": 7
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
                 "x": 0,
                 "y": 8
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
@@ -103,16 +98,14 @@
                 "x": 0,
                 "y": 12
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
                 "x": 0,
                 "y": 13
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
@@ -135,8 +128,7 @@
                 "x": 0,
                 "y": 16
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
@@ -151,8 +143,7 @@
                 "x": 0,
                 "y": 18
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
@@ -183,8 +174,7 @@
                 "x": 0,
                 "y": 22
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
@@ -199,8 +189,7 @@
                 "x": 0,
                 "y": 24
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
@@ -239,24 +228,21 @@
                 "x": 0,
                 "y": 29
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
                 "x": 1,
                 "y": 0
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
                 "x": 1,
                 "y": 1
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
@@ -279,8 +265,7 @@
                 "x": 1,
                 "y": 4
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
@@ -288,7 +273,7 @@
                 "y": 5
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "e"
         },
         {
             "position": {
@@ -303,8 +288,7 @@
                 "x": 1,
                 "y": 7
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
@@ -319,8 +303,7 @@
                 "x": 1,
                 "y": 9
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
@@ -335,8 +318,7 @@
                 "x": 1,
                 "y": 11
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
@@ -351,40 +333,35 @@
                 "x": 1,
                 "y": 13
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
                 "x": 1,
                 "y": 14
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
                 "x": 1,
                 "y": 15
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
                 "x": 1,
                 "y": 16
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 1,
                 "y": 17
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
@@ -399,16 +376,14 @@
                 "x": 1,
                 "y": 19
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 1,
                 "y": 20
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
@@ -431,8 +406,7 @@
                 "x": 1,
                 "y": 23
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
@@ -471,24 +445,21 @@
                 "x": 1,
                 "y": 28
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
                 "x": 1,
                 "y": 29
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
                 "x": 2,
                 "y": 0
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
@@ -519,8 +490,7 @@
                 "x": 2,
                 "y": 4
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
@@ -528,15 +498,14 @@
                 "y": 5
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "e"
         },
         {
             "position": {
                 "x": 2,
                 "y": 6
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
@@ -551,8 +520,7 @@
                 "x": 2,
                 "y": 8
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
@@ -567,16 +535,14 @@
                 "x": 2,
                 "y": 10
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
                 "x": 2,
                 "y": 11
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
@@ -591,24 +557,21 @@
                 "x": 2,
                 "y": 13
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
                 "x": 2,
                 "y": 14
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 2,
                 "y": 15
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
@@ -623,16 +586,14 @@
                 "x": 2,
                 "y": 17
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 2,
                 "y": 18
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -655,16 +616,14 @@
                 "x": 2,
                 "y": 21
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 2,
                 "y": 22
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
@@ -679,8 +638,7 @@
                 "x": 2,
                 "y": 24
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
@@ -719,8 +677,7 @@
                 "x": 2,
                 "y": 29
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
@@ -735,16 +692,14 @@
                 "x": 3,
                 "y": 1
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
                 "x": 3,
                 "y": 2
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
@@ -759,8 +714,7 @@
                 "x": 3,
                 "y": 4
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
@@ -768,23 +722,21 @@
                 "y": 5
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "e"
         },
         {
             "position": {
                 "x": 3,
                 "y": 6
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 3,
                 "y": 7
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
@@ -799,8 +751,7 @@
                 "x": 3,
                 "y": 9
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
@@ -815,16 +766,14 @@
                 "x": 3,
                 "y": 11
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
                 "x": 3,
                 "y": 12
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
@@ -847,24 +796,21 @@
                 "x": 3,
                 "y": 15
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 3,
                 "y": 16
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 3,
                 "y": 17
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -879,8 +825,7 @@
                 "x": 3,
                 "y": 19
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -895,32 +840,28 @@
                 "x": 3,
                 "y": 21
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 3,
                 "y": 22
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 3,
                 "y": 23
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 3,
                 "y": 24
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
@@ -935,8 +876,7 @@
                 "x": 3,
                 "y": 26
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
@@ -951,24 +891,21 @@
                 "x": 3,
                 "y": 28
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
                 "x": 3,
                 "y": 29
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
                 "x": 4,
                 "y": 0
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
@@ -991,16 +928,14 @@
                 "x": 4,
                 "y": 3
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 4,
                 "y": 4
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
@@ -1008,7 +943,7 @@
                 "y": 5
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "e"
         },
         {
             "position": {
@@ -1023,24 +958,21 @@
                 "x": 4,
                 "y": 7
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 4,
                 "y": 8
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 4,
                 "y": 9
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
@@ -1063,16 +995,14 @@
                 "x": 4,
                 "y": 12
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 4,
                 "y": 13
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -1087,8 +1017,7 @@
                 "x": 4,
                 "y": 15
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -1111,32 +1040,28 @@
                 "x": 4,
                 "y": 18
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 4,
                 "y": 19
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 4,
                 "y": 20
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 4,
                 "y": 21
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -1151,40 +1076,35 @@
                 "x": 4,
                 "y": 23
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 4,
                 "y": 24
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 4,
                 "y": 25
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 4,
                 "y": 26
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 4,
                 "y": 27
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
@@ -1199,8 +1119,7 @@
                 "x": 4,
                 "y": 29
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
@@ -1215,32 +1134,28 @@
                 "x": 5,
                 "y": 1
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
                 "x": 5,
                 "y": 2
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 5,
                 "y": 3
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 5,
                 "y": 4
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -1248,31 +1163,28 @@
                 "y": 5
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "e"
         },
         {
             "position": {
                 "x": 5,
                 "y": 6
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 5,
                 "y": 7
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 5,
                 "y": 8
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
@@ -1287,16 +1199,14 @@
                 "x": 5,
                 "y": 10
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 5,
                 "y": 11
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -1311,8 +1221,7 @@
                 "x": 5,
                 "y": 13
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -1327,8 +1236,7 @@
                 "x": 5,
                 "y": 15
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -1343,16 +1251,14 @@
                 "x": 5,
                 "y": 17
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 5,
                 "y": 18
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -1367,32 +1273,28 @@
                 "x": 5,
                 "y": 20
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 5,
                 "y": 21
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 5,
                 "y": 22
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 5,
                 "y": 23
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -1407,8 +1309,7 @@
                 "x": 5,
                 "y": 25
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
@@ -1423,24 +1324,21 @@
                 "x": 5,
                 "y": 27
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
                 "x": 5,
                 "y": 28
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
                 "x": 5,
                 "y": 29
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
@@ -1455,32 +1353,28 @@
                 "x": 6,
                 "y": 1
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
                 "x": 6,
                 "y": 2
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 6,
                 "y": 3
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 6,
                 "y": 4
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -1488,7 +1382,7 @@
                 "y": 5
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "e"
         },
         {
             "position": {
@@ -1511,24 +1405,21 @@
                 "x": 6,
                 "y": 8
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 6,
                 "y": 9
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 6,
                 "y": 10
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -1543,24 +1434,21 @@
                 "x": 6,
                 "y": 12
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 6,
                 "y": 13
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 6,
                 "y": 14
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -1575,64 +1463,56 @@
                 "x": 6,
                 "y": 16
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 6,
                 "y": 17
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 6,
                 "y": 18
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 6,
                 "y": 19
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 6,
                 "y": 20
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 6,
                 "y": 21
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 6,
                 "y": 22
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 6,
                 "y": 23
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -1647,24 +1527,21 @@
                 "x": 6,
                 "y": 25
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 6,
                 "y": 26
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 6,
                 "y": 27
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
@@ -1679,8 +1556,7 @@
                 "x": 6,
                 "y": 29
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
@@ -1711,16 +1587,14 @@
                 "x": 7,
                 "y": 3
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 7,
                 "y": 4
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -1728,23 +1602,21 @@
                 "y": 5
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "e"
         },
         {
             "position": {
                 "x": 7,
                 "y": 6
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 7,
                 "y": 7
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -1752,7 +1624,7 @@
                 "y": 8
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "n"
         },
         {
             "position": {
@@ -1760,7 +1632,7 @@
                 "y": 9
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "n"
         },
         {
             "position": {
@@ -1768,7 +1640,7 @@
                 "y": 10
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "n"
         },
         {
             "position": {
@@ -1776,7 +1648,7 @@
                 "y": 11
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "n"
         },
         {
             "position": {
@@ -1784,7 +1656,7 @@
                 "y": 12
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "n"
         },
         {
             "position": {
@@ -1792,7 +1664,7 @@
                 "y": 13
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "e"
         },
         {
             "position": {
@@ -1807,16 +1679,14 @@
                 "x": 7,
                 "y": 15
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 7,
                 "y": 16
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -1824,7 +1694,7 @@
                 "y": 17
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "n"
         },
         {
             "position": {
@@ -1832,7 +1702,7 @@
                 "y": 18
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "n"
         },
         {
             "position": {
@@ -1840,7 +1710,7 @@
                 "y": 19
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "n"
         },
         {
             "position": {
@@ -1848,7 +1718,7 @@
                 "y": 20
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "n"
         },
         {
             "position": {
@@ -1856,7 +1726,7 @@
                 "y": 21
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "n"
         },
         {
             "position": {
@@ -1864,39 +1734,35 @@
                 "y": 22
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "e"
         },
         {
             "position": {
                 "x": 7,
                 "y": 23
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 7,
                 "y": 24
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 7,
                 "y": 25
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 7,
                 "y": 26
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
@@ -1911,56 +1777,49 @@
                 "x": 7,
                 "y": 28
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
                 "x": 7,
                 "y": 29
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
                 "x": 8,
                 "y": 0
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
                 "x": 8,
                 "y": 1
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 8,
                 "y": 2
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 8,
                 "y": 3
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 8,
                 "y": 4
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -1968,23 +1827,21 @@
                 "y": 5
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "e"
         },
         {
             "position": {
                 "x": 8,
                 "y": 6
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 8,
                 "y": 7
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -1992,39 +1849,35 @@
                 "y": 8
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "w"
         },
         {
             "position": {
                 "x": 8,
                 "y": 9
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 8,
                 "y": 10
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 8,
                 "y": 11
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 8,
                 "y": 12
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -2032,7 +1885,7 @@
                 "y": 13
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "e"
         },
         {
             "position": {
@@ -2047,16 +1900,14 @@
                 "x": 8,
                 "y": 15
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 8,
                 "y": 16
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -2064,39 +1915,35 @@
                 "y": 17
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "w"
         },
         {
             "position": {
                 "x": 8,
                 "y": 18
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 8,
                 "y": 19
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 8,
                 "y": 20
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 8,
                 "y": 21
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -2104,31 +1951,28 @@
                 "y": 22
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "e"
         },
         {
             "position": {
                 "x": 8,
                 "y": 23
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 8,
                 "y": 24
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 8,
                 "y": 25
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -2151,24 +1995,21 @@
                 "x": 8,
                 "y": 28
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
                 "x": 8,
                 "y": 29
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 9,
                 "y": 0
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
@@ -2199,8 +2040,7 @@
                 "x": 9,
                 "y": 4
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -2208,15 +2048,14 @@
                 "y": 5
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "e"
         },
         {
             "position": {
                 "x": 9,
                 "y": 6
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -2232,23 +2071,21 @@
                 "y": 8
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "w"
         },
         {
             "position": {
                 "x": 9,
                 "y": 9
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 9,
                 "y": 10
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -2263,8 +2100,7 @@
                 "x": 9,
                 "y": 12
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -2272,31 +2108,28 @@
                 "y": 13
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "e"
         },
         {
             "position": {
                 "x": 9,
                 "y": 14
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 9,
                 "y": 15
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 9,
                 "y": 16
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -2304,15 +2137,14 @@
                 "y": 17
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "w"
         },
         {
             "position": {
                 "x": 9,
                 "y": 18
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
@@ -2327,8 +2159,7 @@
                 "x": 9,
                 "y": 20
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -2344,63 +2175,56 @@
                 "y": 22
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "e"
         },
         {
             "position": {
                 "x": 9,
                 "y": 23
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 9,
                 "y": 24
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 9,
                 "y": 25
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 9,
                 "y": 26
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 9,
                 "y": 27
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 9,
                 "y": 28
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
                 "x": 9,
                 "y": 29
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
@@ -2415,32 +2239,28 @@
                 "x": 10,
                 "y": 1
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 10,
                 "y": 2
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 10,
                 "y": 3
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 10,
                 "y": 4
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -2448,7 +2268,7 @@
                 "y": 5
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "e"
         },
         {
             "position": {
@@ -2463,8 +2283,7 @@
                 "x": 10,
                 "y": 7
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -2472,7 +2291,7 @@
                 "y": 8
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "w"
         },
         {
             "position": {
@@ -2487,8 +2306,7 @@
                 "x": 10,
                 "y": 10
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -2503,8 +2321,7 @@
                 "x": 10,
                 "y": 12
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -2512,23 +2329,21 @@
                 "y": 13
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "e"
         },
         {
             "position": {
                 "x": 10,
                 "y": 14
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 10,
                 "y": 15
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -2544,7 +2359,7 @@
                 "y": 17
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "w"
         },
         {
             "position": {
@@ -2559,24 +2374,21 @@
                 "x": 10,
                 "y": 19
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 10,
                 "y": 20
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 10,
                 "y": 21
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -2584,23 +2396,21 @@
                 "y": 22
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "e"
         },
         {
             "position": {
                 "x": 10,
                 "y": 23
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 10,
                 "y": 24
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -2615,16 +2425,14 @@
                 "x": 10,
                 "y": 26
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 10,
                 "y": 27
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
@@ -2639,8 +2447,7 @@
                 "x": 10,
                 "y": 29
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
@@ -2663,24 +2470,21 @@
                 "x": 11,
                 "y": 2
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 11,
                 "y": 3
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 11,
                 "y": 4
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -2688,7 +2492,7 @@
                 "y": 5
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "n"
         },
         {
             "position": {
@@ -2696,7 +2500,7 @@
                 "y": 6
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "n"
         },
         {
             "position": {
@@ -2704,7 +2508,7 @@
                 "y": 7
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "n"
         },
         {
             "position": {
@@ -2712,15 +2516,14 @@
                 "y": 8
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "w"
         },
         {
             "position": {
                 "x": 11,
                 "y": 9
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -2735,8 +2538,7 @@
                 "x": 11,
                 "y": 11
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -2752,7 +2554,7 @@
                 "y": 13
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "e"
         },
         {
             "position": {
@@ -2767,16 +2569,14 @@
                 "x": 11,
                 "y": 15
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 11,
                 "y": 16
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -2784,15 +2584,14 @@
                 "y": 17
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "w"
         },
         {
             "position": {
                 "x": 11,
                 "y": 18
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
@@ -2815,8 +2614,7 @@
                 "x": 11,
                 "y": 21
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -2824,31 +2622,28 @@
                 "y": 22
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "e"
         },
         {
             "position": {
                 "x": 11,
                 "y": 23
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 11,
                 "y": 24
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 11,
                 "y": 25
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -2863,64 +2658,56 @@
                 "x": 11,
                 "y": 27
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 11,
                 "y": 28
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
                 "x": 11,
                 "y": 29
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 12,
                 "y": 0
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
                 "x": 12,
                 "y": 1
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 12,
                 "y": 2
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 12,
                 "y": 3
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 12,
                 "y": 4
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -2935,56 +2722,49 @@
                 "x": 12,
                 "y": 6
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 12,
                 "y": 7
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 12,
                 "y": 8
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 12,
                 "y": 9
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 12,
                 "y": 10
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 12,
                 "y": 11
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 12,
                 "y": 12
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -2992,23 +2772,21 @@
                 "y": 13
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "e"
         },
         {
             "position": {
                 "x": 12,
                 "y": 14
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 12,
                 "y": 15
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -3024,39 +2802,35 @@
                 "y": 17
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "w"
         },
         {
             "position": {
                 "x": 12,
                 "y": 18
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 12,
                 "y": 19
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 12,
                 "y": 20
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 12,
                 "y": 21
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -3064,15 +2838,14 @@
                 "y": 22
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "e"
         },
         {
             "position": {
                 "x": 12,
                 "y": 23
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -3087,40 +2860,35 @@
                 "x": 12,
                 "y": 25
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 12,
                 "y": 26
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 12,
                 "y": 27
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 12,
                 "y": 28
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
                 "x": 12,
                 "y": 29
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
@@ -3135,64 +2903,56 @@
                 "x": 13,
                 "y": 1
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 13,
                 "y": 2
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 13,
                 "y": 3
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 13,
                 "y": 4
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 13,
                 "y": 5
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 13,
                 "y": 6
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 13,
                 "y": 7
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 13,
                 "y": 8
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -3207,8 +2967,7 @@
                 "x": 13,
                 "y": 10
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -3223,8 +2982,7 @@
                 "x": 13,
                 "y": 12
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -3232,15 +2990,14 @@
                 "y": 13
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "e"
         },
         {
             "position": {
                 "x": 13,
                 "y": 14
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -3255,8 +3012,7 @@
                 "x": 13,
                 "y": 16
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -3264,7 +3020,7 @@
                 "y": 17
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "w"
         },
         {
             "position": {
@@ -3279,24 +3035,21 @@
                 "x": 13,
                 "y": 19
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 13,
                 "y": 20
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 13,
                 "y": 21
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -3304,31 +3057,28 @@
                 "y": 22
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "e"
         },
         {
             "position": {
                 "x": 13,
                 "y": 23
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 13,
                 "y": 24
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 13,
                 "y": 25
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
@@ -3351,32 +3101,28 @@
                 "x": 13,
                 "y": 28
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
                 "x": 13,
                 "y": 29
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 14,
                 "y": 0
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
                 "x": 14,
                 "y": 1
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
@@ -3407,32 +3153,28 @@
                 "x": 14,
                 "y": 5
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 14,
                 "y": 6
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 14,
                 "y": 7
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 14,
                 "y": 8
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -3455,16 +3197,14 @@
                 "x": 14,
                 "y": 11
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 14,
                 "y": 12
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -3472,31 +3212,28 @@
                 "y": 13
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "e"
         },
         {
             "position": {
                 "x": 14,
                 "y": 14
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 14,
                 "y": 15
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 14,
                 "y": 16
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -3504,15 +3241,14 @@
                 "y": 17
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "w"
         },
         {
             "position": {
                 "x": 14,
                 "y": 18
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -3527,8 +3263,7 @@
                 "x": 14,
                 "y": 20
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -3544,23 +3279,21 @@
                 "y": 22
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "e"
         },
         {
             "position": {
                 "x": 14,
                 "y": 23
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 14,
                 "y": 24
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -3575,16 +3308,14 @@
                 "x": 14,
                 "y": 26
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 14,
                 "y": 27
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
@@ -3599,8 +3330,7 @@
                 "x": 14,
                 "y": 29
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
@@ -3623,32 +3353,28 @@
                 "x": 15,
                 "y": 2
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
                 "x": 15,
                 "y": 3
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 15,
                 "y": 4
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 15,
                 "y": 5
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
@@ -3663,8 +3389,7 @@
                 "x": 15,
                 "y": 7
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -3679,16 +3404,14 @@
                 "x": 15,
                 "y": 9
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 15,
                 "y": 10
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -3703,8 +3426,7 @@
                 "x": 15,
                 "y": 12
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -3712,15 +3434,14 @@
                 "y": 13
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "e"
         },
         {
             "position": {
                 "x": 15,
                 "y": 14
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -3735,8 +3456,7 @@
                 "x": 15,
                 "y": 16
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -3744,31 +3464,28 @@
                 "y": 17
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "w"
         },
         {
             "position": {
                 "x": 15,
                 "y": 18
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 15,
                 "y": 19
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 15,
                 "y": 20
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -3784,31 +3501,28 @@
                 "y": 22
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "e"
         },
         {
             "position": {
                 "x": 15,
                 "y": 23
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 15,
                 "y": 24
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 15,
                 "y": 25
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
@@ -3831,16 +3545,14 @@
                 "x": 15,
                 "y": 28
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
                 "x": 15,
                 "y": 29
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
@@ -3855,8 +3567,7 @@
                 "x": 16,
                 "y": 1
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
@@ -3871,56 +3582,49 @@
                 "x": 16,
                 "y": 3
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
                 "x": 16,
                 "y": 4
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
                 "x": 16,
                 "y": 5
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 16,
                 "y": 6
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 16,
                 "y": 7
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 16,
                 "y": 8
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 16,
                 "y": 9
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -3935,16 +3639,14 @@
                 "x": 16,
                 "y": 11
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 16,
                 "y": 12
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -3952,7 +3654,7 @@
                 "y": 13
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "ne"
         },
         {
             "position": {
@@ -3960,23 +3662,21 @@
                 "y": 14
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "e"
         },
         {
             "position": {
                 "x": 16,
                 "y": 15
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 16,
                 "y": 16
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -3984,39 +3684,35 @@
                 "y": 17
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "w"
         },
         {
             "position": {
                 "x": 16,
                 "y": 18
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 16,
                 "y": 19
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 16,
                 "y": 20
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 16,
                 "y": 21
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -4024,47 +3720,42 @@
                 "y": 22
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "e"
         },
         {
             "position": {
                 "x": 16,
                 "y": 23
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 16,
                 "y": 24
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 16,
                 "y": 25
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 16,
                 "y": 26
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 16,
                 "y": 27
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
@@ -4079,16 +3770,14 @@
                 "x": 16,
                 "y": 29
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 17,
                 "y": 0
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
@@ -4103,8 +3792,7 @@
                 "x": 17,
                 "y": 2
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
@@ -4143,48 +3831,42 @@
                 "x": 17,
                 "y": 7
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 17,
                 "y": 8
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 17,
                 "y": 9
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 17,
                 "y": 10
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 17,
                 "y": 11
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 17,
                 "y": 12
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -4192,7 +3874,7 @@
                 "y": 13
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "e"
         },
         {
             "position": {
@@ -4200,7 +3882,7 @@
                 "y": 14
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "n"
         },
         {
             "position": {
@@ -4208,15 +3890,14 @@
                 "y": 15
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "e"
         },
         {
             "position": {
                 "x": 17,
                 "y": 16
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -4224,23 +3905,21 @@
                 "y": 17
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "w"
         },
         {
             "position": {
                 "x": 17,
                 "y": 18
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 17,
                 "y": 19
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
@@ -4255,8 +3934,7 @@
                 "x": 17,
                 "y": 21
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -4264,23 +3942,21 @@
                 "y": 22
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "e"
         },
         {
             "position": {
                 "x": 17,
                 "y": 23
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 17,
                 "y": 24
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
@@ -4303,8 +3979,7 @@
                 "x": 17,
                 "y": 27
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
@@ -4319,8 +3994,7 @@
                 "x": 17,
                 "y": 29
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
@@ -4359,8 +4033,7 @@
                 "x": 18,
                 "y": 4
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
@@ -4375,24 +4048,21 @@
                 "x": 18,
                 "y": 6
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 18,
                 "y": 7
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 18,
                 "y": 8
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -4400,7 +4070,7 @@
                 "y": 9
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "e"
         },
         {
             "position": {
@@ -4408,7 +4078,7 @@
                 "y": 10
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "s"
         },
         {
             "position": {
@@ -4416,7 +4086,7 @@
                 "y": 11
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "s"
         },
         {
             "position": {
@@ -4424,7 +4094,7 @@
                 "y": 12
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "s"
         },
         {
             "position": {
@@ -4432,15 +4102,14 @@
                 "y": 13
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "s"
         },
         {
             "position": {
                 "x": 18,
                 "y": 14
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
@@ -4448,15 +4117,14 @@
                 "y": 15
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "e"
         },
         {
             "position": {
                 "x": 18,
                 "y": 16
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -4464,39 +4132,35 @@
                 "y": 17
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "w"
         },
         {
             "position": {
                 "x": 18,
                 "y": 18
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 18,
                 "y": 19
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 18,
                 "y": 20
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 18,
                 "y": 21
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -4504,47 +4168,42 @@
                 "y": 22
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "e"
         },
         {
             "position": {
                 "x": 18,
                 "y": 23
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 18,
                 "y": 24
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 18,
                 "y": 25
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 18,
                 "y": 26
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 18,
                 "y": 27
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
@@ -4559,16 +4218,14 @@
                 "x": 18,
                 "y": 29
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 19,
                 "y": 0
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
@@ -4583,16 +4240,14 @@
                 "x": 19,
                 "y": 2
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
                 "x": 19,
                 "y": 3
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
@@ -4607,8 +4262,7 @@
                 "x": 19,
                 "y": 5
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
@@ -4623,16 +4277,14 @@
                 "x": 19,
                 "y": 7
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 19,
                 "y": 8
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -4640,23 +4292,21 @@
                 "y": 9
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "e"
         },
         {
             "position": {
                 "x": 19,
                 "y": 10
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 19,
                 "y": 11
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -4664,15 +4314,14 @@
                 "y": 12
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "w"
         },
         {
             "position": {
                 "x": 19,
                 "y": 13
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
@@ -4688,15 +4337,14 @@
                 "y": 15
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "e"
         },
         {
             "position": {
                 "x": 19,
                 "y": 16
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -4704,39 +4352,35 @@
                 "y": 17
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "w"
         },
         {
             "position": {
                 "x": 19,
                 "y": 18
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 19,
                 "y": 19
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 19,
                 "y": 20
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 19,
                 "y": 21
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -4744,23 +4388,21 @@
                 "y": 22
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "e"
         },
         {
             "position": {
                 "x": 19,
                 "y": 23
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 19,
                 "y": 24
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -4775,8 +4417,7 @@
                 "x": 19,
                 "y": 26
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
@@ -4791,32 +4432,28 @@
                 "x": 19,
                 "y": 28
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
                 "x": 19,
                 "y": 29
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 20,
                 "y": 0
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
                 "x": 20,
                 "y": 1
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
@@ -4831,16 +4468,14 @@
                 "x": 20,
                 "y": 3
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 20,
                 "y": 4
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
@@ -4855,24 +4490,21 @@
                 "x": 20,
                 "y": 6
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 20,
                 "y": 7
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 20,
                 "y": 8
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -4880,23 +4512,21 @@
                 "y": 9
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "e"
         },
         {
             "position": {
                 "x": 20,
                 "y": 10
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 20,
                 "y": 11
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
@@ -4904,7 +4534,7 @@
                 "y": 12
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "w"
         },
         {
             "position": {
@@ -4912,15 +4542,14 @@
                 "y": 13
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "s"
         },
         {
             "position": {
                 "x": 20,
                 "y": 14
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
@@ -4928,15 +4557,14 @@
                 "y": 15
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "e"
         },
         {
             "position": {
                 "x": 20,
                 "y": 16
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -4944,39 +4572,35 @@
                 "y": 17
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "w"
         },
         {
             "position": {
                 "x": 20,
                 "y": 18
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 20,
                 "y": 19
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 20,
                 "y": 20
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 20,
                 "y": 21
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -4984,23 +4608,21 @@
                 "y": 22
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "e"
         },
         {
             "position": {
                 "x": 20,
                 "y": 23
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 20,
                 "y": 24
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -5023,8 +4645,7 @@
                 "x": 20,
                 "y": 27
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
@@ -5039,8 +4660,7 @@
                 "x": 20,
                 "y": 29
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
@@ -5055,8 +4675,7 @@
                 "x": 21,
                 "y": 1
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
@@ -5071,8 +4690,7 @@
                 "x": 21,
                 "y": 3
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
@@ -5087,8 +4705,7 @@
                 "x": 21,
                 "y": 5
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
@@ -5103,16 +4720,14 @@
                 "x": 21,
                 "y": 7
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 21,
                 "y": 8
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -5120,31 +4735,28 @@
                 "y": 9
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "e"
         },
         {
             "position": {
                 "x": 21,
                 "y": 10
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 21,
                 "y": 11
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 21,
                 "y": 12
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -5152,7 +4764,7 @@
                 "y": 13
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "w"
         },
         {
             "position": {
@@ -5160,7 +4772,7 @@
                 "y": 14
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "s"
         },
         {
             "position": {
@@ -5168,15 +4780,14 @@
                 "y": 15
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "s"
         },
         {
             "position": {
                 "x": 21,
                 "y": 16
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -5184,15 +4795,14 @@
                 "y": 17
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "w"
         },
         {
             "position": {
                 "x": 21,
                 "y": 18
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -5207,16 +4817,14 @@
                 "x": 21,
                 "y": 20
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 21,
                 "y": 21
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -5224,39 +4832,35 @@
                 "y": 22
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "e"
         },
         {
             "position": {
                 "x": 21,
                 "y": 23
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 21,
                 "y": 24
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 21,
                 "y": 25
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 21,
                 "y": 26
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
@@ -5271,32 +4875,28 @@
                 "x": 21,
                 "y": 28
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
                 "x": 21,
                 "y": 29
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 22,
                 "y": 0
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
                 "x": 22,
                 "y": 1
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
@@ -5311,40 +4911,35 @@
                 "x": 22,
                 "y": 3
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 22,
                 "y": 4
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 22,
                 "y": 5
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 22,
                 "y": 6
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 22,
                 "y": 7
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -5360,23 +4955,21 @@
                 "y": 9
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "e"
         },
         {
             "position": {
                 "x": 22,
                 "y": 10
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 22,
                 "y": 11
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -5391,32 +4984,28 @@
                 "x": 22,
                 "y": 13
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 22,
                 "y": 14
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 22,
                 "y": 15
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 22,
                 "y": 16
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -5424,7 +5013,7 @@
                 "y": 17
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "w"
         },
         {
             "position": {
@@ -5439,8 +5028,7 @@
                 "x": 22,
                 "y": 19
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -5455,8 +5043,7 @@
                 "x": 22,
                 "y": 21
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -5464,15 +5051,14 @@
                 "y": 22
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "e"
         },
         {
             "position": {
                 "x": 22,
                 "y": 23
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -5487,56 +5073,49 @@
                 "x": 22,
                 "y": 25
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 22,
                 "y": 26
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 22,
                 "y": 27
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 22,
                 "y": 28
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 22,
                 "y": 29
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 23,
                 "y": 0
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 23,
                 "y": 1
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
@@ -5551,8 +5130,7 @@
                 "x": 23,
                 "y": 3
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -5583,16 +5161,14 @@
                 "x": 23,
                 "y": 7
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 23,
                 "y": 8
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -5600,63 +5176,56 @@
                 "y": 9
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "e"
         },
         {
             "position": {
                 "x": 23,
                 "y": 10
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 23,
                 "y": 11
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 23,
                 "y": 12
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 23,
                 "y": 13
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 23,
                 "y": 14
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 23,
                 "y": 15
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 23,
                 "y": 16
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -5664,39 +5233,35 @@
                 "y": 17
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "w"
         },
         {
             "position": {
                 "x": 23,
                 "y": 18
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 23,
                 "y": 19
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 23,
                 "y": 20
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 23,
                 "y": 21
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -5704,39 +5269,35 @@
                 "y": 22
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "e"
         },
         {
             "position": {
                 "x": 23,
                 "y": 23
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 23,
                 "y": 24
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 23,
                 "y": 25
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 23,
                 "y": 26
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
@@ -5751,16 +5312,14 @@
                 "x": 23,
                 "y": 28
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 23,
                 "y": 29
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
@@ -5775,16 +5334,14 @@
                 "x": 24,
                 "y": 1
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 24,
                 "y": 2
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -5799,40 +5356,35 @@
                 "x": 24,
                 "y": 4
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 24,
                 "y": 5
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 24,
                 "y": 6
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 24,
                 "y": 7
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 24,
                 "y": 8
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -5840,15 +5392,14 @@
                 "y": 9
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "e"
         },
         {
             "position": {
                 "x": 24,
                 "y": 10
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -5863,8 +5414,7 @@
                 "x": 24,
                 "y": 12
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -5879,8 +5429,7 @@
                 "x": 24,
                 "y": 14
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -5895,8 +5444,7 @@
                 "x": 24,
                 "y": 16
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -5904,15 +5452,14 @@
                 "y": 17
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "w"
         },
         {
             "position": {
                 "x": 24,
                 "y": 18
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -5927,8 +5474,7 @@
                 "x": 24,
                 "y": 20
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -5944,23 +5490,21 @@
                 "y": 22
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "e"
         },
         {
             "position": {
                 "x": 24,
                 "y": 23
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 24,
                 "y": 24
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -5975,8 +5519,7 @@
                 "x": 24,
                 "y": 26
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
@@ -5999,32 +5542,28 @@
                 "x": 24,
                 "y": 29
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 25,
                 "y": 0
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 25,
                 "y": 1
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 25,
                 "y": 2
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -6032,7 +5571,7 @@
                 "y": 3
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "e"
         },
         {
             "position": {
@@ -6040,7 +5579,7 @@
                 "y": 4
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "s"
         },
         {
             "position": {
@@ -6048,7 +5587,7 @@
                 "y": 5
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "s"
         },
         {
             "position": {
@@ -6056,7 +5595,7 @@
                 "y": 6
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "s"
         },
         {
             "position": {
@@ -6064,7 +5603,7 @@
                 "y": 7
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "s"
         },
         {
             "position": {
@@ -6072,7 +5611,7 @@
                 "y": 8
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "s"
         },
         {
             "position": {
@@ -6080,23 +5619,21 @@
                 "y": 9
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "s"
         },
         {
             "position": {
                 "x": 25,
                 "y": 10
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 25,
                 "y": 11
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -6111,16 +5648,14 @@
                 "x": 25,
                 "y": 13
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 25,
                 "y": 14
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -6128,7 +5663,7 @@
                 "y": 15
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "n"
         },
         {
             "position": {
@@ -6136,7 +5671,7 @@
                 "y": 16
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "n"
         },
         {
             "position": {
@@ -6144,39 +5679,35 @@
                 "y": 17
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "w"
         },
         {
             "position": {
                 "x": 25,
                 "y": 18
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 25,
                 "y": 19
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 25,
                 "y": 20
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 25,
                 "y": 21
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -6184,87 +5715,77 @@
                 "y": 22
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "e"
         },
         {
             "position": {
                 "x": 25,
                 "y": 23
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 25,
                 "y": 24
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 25,
                 "y": 25
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 25,
                 "y": 26
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 25,
                 "y": 27
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 25,
                 "y": 28
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 25,
                 "y": 29
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 26,
                 "y": 0
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 26,
                 "y": 1
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 26,
                 "y": 2
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -6272,39 +5793,35 @@
                 "y": 3
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "e"
         },
         {
             "position": {
                 "x": 26,
                 "y": 4
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 26,
                 "y": 5
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 26,
                 "y": 6
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 26,
                 "y": 7
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -6319,24 +5836,21 @@
                 "x": 26,
                 "y": 9
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 26,
                 "y": 10
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 26,
                 "y": 11
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -6359,8 +5873,7 @@
                 "x": 26,
                 "y": 14
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -6368,15 +5881,14 @@
                 "y": 15
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "w"
         },
         {
             "position": {
                 "x": 26,
                 "y": 16
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
@@ -6384,15 +5896,14 @@
                 "y": 17
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "w"
         },
         {
             "position": {
                 "x": 26,
                 "y": 18
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -6407,16 +5918,14 @@
                 "x": 26,
                 "y": 20
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 26,
                 "y": 21
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -6424,7 +5933,7 @@
                 "y": 22
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "e"
         },
         {
             "position": {
@@ -6439,8 +5948,7 @@
                 "x": 26,
                 "y": 24
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -6455,8 +5963,7 @@
                 "x": 26,
                 "y": 26
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -6471,40 +5978,35 @@
                 "x": 26,
                 "y": 28
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 26,
                 "y": 29
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 27,
                 "y": 0
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 27,
                 "y": 1
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 27,
                 "y": 2
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -6512,7 +6014,7 @@
                 "y": 3
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "e"
         },
         {
             "position": {
@@ -6527,8 +6029,7 @@
                 "x": 27,
                 "y": 5
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -6543,32 +6044,28 @@
                 "x": 27,
                 "y": 7
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 27,
                 "y": 8
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 27,
                 "y": 9
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 27,
                 "y": 10
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -6583,24 +6080,21 @@
                 "x": 27,
                 "y": 12
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 27,
                 "y": 13
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 27,
                 "y": 14
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -6608,7 +6102,7 @@
                 "y": 15
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "w"
         },
         {
             "position": {
@@ -6624,23 +6118,21 @@
                 "y": 17
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "w"
         },
         {
             "position": {
                 "x": 27,
                 "y": 18
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 27,
                 "y": 19
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -6655,8 +6147,7 @@
                 "x": 27,
                 "y": 21
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -6664,87 +6155,77 @@
                 "y": 22
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "e"
         },
         {
             "position": {
                 "x": 27,
                 "y": 23
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 27,
                 "y": 24
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 27,
                 "y": 25
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 27,
                 "y": 26
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 27,
                 "y": 27
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 27,
                 "y": 28
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 27,
                 "y": 29
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 28,
                 "y": 0
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 28,
                 "y": 1
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 28,
                 "y": 2
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -6752,47 +6233,42 @@
                 "y": 3
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "e"
         },
         {
             "position": {
                 "x": 28,
                 "y": 4
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 28,
                 "y": 5
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 28,
                 "y": 6
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 28,
                 "y": 7
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 28,
                 "y": 8
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -6807,16 +6283,14 @@
                 "x": 28,
                 "y": 10
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 28,
                 "y": 11
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -6831,16 +6305,14 @@
                 "x": 28,
                 "y": 13
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 28,
                 "y": 14
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
@@ -6848,15 +6320,14 @@
                 "y": 15
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "w"
         },
         {
             "position": {
                 "x": 28,
                 "y": 16
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
@@ -6864,39 +6335,35 @@
                 "y": 17
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "w"
         },
         {
             "position": {
                 "x": 28,
                 "y": 18
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 28,
                 "y": 19
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 28,
                 "y": 20
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 28,
                 "y": 21
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -6904,39 +6371,35 @@
                 "y": 22
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "e"
         },
         {
             "position": {
                 "x": 28,
                 "y": 23
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 28,
                 "y": 24
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 28,
                 "y": 25
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 28,
                 "y": 26
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -6951,40 +6414,35 @@
                 "x": 28,
                 "y": 28
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 28,
                 "y": 29
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 29,
                 "y": 0
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 29,
                 "y": 1
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 29,
                 "y": 2
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -6992,7 +6450,7 @@
                 "y": 3
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "n"
         },
         {
             "position": {
@@ -7000,7 +6458,7 @@
                 "y": 4
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "n"
         },
         {
             "position": {
@@ -7008,7 +6466,7 @@
                 "y": 5
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "n"
         },
         {
             "position": {
@@ -7016,7 +6474,7 @@
                 "y": 6
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "n"
         },
         {
             "position": {
@@ -7024,7 +6482,7 @@
                 "y": 7
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "n"
         },
         {
             "position": {
@@ -7032,7 +6490,7 @@
                 "y": 8
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "n"
         },
         {
             "position": {
@@ -7040,7 +6498,7 @@
                 "y": 9
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "n"
         },
         {
             "position": {
@@ -7048,7 +6506,7 @@
                 "y": 10
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "n"
         },
         {
             "position": {
@@ -7056,7 +6514,7 @@
                 "y": 11
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "n"
         },
         {
             "position": {
@@ -7064,7 +6522,7 @@
                 "y": 12
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "n"
         },
         {
             "position": {
@@ -7072,7 +6530,7 @@
                 "y": 13
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "n"
         },
         {
             "position": {
@@ -7080,7 +6538,7 @@
                 "y": 14
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "n"
         },
         {
             "position": {
@@ -7088,7 +6546,7 @@
                 "y": 15
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "nw"
         },
         {
             "position": {
@@ -7096,7 +6554,7 @@
                 "y": 16
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "n"
         },
         {
             "position": {
@@ -7104,39 +6562,35 @@
                 "y": 17
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "w"
         },
         {
             "position": {
                 "x": 29,
                 "y": 18
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 29,
                 "y": 19
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 29,
                 "y": 20
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 29,
                 "y": 21
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -7144,31 +6598,28 @@
                 "y": 22
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "e"
         },
         {
             "position": {
                 "x": 29,
                 "y": 23
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 29,
                 "y": 24
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 29,
                 "y": 25
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -7183,40 +6634,35 @@
                 "x": 29,
                 "y": 27
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 29,
                 "y": 28
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 29,
                 "y": 29
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 30,
                 "y": 0
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 30,
                 "y": 1
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -7231,120 +6677,105 @@
                 "x": 30,
                 "y": 3
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 30,
                 "y": 4
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 30,
                 "y": 5
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 30,
                 "y": 6
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 30,
                 "y": 7
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 30,
                 "y": 8
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 30,
                 "y": 9
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 30,
                 "y": 10
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 30,
                 "y": 11
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 30,
                 "y": 12
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 30,
                 "y": 13
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 30,
                 "y": 14
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 30,
                 "y": 15
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 30,
                 "y": 16
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 30,
                 "y": 17
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -7359,8 +6790,7 @@
                 "x": 30,
                 "y": 19
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -7375,8 +6805,7 @@
                 "x": 30,
                 "y": 21
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -7384,95 +6813,84 @@
                 "y": 22
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "e"
         },
         {
             "position": {
                 "x": 30,
                 "y": 23
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 30,
                 "y": 24
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 30,
                 "y": 25
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 30,
                 "y": 26
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 30,
                 "y": 27
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 30,
                 "y": 28
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 30,
                 "y": 29
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 31,
                 "y": 0
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 31,
                 "y": 1
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 31,
                 "y": 2
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 31,
                 "y": 3
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
@@ -7487,24 +6905,21 @@
                 "x": 31,
                 "y": 5
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 31,
                 "y": 6
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 31,
                 "y": 7
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -7519,8 +6934,7 @@
                 "x": 31,
                 "y": 9
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -7535,16 +6949,14 @@
                 "x": 31,
                 "y": 11
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 31,
                 "y": 12
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
@@ -7559,8 +6971,7 @@
                 "x": 31,
                 "y": 14
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
@@ -7575,8 +6986,7 @@
                 "x": 31,
                 "y": 16
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
@@ -7591,32 +7001,28 @@
                 "x": 31,
                 "y": 18
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 31,
                 "y": 19
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 31,
                 "y": 20
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 31,
                 "y": 21
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -7624,7 +7030,7 @@
                 "y": 22
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "e"
         },
         {
             "position": {
@@ -7639,8 +7045,7 @@
                 "x": 31,
                 "y": 24
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -7655,32 +7060,28 @@
                 "x": 31,
                 "y": 26
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 31,
                 "y": 27
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 31,
                 "y": 28
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 31,
                 "y": 29
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -7695,48 +7096,42 @@
                 "x": 32,
                 "y": 1
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 32,
                 "y": 2
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 32,
                 "y": 3
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 32,
                 "y": 4
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 32,
                 "y": 5
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 32,
                 "y": 6
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
@@ -7751,24 +7146,21 @@
                 "x": 32,
                 "y": 8
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 32,
                 "y": 9
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 32,
                 "y": 10
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
@@ -7783,16 +7175,14 @@
                 "x": 32,
                 "y": 12
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 32,
                 "y": 13
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
@@ -7807,56 +7197,49 @@
                 "x": 32,
                 "y": 15
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 32,
                 "y": 16
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 32,
                 "y": 17
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 32,
                 "y": 18
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 32,
                 "y": 19
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 32,
                 "y": 20
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 32,
                 "y": 21
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -7864,31 +7247,28 @@
                 "y": 22
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "e"
         },
         {
             "position": {
                 "x": 32,
                 "y": 23
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 32,
                 "y": 24
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 32,
                 "y": 25
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -7911,24 +7291,21 @@
                 "x": 32,
                 "y": 28
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 32,
                 "y": 29
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 33,
                 "y": 0
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
@@ -7951,16 +7328,14 @@
                 "x": 33,
                 "y": 3
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 33,
                 "y": 4
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
@@ -7975,8 +7350,7 @@
                 "x": 33,
                 "y": 6
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
@@ -7991,8 +7365,7 @@
                 "x": 33,
                 "y": 8
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
@@ -8007,24 +7380,21 @@
                 "x": 33,
                 "y": 10
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 33,
                 "y": 11
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 33,
                 "y": 12
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
@@ -8039,40 +7409,35 @@
                 "x": 33,
                 "y": 14
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 33,
                 "y": 15
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 33,
                 "y": 16
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
                 "x": 33,
                 "y": 17
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
                 "x": 33,
                 "y": 18
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
@@ -8087,8 +7452,7 @@
                 "x": 33,
                 "y": 20
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -8104,15 +7468,14 @@
                 "y": 22
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "e"
         },
         {
             "position": {
                 "x": 33,
                 "y": 23
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -8127,16 +7490,14 @@
                 "x": 33,
                 "y": 25
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 33,
                 "y": 26
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -8151,40 +7512,35 @@
                 "x": 33,
                 "y": 28
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 33,
                 "y": 29
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 34,
                 "y": 0
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 34,
                 "y": 1
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 34,
                 "y": 2
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
@@ -8199,16 +7555,14 @@
                 "x": 34,
                 "y": 4
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
                 "x": 34,
                 "y": 5
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
@@ -8223,8 +7577,7 @@
                 "x": 34,
                 "y": 7
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
@@ -8239,24 +7592,21 @@
                 "x": 34,
                 "y": 9
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 34,
                 "y": 10
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 34,
                 "y": 11
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
@@ -8271,24 +7621,21 @@
                 "x": 34,
                 "y": 13
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
                 "x": 34,
                 "y": 14
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
                 "x": 34,
                 "y": 15
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
@@ -8303,40 +7650,35 @@
                 "x": 34,
                 "y": 17
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
                 "x": 34,
                 "y": 18
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 34,
                 "y": 19
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 34,
                 "y": 20
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 34,
                 "y": 21
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -8344,23 +7686,21 @@
                 "y": 22
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "e"
         },
         {
             "position": {
                 "x": 34,
                 "y": 23
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 34,
                 "y": 24
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -8375,16 +7715,14 @@
                 "x": 34,
                 "y": 26
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 34,
                 "y": 27
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -8399,8 +7737,7 @@
                 "x": 34,
                 "y": 29
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -8415,8 +7752,7 @@
                 "x": 35,
                 "y": 1
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
@@ -8439,56 +7775,49 @@
                 "x": 35,
                 "y": 4
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
                 "x": 35,
                 "y": 5
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
                 "x": 35,
                 "y": 6
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
                 "x": 35,
                 "y": 7
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 35,
                 "y": 8
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 35,
                 "y": 9
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 35,
                 "y": 10
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
@@ -8503,8 +7832,7 @@
                 "x": 35,
                 "y": 12
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
@@ -8543,24 +7871,21 @@
                 "x": 35,
                 "y": 17
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
                 "x": 35,
                 "y": 18
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
                 "x": 35,
                 "y": 19
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
@@ -8575,8 +7900,7 @@
                 "x": 35,
                 "y": 21
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -8584,23 +7908,21 @@
                 "y": 22
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "e"
         },
         {
             "position": {
                 "x": 35,
                 "y": 23
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 35,
                 "y": 24
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -8623,8 +7945,7 @@
                 "x": 35,
                 "y": 27
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -8639,40 +7960,35 @@
                 "x": 35,
                 "y": 29
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 36,
                 "y": 0
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 36,
                 "y": 1
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 36,
                 "y": 2
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
                 "x": 36,
                 "y": 3
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
@@ -8695,8 +8011,7 @@
                 "x": 36,
                 "y": 6
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
@@ -8711,16 +8026,14 @@
                 "x": 36,
                 "y": 8
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 36,
                 "y": 9
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
@@ -8735,8 +8048,7 @@
                 "x": 36,
                 "y": 11
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
@@ -8759,24 +8071,21 @@
                 "x": 36,
                 "y": 14
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
                 "x": 36,
                 "y": 15
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
                 "x": 36,
                 "y": 16
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
@@ -8791,8 +8100,7 @@
                 "x": 36,
                 "y": 18
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
@@ -8807,16 +8115,14 @@
                 "x": 36,
                 "y": 20
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 36,
                 "y": 21
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -8824,15 +8130,14 @@
                 "y": 22
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "e"
         },
         {
             "position": {
                 "x": 36,
                 "y": 23
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -8847,16 +8152,14 @@
                 "x": 36,
                 "y": 25
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 36,
                 "y": 26
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -8871,40 +8174,35 @@
                 "x": 36,
                 "y": 28
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 36,
                 "y": 29
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 37,
                 "y": 0
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 37,
                 "y": 1
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 37,
                 "y": 2
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
@@ -8935,24 +8233,21 @@
                 "x": 37,
                 "y": 6
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
                 "x": 37,
                 "y": 7
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
                 "x": 37,
                 "y": 8
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
@@ -8975,32 +8270,28 @@
                 "x": 37,
                 "y": 11
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
                 "x": 37,
                 "y": 12
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
                 "x": 37,
                 "y": 13
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 37,
                 "y": 14
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
@@ -9015,8 +8306,7 @@
                 "x": 37,
                 "y": 16
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
@@ -9031,16 +8321,14 @@
                 "x": 37,
                 "y": 18
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 37,
                 "y": 19
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
@@ -9055,8 +8343,7 @@
                 "x": 37,
                 "y": 21
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -9064,15 +8351,14 @@
                 "y": 22
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "e"
         },
         {
             "position": {
                 "x": 37,
                 "y": 23
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -9087,8 +8373,7 @@
                 "x": 37,
                 "y": 25
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -9103,8 +8388,7 @@
                 "x": 37,
                 "y": 27
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -9119,16 +8403,14 @@
                 "x": 37,
                 "y": 29
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 38,
                 "y": 0
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
@@ -9143,8 +8425,7 @@
                 "x": 38,
                 "y": 2
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
@@ -9167,8 +8448,7 @@
                 "x": 38,
                 "y": 5
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
@@ -9199,16 +8479,14 @@
                 "x": 38,
                 "y": 9
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
                 "x": 38,
                 "y": 10
             },
-            "surface": "rock",
-            "obstacle": null
+            "surface": "rock"
         },
         {
             "position": {
@@ -9223,8 +8501,7 @@
                 "x": 38,
                 "y": 12
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
@@ -9239,16 +8516,14 @@
                 "x": 38,
                 "y": 14
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 38,
                 "y": 15
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
@@ -9263,16 +8538,14 @@
                 "x": 38,
                 "y": 17
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 38,
                 "y": 18
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
@@ -9295,8 +8568,7 @@
                 "x": 38,
                 "y": 21
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -9304,15 +8576,14 @@
                 "y": 22
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "e"
         },
         {
             "position": {
                 "x": 38,
                 "y": 23
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -9335,8 +8606,7 @@
                 "x": 38,
                 "y": 26
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -9351,40 +8621,35 @@
                 "x": 38,
                 "y": 28
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 38,
                 "y": 29
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 39,
                 "y": 0
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 39,
                 "y": 1
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 39,
                 "y": 2
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
@@ -9399,32 +8664,28 @@
                 "x": 39,
                 "y": 4
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 39,
                 "y": 5
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 39,
                 "y": 6
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 39,
                 "y": 7
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
@@ -9439,32 +8700,28 @@
                 "x": 39,
                 "y": 9
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 39,
                 "y": 10
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 39,
                 "y": 11
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 39,
                 "y": 12
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
@@ -9479,24 +8736,21 @@
                 "x": 39,
                 "y": 14
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 39,
                 "y": 15
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 39,
                 "y": 16
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
@@ -9511,32 +8765,28 @@
                 "x": 39,
                 "y": 18
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 39,
                 "y": 19
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 39,
                 "y": 20
             },
-            "surface": "dirt",
-            "obstacle": null
+            "surface": "dirt"
         },
         {
             "position": {
                 "x": 39,
                 "y": 21
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -9544,23 +8794,21 @@
                 "y": 22
             },
             "surface": "dirt",
-            "obstacle": null
+            "waypoints": "e"
         },
         {
             "position": {
                 "x": 39,
                 "y": 23
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 39,
                 "y": 24
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
@@ -9575,32 +8823,28 @@
                 "x": 39,
                 "y": 26
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 39,
                 "y": 27
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 39,
                 "y": 28
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 39,
                 "y": 29
             },
-            "surface": "grass",
-            "obstacle": null
+            "surface": "grass"
         }
     ]
 }

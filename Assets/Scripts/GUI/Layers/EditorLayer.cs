@@ -14,14 +14,18 @@ namespace Layers
         private Text _cursorPositionLabel;
         [SerializeField]
         private InputField _filenameField;
+        [SerializeField]
+        private Image _brushVisual;
 
         private Camera _camera;
         private MapModel _map;
         private MapView _mapView;
+        private WaypointsView _waypointsView;
         private CanvasGroup _canvasGroup;
 
-        private string _brush = "grass";
         private string _brushType = "surface";
+        private string _brush = "grass";
+        private Direction _wpBrush = Direction.None;
         private string _filename { get { return Path.Combine(Path.Combine("Assets", "Resources"), _filenameField.text) + ".json"; } }
 
         private void Start()
@@ -52,9 +56,50 @@ namespace Layers
                     case "objects":
                         _map[curPos].Obstacle = _brush;
                         break;
+                    case "waypoints":
+                        _map[curPos].Waypoints = _wpBrush;
+                        break;
                 }
 
-                _mapView.RegenerateChunk((vectorCurPos + Vector2.one / 2f) / GraphicsManager.ChunkSize - Vector2.one / 2f);
+                switch (_brushType)
+                {
+                    case "surface":
+                    case "objects":
+                        _mapView.RegenerateChunk((vectorCurPos + Vector2.one / 2f) / GraphicsManager.ChunkSize - Vector2.one / 2f);
+                        break;
+                    case "waypoints":
+                        _waypointsView.RegenerateChunk((vectorCurPos + Vector2.one / 2f) / GraphicsManager.ChunkSize - Vector2.one / 2f);
+                        break;
+                }
+            }
+
+            if (Input.GetKeyDown(KeyCode.E)) //rotate waypoint cw
+            {
+                Direction newBrush = Direction.None;
+                foreach (var dir in _wpBrush.Enumerate())
+                    switch (dir)
+                    {
+                        case Direction.North: newBrush = newBrush.AddFlag(Direction.East); break;
+                        case Direction.East: newBrush = newBrush.AddFlag(Direction.South); break;
+                        case Direction.South: newBrush = newBrush.AddFlag(Direction.West); break;
+                        case Direction.West: newBrush = newBrush.AddFlag(Direction.North); break;
+                    }
+                _wpBrush = newBrush;
+                ShowBrush();
+            }
+            if (Input.GetKeyDown(KeyCode.Q)) //rotate waypoint ccw
+            {
+                Direction newBrush = Direction.None;
+                foreach (var dir in _wpBrush.Enumerate())
+                    switch (dir)
+                    {
+                        case Direction.North: newBrush = newBrush.AddFlag(Direction.West); break;
+                        case Direction.West: newBrush = newBrush.AddFlag(Direction.South); break;
+                        case Direction.South: newBrush = newBrush.AddFlag(Direction.East); break;
+                        case Direction.East: newBrush = newBrush.AddFlag(Direction.North); break;
+                    }
+                _wpBrush = newBrush;
+                ShowBrush();
             }
         }
 
@@ -92,7 +137,14 @@ namespace Layers
                 Destroy(_mapView);
             _mapView = new GameObject("MapView", typeof(MapView)).GetComponent<MapView>();
             _mapView.transform.position = Vector3.zero;
-            _mapView.CreateMap(_map);
+            _mapView.CreateChunks(_map);
+
+            if (_waypointsView != null)
+                Destroy(_waypointsView);
+            _waypointsView = new GameObject("WaypointsView", typeof(WaypointsView)).GetComponent<WaypointsView>();
+            _waypointsView.transform.position = Vector3.back;
+            _waypointsView.CreateChunks(_map);
+
             _camera.GetComponent<CameraMotor>().SetMapSize(_map.Width, _map.Height);
         }
 
@@ -100,12 +152,37 @@ namespace Layers
         {
             _brushType = "surface";
             _brush = brush;
+            ShowBrush();
         }
 
         public void SelectObjectsBrush(string brush)
         {
             _brushType = "objects";
             _brush = brush;
+            ShowBrush();
+        }
+
+        public void SelectWaypointsBrush(string brush)
+        {
+            _brushType = "waypoints";
+            _wpBrush = brush.ToDirection();
+            ShowBrush();
+        }
+
+        private void ShowBrush()
+        {
+            switch (_brushType)
+            {
+                case "surface":
+                    _brushVisual.sprite = GraphicsManager.GetSprite(string.IsNullOrEmpty(_brush) ? "empty" : "surface." + _brush);
+                    break;
+                case "objects":
+                    _brushVisual.sprite = GraphicsManager.GetSprite(string.IsNullOrEmpty(_brush) ? "empty" : "objects." + _brush);
+                    break;
+                case "waypoints":
+                    _brushVisual.sprite = GraphicsManager.GetSprite(_wpBrush == Direction.None ? "empty" : "waypoints." + _wpBrush.Stringify());
+                    break;
+            }
         }
     }
 }

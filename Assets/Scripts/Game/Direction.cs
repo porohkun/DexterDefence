@@ -1,12 +1,15 @@
-﻿namespace Game
+﻿using System;
+
+namespace Game
 {
+    [Flags]
     public enum Direction
     {
         None = 0,
         North = 1,
         South = 2,
-        West = 3,
-        East = 4
+        West = 4,
+        East = 8
     }
 }
 

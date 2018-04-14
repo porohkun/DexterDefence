@@ -7,8 +7,11 @@ namespace Texturing
 {
     public class Chunk : MonoBehaviour
     {
-        private MapModel _map;
-        private Point _startPoint;
+        protected virtual string _texture { get { return "tiles"; } }
+
+        protected TextureManifest _manifest;
+        protected MapModel _map;
+        protected Point _startPoint;
         private MeshRenderer _renderer;
         private MeshFilter _filter;
         private int _chunkSize;
@@ -27,12 +30,14 @@ namespace Texturing
             _renderer.allowOcclusionWhenDynamic = false;
             _filter = gameObject.AddComponent<MeshFilter>();
             _chunkSize = chunkSize;
+
         }
 
         public void Regenerate()
         {
+            _manifest = GraphicsManager.GetManifest(_texture);
+            _renderer.material = GraphicsManager.GetMaterial(_texture);
             _filter.mesh = PreMesh.ToMesh(GeneratePremeshes());
-            _renderer.material = GraphicsManager.GetMaterial("tiles");
         }
 
         private IEnumerable<PreMesh> GeneratePremeshes()
@@ -49,12 +54,11 @@ namespace Texturing
         protected virtual IEnumerable<PreMesh> GenerateCell(int x, int y)
         {
             var z = -GraphicsManager.ZIndexOffset;
-            var manifest = GraphicsManager.GetManifest("tiles");
 
             var cell = _map[x, y];
-            var sprite1 = manifest["surface." + cell.Surface];
-            var sprite2 = manifest[string.IsNullOrEmpty(cell.Obstacle) ? "empty" : "objects." + cell.Obstacle];
-            var sprite3 = manifest["misc.rect"];
+            var sprite1 = _manifest["surface." + cell.Surface];
+            var sprite2 = _manifest[string.IsNullOrEmpty(cell.Obstacle) ? "empty" : "objects." + cell.Obstacle];
+            var sprite3 = _manifest["misc.rect"];
             var center = GraphicsManager.Scale(new Vector2(x, y) - (Vector2)_startPoint);
 
             yield return GetSpriteMesh(sprite1, sprite2, sprite3, center, z, 1);

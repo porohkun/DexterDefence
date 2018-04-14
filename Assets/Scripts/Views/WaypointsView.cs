@@ -6,7 +6,7 @@ using Texturing;
 
 namespace Views
 {
-    public class MapView : ChunksView<Chunk>
+    public class WaypointsView : ChunksView<WaypointChunk>
     {
 
     }

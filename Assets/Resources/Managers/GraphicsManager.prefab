@@ -54,7 +54,35 @@ MonoBehaviour:
   _textureDatas:
   - Material: {fileID: 2100000, guid: bba0b01d11169fa43835f3f491dccd59, type: 2}
     Manifest: {fileID: 4900000, guid: cc860ff2bdcab8947bae4c6dfbc06b59, type: 3}
-  _sprites: []
+  - Material: {fileID: 2100000, guid: 5d465f8fdef0253448ea6fc7da37f780, type: 2}
+    Manifest: {fileID: 4900000, guid: 52066fbf4248e824f9f17c9eb6dce6bf, type: 3}
+  _sprites:
+  - {fileID: 21300010, guid: a297e8210b96d36428fefd081e25d199, type: 3}
+  - {fileID: 21300008, guid: a297e8210b96d36428fefd081e25d199, type: 3}
+  - {fileID: 21300012, guid: a297e8210b96d36428fefd081e25d199, type: 3}
+  - {fileID: 21300104, guid: a297e8210b96d36428fefd081e25d199, type: 3}
+  - {fileID: 21300106, guid: a297e8210b96d36428fefd081e25d199, type: 3}
+  - {fileID: 21300108, guid: a297e8210b96d36428fefd081e25d199, type: 3}
+  - {fileID: 21300094, guid: a297e8210b96d36428fefd081e25d199, type: 3}
+  - {fileID: 21300096, guid: a297e8210b96d36428fefd081e25d199, type: 3}
+  - {fileID: 21300098, guid: a297e8210b96d36428fefd081e25d199, type: 3}
+  - {fileID: 21300100, guid: a297e8210b96d36428fefd081e25d199, type: 3}
+  - {fileID: 21300102, guid: a297e8210b96d36428fefd081e25d199, type: 3}
+  - {fileID: 21300110, guid: a297e8210b96d36428fefd081e25d199, type: 3}
+  - {fileID: 21300026, guid: c85eef54be0943f458c0610962fe23af, type: 3}
+  - {fileID: 21300028, guid: c85eef54be0943f458c0610962fe23af, type: 3}
+  - {fileID: 21300020, guid: c85eef54be0943f458c0610962fe23af, type: 3}
+  - {fileID: 21300002, guid: c85eef54be0943f458c0610962fe23af, type: 3}
+  - {fileID: 21300012, guid: c85eef54be0943f458c0610962fe23af, type: 3}
+  - {fileID: 21300008, guid: c85eef54be0943f458c0610962fe23af, type: 3}
+  - {fileID: 21300018, guid: c85eef54be0943f458c0610962fe23af, type: 3}
+  - {fileID: 21300010, guid: c85eef54be0943f458c0610962fe23af, type: 3}
+  - {fileID: 21300024, guid: c85eef54be0943f458c0610962fe23af, type: 3}
+  - {fileID: 21300014, guid: c85eef54be0943f458c0610962fe23af, type: 3}
+  - {fileID: 21300016, guid: c85eef54be0943f458c0610962fe23af, type: 3}
+  - {fileID: 21300006, guid: c85eef54be0943f458c0610962fe23af, type: 3}
+  - {fileID: 21300022, guid: c85eef54be0943f458c0610962fe23af, type: 3}
+  - {fileID: 21300000, guid: c85eef54be0943f458c0610962fe23af, type: 3}
   _cellSize: {x: 64, y: 64}
   _offset: {x: 64, y: 64}
   _zIndexOffset: 0
