@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections;
-using UnityEngine;
-
-namespace Layers
+﻿namespace Layers
 {
     public class StartLayer : LayerBase
     {

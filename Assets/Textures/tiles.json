@@ -1,0 +1,807 @@
+﻿{
+    "texture": "tiles",
+    "size": {
+        "x": 512,
+        "y": 512
+    },
+    "sprites": {
+        "tank.shape.0": {
+            "position": {
+                "x": 0,
+                "y": 384
+            },
+            "size": {
+                "x": 64,
+                "y": 64
+            },
+            "anchor": {
+                "x": 32,
+                "y": 32
+            }
+        },
+        "tank.shape.1": {
+            "position": {
+                "x": 64,
+                "y": 384
+            },
+            "size": {
+                "x": 64,
+                "y": 64
+            },
+            "anchor": {
+                "x": 32,
+                "y": 32
+            }
+        },
+        "tank.tower.0": {
+            "position": {
+                "x": 128,
+                "y": 384
+            },
+            "size": {
+                "x": 64,
+                "y": 64
+            },
+            "anchor": {
+                "x": 32,
+                "y": 32
+            }
+        },
+        "tank.tower.1": {
+            "position": {
+                "x": 192,
+                "y": 384
+            },
+            "size": {
+                "x": 64,
+                "y": 64
+            },
+            "anchor": {
+                "x": 32,
+                "y": 32
+            }
+        },
+        "surface.grass": {
+            "position": {
+                "x": 271,
+                "y": 416
+            },
+            "size": {
+                "x": 64,
+                "y": 64
+            },
+            "anchor": {
+                "x": 32,
+                "y": 32
+            }
+        },
+        "surface.dirt": {
+            "position": {
+                "x": 351,
+                "y": 416
+            },
+            "size": {
+                "x": 64,
+                "y": 64
+            },
+            "anchor": {
+                "x": 32,
+                "y": 32
+            }
+        },
+        "surface.rock": {
+            "position": {
+                "x": 431,
+                "y": 416
+            },
+            "size": {
+                "x": 64,
+                "y": 64
+            },
+            "anchor": {
+                "x": 32,
+                "y": 32
+            }
+        },
+        "enemy.unit.0": {
+            "position": {
+                "x": 0,
+                "y": 320
+            },
+            "size": {
+                "x": 64,
+                "y": 64
+            },
+            "anchor": {
+                "x": 32,
+                "y": 32
+            }
+        },
+        "enemy.unit.1": {
+            "position": {
+                "x": 64,
+                "y": 320
+            },
+            "size": {
+                "x": 64,
+                "y": 64
+            },
+            "anchor": {
+                "x": 32,
+                "y": 32
+            }
+        },
+        "enemy.unit.2": {
+            "position": {
+                "x": 128,
+                "y": 320
+            },
+            "size": {
+                "x": 64,
+                "y": 64
+            },
+            "anchor": {
+                "x": 32,
+                "y": 32
+            }
+        },
+        "enemy.unit.3": {
+            "position": {
+                "x": 192,
+                "y": 320
+            },
+            "size": {
+                "x": 64,
+                "y": 64
+            },
+            "anchor": {
+                "x": 32,
+                "y": 32
+            }
+        },
+        "plane.shape.0": {
+            "position": {
+                "x": 256,
+                "y": 320
+            },
+            "size": {
+                "x": 64,
+                "y": 64
+            },
+            "anchor": {
+                "x": 32,
+                "y": 32
+            }
+        },
+        "plane.shape.1": {
+            "position": {
+                "x": 320,
+                "y": 320
+            },
+            "size": {
+                "x": 64,
+                "y": 64
+            },
+            "anchor": {
+                "x": 32,
+                "y": 32
+            }
+        },
+        "plane.shadow.0": {
+            "position": {
+                "x": 384,
+                "y": 320
+            },
+            "size": {
+                "x": 64,
+                "y": 64
+            },
+            "anchor": {
+                "x": 32,
+                "y": 32
+            }
+        },
+        "plane.shadow.1": {
+            "position": {
+                "x": 448,
+                "y": 320
+            },
+            "size": {
+                "x": 64,
+                "y": 64
+            },
+            "anchor": {
+                "x": 32,
+                "y": 32
+            }
+        },
+        "turret.bullet.0": {
+            "position": {
+                "x": 0,
+                "y": 256
+            },
+            "size": {
+                "x": 64,
+                "y": 64
+            },
+            "anchor": {
+                "x": 32,
+                "y": 32
+            }
+        },
+        "turret.bullet.1": {
+            "position": {
+                "x": 64,
+                "y": 256
+            },
+            "size": {
+                "x": 64,
+                "y": 64
+            },
+            "anchor": {
+                "x": 32,
+                "y": 32
+            }
+        },
+        "turret.bullet.2": {
+            "position": {
+                "x": 128,
+                "y": 256
+            },
+            "size": {
+                "x": 64,
+                "y": 64
+            },
+            "anchor": {
+                "x": 32,
+                "y": 32
+            }
+        },
+        "turret.bullet.3": {
+            "position": {
+                "x": 192,
+                "y": 256
+            },
+            "size": {
+                "x": 64,
+                "y": 64
+            },
+            "anchor": {
+                "x": 32,
+                "y": 32
+            }
+        },
+        "turret.fire.0": {
+            "position": {
+                "x": 256,
+                "y": 256
+            },
+            "size": {
+                "x": 64,
+                "y": 64
+            },
+            "anchor": {
+                "x": 32,
+                "y": 32
+            }
+        },
+        "turret.fire.1": {
+            "position": {
+                "x": 320,
+                "y": 256
+            },
+            "size": {
+                "x": 64,
+                "y": 64
+            },
+            "anchor": {
+                "x": 32,
+                "y": 32
+            }
+        },
+        "turret.fire.2": {
+            "position": {
+                "x": 384,
+                "y": 256
+            },
+            "size": {
+                "x": 64,
+                "y": 64
+            },
+            "anchor": {
+                "x": 32,
+                "y": 32
+            }
+        },
+        "turret.fire.3": {
+            "position": {
+                "x": 448,
+                "y": 256
+            },
+            "size": {
+                "x": 64,
+                "y": 64
+            },
+            "anchor": {
+                "x": 32,
+                "y": 32
+            }
+        },
+        "turret.tower.0": {
+            "position": {
+                "x": 0,
+                "y": 192
+            },
+            "size": {
+                "x": 64,
+                "y": 64
+            },
+            "anchor": {
+                "x": 32,
+                "y": 32
+            }
+        },
+        "turret.tower.1": {
+            "position": {
+                "x": 64,
+                "y": 192
+            },
+            "size": {
+                "x": 64,
+                "y": 64
+            },
+            "anchor": {
+                "x": 32,
+                "y": 32
+            }
+        },
+        "turret.tower.2": {
+            "position": {
+                "x": 128,
+                "y": 192
+            },
+            "size": {
+                "x": 64,
+                "y": 64
+            },
+            "anchor": {
+                "x": 32,
+                "y": 32
+            }
+        },
+        "turret.tower.3": {
+            "position": {
+                "x": 192,
+                "y": 192
+            },
+            "size": {
+                "x": 64,
+                "y": 64
+            },
+            "anchor": {
+                "x": 32,
+                "y": 32
+            }
+        },
+        "turret.tower.4": {
+            "position": {
+                "x": 256,
+                "y": 192
+            },
+            "size": {
+                "x": 64,
+                "y": 64
+            },
+            "anchor": {
+                "x": 32,
+                "y": 32
+            }
+        },
+        "turret.tower.5": {
+            "position": {
+                "x": 320,
+                "y": 192
+            },
+            "size": {
+                "x": 64,
+                "y": 64
+            },
+            "anchor": {
+                "x": 32,
+                "y": 32
+            }
+        },
+        "turret.rocket.0": {
+            "position": {
+                "x": 384,
+                "y": 192
+            },
+            "size": {
+                "x": 64,
+                "y": 64
+            },
+            "anchor": {
+                "x": 32,
+                "y": 32
+            }
+        },
+        "turret.rocket.1": {
+            "position": {
+                "x": 448,
+                "y": 192
+            },
+            "size": {
+                "x": 64,
+                "y": 64
+            },
+            "anchor": {
+                "x": 32,
+                "y": 32
+            }
+        },
+        "turret.base.0": {
+            "position": {
+                "x": 0,
+                "y": 128
+            },
+            "size": {
+                "x": 64,
+                "y": 64
+            },
+            "anchor": {
+                "x": 32,
+                "y": 32
+            }
+        },
+        "turret.base.1": {
+            "position": {
+                "x": 64,
+                "y": 128
+            },
+            "size": {
+                "x": 64,
+                "y": 64
+            },
+            "anchor": {
+                "x": 32,
+                "y": 32
+            }
+        },
+        "turret.base.2": {
+            "position": {
+                "x": 128,
+                "y": 128
+            },
+            "size": {
+                "x": 64,
+                "y": 64
+            },
+            "anchor": {
+                "x": 32,
+                "y": 32
+            }
+        },
+        "turret.base.3": {
+            "position": {
+                "x": 192,
+                "y": 128
+            },
+            "size": {
+                "x": 64,
+                "y": 64
+            },
+            "anchor": {
+                "x": 32,
+                "y": 32
+            }
+        },
+        "tiles_40": {
+            "position": {
+                "x": 256,
+                "y": 128
+            },
+            "size": {
+                "x": 64,
+                "y": 64
+            },
+            "anchor": {
+                "x": 32,
+                "y": 32
+            }
+        },
+        "tiles_41": {
+            "position": {
+                "x": 320,
+                "y": 128
+            },
+            "size": {
+                "x": 64,
+                "y": 64
+            },
+            "anchor": {
+                "x": 32,
+                "y": 32
+            }
+        },
+        "tiles_42": {
+            "position": {
+                "x": 384,
+                "y": 128
+            },
+            "size": {
+                "x": 64,
+                "y": 64
+            },
+            "anchor": {
+                "x": 32,
+                "y": 32
+            }
+        },
+        "tiles_43": {
+            "position": {
+                "x": 448,
+                "y": 128
+            },
+            "size": {
+                "x": 64,
+                "y": 64
+            },
+            "anchor": {
+                "x": 32,
+                "y": 32
+            }
+        },
+        "misc.rect": {
+            "position": {
+                "x": 0,
+                "y": 64
+            },
+            "size": {
+                "x": 64,
+                "y": 64
+            },
+            "anchor": {
+                "x": 32,
+                "y": 32
+            }
+        },
+        "misc.wrench": {
+            "position": {
+                "x": 64,
+                "y": 64
+            },
+            "size": {
+                "x": 64,
+                "y": 64
+            },
+            "anchor": {
+                "x": 32,
+                "y": 32
+            }
+        },
+        "misc.cross": {
+            "position": {
+                "x": 128,
+                "y": 64
+            },
+            "size": {
+                "x": 64,
+                "y": 64
+            },
+            "anchor": {
+                "x": 32,
+                "y": 32
+            }
+        },
+        "misc.dot": {
+            "position": {
+                "x": 192,
+                "y": 64
+            },
+            "size": {
+                "x": 64,
+                "y": 64
+            },
+            "anchor": {
+                "x": 32,
+                "y": 32
+            }
+        },
+        "explosion.3": {
+            "position": {
+                "x": 256,
+                "y": 64
+            },
+            "size": {
+                "x": 64,
+                "y": 64
+            },
+            "anchor": {
+                "x": 32,
+                "y": 32
+            }
+        },
+        "explosion.2": {
+            "position": {
+                "x": 320,
+                "y": 64
+            },
+            "size": {
+                "x": 64,
+                "y": 64
+            },
+            "anchor": {
+                "x": 32,
+                "y": 32
+            }
+        },
+        "explosion.1": {
+            "position": {
+                "x": 384,
+                "y": 64
+            },
+            "size": {
+                "x": 64,
+                "y": 64
+            },
+            "anchor": {
+                "x": 32,
+                "y": 32
+            }
+        },
+        "explosion.0": {
+            "position": {
+                "x": 448,
+                "y": 64
+            },
+            "size": {
+                "x": 64,
+                "y": 64
+            },
+            "anchor": {
+                "x": 32,
+                "y": 32
+            }
+        },
+        "objects.tree.0": {
+            "position": {
+                "x": 1,
+                "y": 0
+            },
+            "size": {
+                "x": 64,
+                "y": 64
+            },
+            "anchor": {
+                "x": 32,
+                "y": 32
+            }
+        },
+        "objects.tree.1": {
+            "position": {
+                "x": 64,
+                "y": 0
+            },
+            "size": {
+                "x": 64,
+                "y": 64
+            },
+            "anchor": {
+                "x": 32,
+                "y": 32
+            }
+        },
+        "objects.tree.2": {
+            "position": {
+                "x": 128,
+                "y": 0
+            },
+            "size": {
+                "x": 64,
+                "y": 64
+            },
+            "anchor": {
+                "x": 32,
+                "y": 32
+            }
+        },
+        "objects.tree.3": {
+            "position": {
+                "x": 192,
+                "y": 0
+            },
+            "size": {
+                "x": 64,
+                "y": 64
+            },
+            "anchor": {
+                "x": 32,
+                "y": 32
+            }
+        },
+        "objects.tree.4": {
+            "position": {
+                "x": 256,
+                "y": 0
+            },
+            "size": {
+                "x": 64,
+                "y": 64
+            },
+            "anchor": {
+                "x": 32,
+                "y": 32
+            }
+        },
+        "objects.rock.0": {
+            "position": {
+                "x": 320,
+                "y": 0
+            },
+            "size": {
+                "x": 64,
+                "y": 64
+            },
+            "anchor": {
+                "x": 32,
+                "y": 32
+            }
+        },
+        "objects.rock.1": {
+            "position": {
+                "x": 384,
+                "y": 0
+            },
+            "size": {
+                "x": 64,
+                "y": 64
+            },
+            "anchor": {
+                "x": 32,
+                "y": 32
+            }
+        },
+        "objects.rock.2": {
+            "position": {
+                "x": 448,
+                "y": 0
+            },
+            "size": {
+                "x": 64,
+                "y": 64
+            },
+            "anchor": {
+                "x": 32,
+                "y": 32
+            }
+        },
+        "empty": {
+            "position": {
+                "x": 64,
+                "y": 448
+            },
+            "size": {
+                "x": 64,
+                "y": 64
+            },
+            "anchor": {
+                "x": 32,
+                "y": 32
+            }
+        },
+        "error": {
+            "position": {
+                "x": 0,
+                "y": 448
+            },
+            "size": {
+                "x": 64,
+                "y": 64
+            },
+            "anchor": {
+                "x": 0,
+                "y": 0
+            }
+        }
+    }
+}
