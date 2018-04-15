@@ -11,9 +11,11 @@ namespace Game
     {
         public string Visual { get; private set; }
         public Vector2 Position { get; private set; }
+        public Vector2 Direction { get; private set; }
         public float Speed { get; private set; }
         public float Health { get; private set; }
-        public event System.Action Finished;
+        public event System.Action<UnitModel> Died;
+        public event System.Action<UnitModel> Finished;
 
         private MapModel _map;
         private Vector2 _targetPosition;
@@ -21,6 +23,13 @@ namespace Game
 
         private IEnumerator<bool> _currentMove = null;
         private float _lastdeltaTime;
+
+        public UnitModel(string visual, int health, float speed)
+        {
+            Visual = visual;
+            Health = health;
+            Speed = speed;
+        }
 
         public void Initialize(MapModel map, StartPosition startPosition)
         {
@@ -33,8 +42,8 @@ namespace Game
         private void CalcTargetPosition(Point position)
         {
             _targetPosition = new Vector2(
-                Random.Range(position.X - 0.25f, position.X + 0.25f),
-                Random.Range(position.Y - 0.25f, position.Y + 0.25f)
+                Random.Range(position.X - 0.45f, position.X + 0.45f),
+                Random.Range(position.Y - 0.45f, position.Y + 0.45f)
                 );
         }
 
@@ -49,12 +58,12 @@ namespace Game
         private void Move()
         {
             _currentMove.MoveNext();
-            if (_currentMove.Current)
+            if (!_currentMove.Current)
             {
                 if (_target == null)
                 {
                     if (Finished != null)
-                        Finished();
+                        Finished(this);
                     return;
                 }
                 var wp = _target.GetNextWaypoint();
@@ -75,19 +84,20 @@ namespace Game
             var end = _targetPosition;
 
             var distance = end.DistanceTo(start);
-            var direction = end - start;
+            Direction = (end - start).normalized;
             var time = distance / Speed;
             var elapsedTime = 0f;
 
             while (true)
             {
                 elapsedTime += _lastdeltaTime;
-                Position = start + direction * Mathf.Min(time, elapsedTime);
+                Position = Vector2.Lerp(start, end, Mathf.Min(elapsedTime / time, 1f));
                 if (elapsedTime < time)
                     yield return true;
                 else
                 {
                     _lastdeltaTime = elapsedTime - time;
+                    break;
                 }
             }
             yield return false;

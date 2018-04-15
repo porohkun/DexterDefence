@@ -58,7 +58,7 @@ namespace Texturing
             var cell = _map[x, y];
             var sprite1 = _manifest["surface." + cell.Surface];
             var sprite2 = _manifest[string.IsNullOrEmpty(cell.Obstacle) ? "empty" : "objects." + cell.Obstacle];
-            var sprite3 = _manifest["misc.rect"];
+            var sprite3 = _manifest["empty"];
             var center = GraphicsManager.Scale(new Vector2(x, y) - (Vector2)_startPoint);
 
             yield return GetSpriteMesh(sprite1, sprite2, sprite3, center, z, 1);

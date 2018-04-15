@@ -74,13 +74,13 @@ public static class Helper
     {
         Direction result = Direction.None;
         if (direction.HaveFlag(Direction.North))
-            result.AddFlag(Direction.South);
+            result = result.AddFlag(Direction.South);
         if (direction.HaveFlag(Direction.South))
-            result.AddFlag(Direction.North);
+            result = result.AddFlag(Direction.North);
         if (direction.HaveFlag(Direction.West))
-            result.AddFlag(Direction.East);
+            result = result.AddFlag(Direction.East);
         if (direction.HaveFlag(Direction.East))
-            result.AddFlag(Direction.West);
+            result = result.AddFlag(Direction.West);
         return result;
     }
 

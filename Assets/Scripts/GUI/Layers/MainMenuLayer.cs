@@ -5,6 +5,7 @@ using UnityEngine.UI;
 using MimiJson;
 using System.IO;
 using System.Collections.Generic;
+using System.Collections;
 
 namespace Layers
 {
@@ -48,13 +49,18 @@ namespace Layers
 
         public void OnPlay()
         {
-            LayersManager.FadeOut(0.5f, () =>
-            {
-                //LayersManager.Push<GameLayer>().Initialize();
-                LayersManager.FadeIn(0.5f, () =>
+            foreach (var map in _mapList)
+                if (map.Selected)
                 {
-                });
-            });
+                    LayersManager.FadeOut(0.5f, () =>
+                    {
+                        LayersManager.Push<GameLayer>().Initialize(map.Text);
+                        LayersManager.FadeIn(0.5f, () =>
+                        {
+                        });
+                    });
+                    break;
+                }
         }
     }
 }
