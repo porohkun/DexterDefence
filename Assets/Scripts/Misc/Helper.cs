@@ -70,6 +70,20 @@ public static class Helper
         return sb.ToString();
     }
 
+    public static Direction Mirror(this Direction direction)
+    {
+        Direction result = Direction.None;
+        if (direction.HaveFlag(Direction.North))
+            result.AddFlag(Direction.South);
+        if (direction.HaveFlag(Direction.South))
+            result.AddFlag(Direction.North);
+        if (direction.HaveFlag(Direction.West))
+            result.AddFlag(Direction.East);
+        if (direction.HaveFlag(Direction.East))
+            result.AddFlag(Direction.West);
+        return result;
+    }
+
     public static Direction ToDirection(this string text)
     {
         Direction result = Direction.None;

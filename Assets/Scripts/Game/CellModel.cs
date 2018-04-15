@@ -1,4 +1,6 @@
-﻿using MimiJson;
+﻿using System;
+using MimiJson;
+using System.Linq;
 
 namespace Game
 {
@@ -10,6 +12,8 @@ namespace Game
         public string Obstacle { get; set; }
         public string Covering { get; set; }
         public Direction Waypoints { get; set; }
+
+        private int _lastWaypoint = -1;
 
         public CellModel(Point position, string surface)
         {
@@ -44,5 +48,12 @@ namespace Game
             return result;
         }
 
+        public Direction GetNextWaypoint()
+        {
+            var wps = Waypoints.Enumerate().ToArray();
+            _lastWaypoint++;
+            _lastWaypoint = _lastWaypoint % wps.Length;
+            return wps[_lastWaypoint];
+        }
     }
 }

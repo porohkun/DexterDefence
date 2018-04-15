@@ -1,13 +1,16 @@
 ﻿using MimiJson;
 using System.Collections.Generic;
 using System.Linq;
+using StartPosition = System.Collections.Generic.KeyValuePair<Game.Point, Game.Direction>;
 
 namespace Game
 {
     public class MapModel
     {
         private readonly CellModel[,] _cells;
-        private readonly List<TowerModel> _towers;
+        private readonly List<UnitModel> _units = new List<UnitModel>();
+        private readonly List<TowerModel> _towers = new List<TowerModel>();
+        private readonly List<StartPosition> _startPositions = new List<StartPosition>();
 
         public int Width { get; private set; }
         public int Height { get; private set; }
@@ -24,6 +27,8 @@ namespace Game
         }
         public IList<TowerModel> Towers { get { return _towers; } }
 
+        private int _lastStartPosition = -1;
+
         public MapModel(int width, int height)
         {
             Width = width;
@@ -33,8 +38,6 @@ namespace Game
             for (int x = 0; x < Width; x++)
                 for (int y = 0; y < Height; y++)
                     _cells[x, y] = new CellModel(new Point(x, y), "grass");
-            
-            _towers = new List<TowerModel>();
         }
 
         public MapModel(JsonValue json)
@@ -48,10 +51,16 @@ namespace Game
                 for (int y = 0; y < Height; y++)
                 {
                     enumerator.MoveNext();
-                    _cells[x, y] = new CellModel(new Point(x, y), enumerator.Current);
+                    var cell = new CellModel(new Point(x, y), enumerator.Current);
+                    _cells[x, y] = cell;
+                    if (cell.Waypoints != Direction.None && (x == 0 || x == Width - 1 || y == 0 || y == Height - 1))
+                    {
+                        var back = cell.Waypoints.Mirror();
+                        var backStep = cell.Position.AddDirection(back);
+                        if (!CorrectPosition(backStep))
+                            _startPositions.Add(new StartPosition(backStep, cell.Waypoints));
+                    }
                 }
-
-            _towers = new List<TowerModel>();
         }
 
         public bool CorrectPosition(int x, int y)
@@ -63,6 +72,24 @@ namespace Game
         public bool CorrectPosition(Point position)
         {
             return CorrectPosition(position.X, position.Y);
+        }
+
+        public void AddUnit(UnitModel unit)
+        {
+            _units.Add(unit);
+
+            _lastStartPosition++;
+            _lastStartPosition = _lastStartPosition % _startPositions.Count;
+
+            unit.Initialize(this, _startPositions[_lastStartPosition]);
+        }
+
+        public void Update(float deltaTime)
+        {
+            foreach (var unit in _units)
+                unit.Update(deltaTime);
+            foreach (var tower in _towers)
+                tower.Update(deltaTime);
         }
 
         public JsonValue ToJson()
