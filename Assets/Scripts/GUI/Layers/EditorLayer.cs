@@ -1,6 +1,7 @@
 ﻿using Game;
 using Managers;
 using System.IO;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -27,6 +28,7 @@ namespace Layers
         private string _brush = "grass";
         private Direction _wpBrush = Direction.None;
         private string _filename { get { return Path.Combine(Path.Combine("Assets", Path.Combine("Resources", "Maps")), _filenameField.text) + ".json"; } }
+        private string _mapsFilename { get { return Path.Combine("Assets", Path.Combine("Resources", "maps.json")); } }
 
         private void Start()
         {
@@ -105,7 +107,12 @@ namespace Layers
 
         public void OnSave()
         {
+            var filename = _filenameField.text;
             _map.ToJson().ToFile(_filename);
+            var maps = MimiJson.JsonValue.ParseFile(_mapsFilename);
+            if (!maps["maps"].Array.Cast<string>().Contains(filename))
+                maps["maps"].Array.Add(filename);
+            maps.ToFile(_mapsFilename);
         }
 
         public void OnLoad()
