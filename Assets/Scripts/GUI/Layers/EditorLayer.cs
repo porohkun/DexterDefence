@@ -26,7 +26,7 @@ namespace Layers
         private string _brushType = "surface";
         private string _brush = "grass";
         private Direction _wpBrush = Direction.None;
-        private string _filename { get { return Path.Combine(Path.Combine("Assets", "Resources"), _filenameField.text) + ".json"; } }
+        private string _filename { get { return Path.Combine(Path.Combine("Assets", Path.Combine("Resources", "Maps")), _filenameField.text) + ".json"; } }
 
         private void Start()
         {
@@ -134,13 +134,13 @@ namespace Layers
         private void CreateMapView()
         {
             if (_mapView != null)
-                Destroy(_mapView);
+                Destroy(_mapView.gameObject);
             _mapView = new GameObject("MapView", typeof(MapView)).GetComponent<MapView>();
             _mapView.transform.position = Vector3.zero;
             _mapView.CreateChunks(_map);
 
             if (_waypointsView != null)
-                Destroy(_waypointsView);
+                Destroy(_waypointsView.gameObject);
             _waypointsView = new GameObject("WaypointsView", typeof(WaypointsView)).GetComponent<WaypointsView>();
             _waypointsView.transform.position = Vector3.back;
             _waypointsView.CreateChunks(_map);
