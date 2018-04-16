@@ -10,6 +10,8 @@ namespace Views
 {
     public class TowerView : MonoBehaviour
     {
+        [SerializeField]
+        private Transform _turret;
         private TowerModel _tower;
 
         public void AttachTo(TowerModel tower)
@@ -21,7 +23,7 @@ namespace Views
 
         private void Update()
         {
-            //transform.rotation = Quaternion.LookRotation(Vector3.forward, _unit.Direction);
+            _turret.rotation = Quaternion.LookRotation(Vector3.forward, _tower.Direction);
         }
     }
 }

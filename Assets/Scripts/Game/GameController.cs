@@ -111,7 +111,7 @@ namespace Game
             foreach (var towerPrefab in _towerViewPrefabs)
                 if (towerPrefab.name == towerName)
                 {
-                    var tower = new TowerModel(Shell.Bullet, null, 1f);
+                    var tower = new TowerModel(Shell.Bullet, new SingleShotAI(5f), 1f);
                     Map.AddTower(tower, curPos);
 
                     var towerView = Instantiate(towerPrefab, _towersRoot);

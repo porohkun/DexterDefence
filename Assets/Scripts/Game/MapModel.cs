@@ -26,6 +26,7 @@ namespace Game
             get { return _cells[p.X, p.Y]; }
             set { _cells[p.X, p.Y] = value; }
         }
+        public IList<UnitModel> Units { get { return _units; } }
         public IList<TowerModel> Towers { get { return _towers; } }
 
         private int _lastStartPosition = -1;
