@@ -20,6 +20,10 @@ namespace Game
         private TowerView[] _towerViewPrefabs;
         [SerializeField]
         private Transform _towersRoot;
+        [SerializeField]
+        private BulletView[] _bulletViewPrefabs;
+        [SerializeField]
+        private Transform _bulletsRoot;
 
         public MapModel Map { get; private set; }
         public bool ShowTowerGrid
@@ -39,17 +43,20 @@ namespace Game
         private MapView _mapView;
         private Dictionary<UnitModel, UnitView> _unitViews;
         private Dictionary<TowerModel, TowerView> _towerViews;
+        private Dictionary<BulletModel, BulletView> _bulletViews;
 
         private void Awake()
         {
             _unitViews = new Dictionary<UnitModel, UnitView>();
             _towerViews = new Dictionary<TowerModel, TowerView>();
+            _bulletViews = new Dictionary<BulletModel, BulletView>();
             transform.position = Vector3.zero;
         }
 
         public void StartGame(JsonValue mapJson)
         {
             Map = new MapModel(mapJson);
+            Map.BulletCreated += Map_BulletCreated;
 
             _mapView = new GameObject("MapView", typeof(MapView)).GetComponent<MapView>();
             _mapView.transform.SetParent(transform);
@@ -59,6 +66,11 @@ namespace Game
             Camera.main.GetComponent<CameraMotor>().SetMapSize(Map.Width, Map.Height);
 
             StartWave();
+        }
+
+        private void Map_BulletCreated(BulletModel bullet)
+        {
+            CreateBullet(bullet);
         }
 
         private void Update()
@@ -111,7 +123,7 @@ namespace Game
             foreach (var towerPrefab in _towerViewPrefabs)
                 if (towerPrefab.name == towerName)
                 {
-                    var tower = new TowerModel(Shell.Bullet, new SingleShotAI(5f), 1f);
+                    var tower = new TowerModel(Shell.Bullet, new SingleShotAI(5f, 1f, 10f), 1f);
                     Map.AddTower(tower, curPos);
 
                     var towerView = Instantiate(towerPrefab, _towersRoot);
@@ -122,5 +134,18 @@ namespace Game
                     break;
                 }
         }
+
+        private void CreateBullet(BulletModel bullet)
+        {
+            foreach (var bulletPrefab in _bulletViewPrefabs)
+                if (bulletPrefab.name == bullet.Visual)
+                {
+                    var bulletView = Instantiate(bulletPrefab, _bulletsRoot);
+                    bulletView.AttachTo(bullet);
+                    _bulletViews.Add(bullet, bulletView);
+                    break;
+                }
+        }
+
     }
 }

@@ -10,6 +10,7 @@ namespace Game
         public float RotateSpeed { get; private set; }
         public Vector2 Position { get; private set; }
         public Vector2 Direction { get; private set; }
+        public event Action<BulletModel> BulletShoot;
 
         private MapModel _map;
         private UnitModel _target;
@@ -18,20 +19,29 @@ namespace Game
         {
             ShellType = shellType;
             TowerAI = towerAI;
+            TowerAI.BulletShoot += TowerAI_BulletShoot;
             RotateSpeed = rotateSpeed;
+        }
+
+        private void TowerAI_BulletShoot(BulletModel bullet)
+        {
+            if (BulletShoot != null)
+                BulletShoot(bullet);
         }
 
         public void Initialize(MapModel map, Point position)
         {
             _map = map;
             Position = position;
+            TowerAI.Initialize(Position);
         }
 
         public void Update(float deltaTime)
         {
             if (_target != null)
                 if (Position.DistanceTo(_target.Position) > TowerAI.Radius)
-                    _target = null;
+                    ClearTarget();
+
             if (_target == null)
             {
                 var left = Position.x - TowerAI.Radius;
@@ -54,9 +64,34 @@ namespace Game
                     }
                 }
                 if (selectedUnit != null)
-                    _target = selectedUnit;
+                    SetTarget(selectedUnit);
             }
+
             Direction = _target == null ? Vector2.up : (_target.Position - Position).normalized;
+
+            if (_target != null)
+                TowerAI.Update(deltaTime);
+        }
+
+        private void ClearTarget()
+        {
+            _target.Died -= _target_Invalid;
+            _target.Finished -= _target_Invalid;
+            _target = null;
+            TowerAI.ClearTarget();
+        }
+
+        private void _target_Invalid(UnitModel obj)
+        {
+            ClearTarget();
+        }
+
+        private void SetTarget(UnitModel selectedUnit)
+        {
+            _target = selectedUnit;
+            _target.Died += _target_Invalid;
+            _target.Finished += _target_Invalid;
+            TowerAI.SetTarget(_target);
         }
     }
 }

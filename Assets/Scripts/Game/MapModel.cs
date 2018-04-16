@@ -11,6 +11,7 @@ namespace Game
         private readonly CellModel[,] _cells;
         private readonly List<UnitModel> _units = new List<UnitModel>();
         private readonly List<TowerModel> _towers = new List<TowerModel>();
+        private readonly List<BulletModel> _bullets = new List<BulletModel>();
         private readonly List<StartPosition> _startPositions = new List<StartPosition>();
 
         public int Width { get; private set; }
@@ -28,6 +29,7 @@ namespace Game
         }
         public IList<UnitModel> Units { get { return _units; } }
         public IList<TowerModel> Towers { get { return _towers; } }
+        public event Action<BulletModel> BulletCreated;
 
         private int _lastStartPosition = -1;
 
@@ -91,6 +93,14 @@ namespace Game
             _towers.Add(tower);
             tower.Initialize(this, position);
             this[position].Tower = tower;
+            tower.BulletShoot += Tower_BulletShoot;
+        }
+
+        private void Tower_BulletShoot(BulletModel bullet)
+        {
+            _bullets.Add(bullet);
+            if (BulletCreated != null)
+                BulletCreated(bullet);
         }
 
         public void Update(float deltaTime)
@@ -99,6 +109,8 @@ namespace Game
                 unit.Update(deltaTime);
             foreach (var tower in _towers)
                 tower.Update(deltaTime);
+            foreach (var bullet in _bullets)
+                bullet.Update(deltaTime);
         }
 
         public JsonValue ToJson()
