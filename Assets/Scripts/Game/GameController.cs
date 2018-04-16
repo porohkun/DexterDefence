@@ -21,6 +21,8 @@ namespace Game
         [SerializeField]
         private Transform _towersRoot;
         [SerializeField]
+        private TextAsset _towerAIs;
+        [SerializeField]
         private BulletView[] _bulletViewPrefabs;
         [SerializeField]
         private Transform _bulletsRoot;
@@ -45,12 +47,15 @@ namespace Game
         private Dictionary<TowerModel, TowerView> _towerViews;
         private Dictionary<BulletModel, BulletView> _bulletViews;
 
+        private JsonValue _towerAIdatas;
+
         private void Awake()
         {
             _unitViews = new Dictionary<UnitModel, UnitView>();
             _towerViews = new Dictionary<TowerModel, TowerView>();
             _bulletViews = new Dictionary<BulletModel, BulletView>();
             transform.position = Vector3.zero;
+            _towerAIdatas = JsonValue.Parse(_towerAIs.text);
         }
 
         public void StartGame(JsonValue mapJson)
@@ -127,7 +132,14 @@ namespace Game
             foreach (var towerPrefab in _towerViewPrefabs)
                 if (towerPrefab.name == towerName)
                 {
-                    var tower = new TowerModel(Shell.Bullet, new SingleShotAI(5f, 1f, 10f, 35f), 1f);
+                    ITowerAI ai = null;
+                    var data = _towerAIdatas[towerName];
+                    switch (data["ai"].String)
+                    {
+                        case "single_shot": ai = new SingleShotAI(data["levels"]); break;
+                        case "multi_shot": ai = new MultiShotAI(data["levels"]); break;
+                    }
+                    var tower = new TowerModel(Shell.Bullet, ai, 1f);
                     Map.AddTower(tower, curPos);
 
                     var towerView = Instantiate(towerPrefab, _towersRoot);

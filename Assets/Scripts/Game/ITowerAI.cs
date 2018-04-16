@@ -5,9 +5,8 @@ namespace Game
 {
     public interface ITowerAI
     {
-        Vector2 Position { get; }
         float Radius { get; }
-        float Delay { get; }
+        int Level { get; }
         event Action<BulletModel> BulletShoot;
 
         void Update(float deltaTime);

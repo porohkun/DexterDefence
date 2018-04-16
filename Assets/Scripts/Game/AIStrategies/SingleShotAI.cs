@@ -3,34 +3,53 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using UnityEngine;
+using MimiJson;
 
 namespace Game
 {
     public class SingleShotAI : ITowerAI
     {
-        public Vector2 Position { get; private set; }
         public float Radius { get; private set; }
-        public float Delay { get; private set; }
-        public float BulletSpeed { get; private set; }
-        public float Damage { get; private set; }
+        public int Level { get; private set; }
         public event Action<BulletModel> BulletShoot;
 
+        private float _delay;
+        private float _bulletSpeed;
+        private float _damage;
+        private string _bulletVisual;
+
+        private JsonArray _turretData;
+        private Vector2 _position;
         private UnitModel _target;
         private float _lastShotTime;
         private BulletModel _bullet;
 
-        public SingleShotAI(float radius, float delay, float bulletSpeed, float damage)
+        public SingleShotAI(JsonArray turretData)
         {
-            Radius = radius;
-            Delay = delay;
-            BulletSpeed = bulletSpeed;
-            Damage = damage;
-            _lastShotTime = delay;
+            _turretData = turretData;
+            UpgradeToLevel(0);
+            _lastShotTime = _delay;
+        }
+
+        public void UpgradeToLevel(int level)
+        {
+            var data = _turretData[level];
+            UpgradeToLevel(data);
+            Level = level;
+        }
+
+        protected virtual void UpgradeToLevel(JsonValue data)
+        {
+            Radius = data["radius"];
+            _delay = data["delay"];
+            _bulletSpeed = data["bullet_speed"];
+            _damage = data["damage"];
+            _bulletVisual = data["bullet_visual"];
         }
 
         public void Initialize(Vector2 position)
         {
-            Position = position;
+            _position = position;
         }
 
         public void SetTarget(UnitModel target)
@@ -43,22 +62,27 @@ namespace Game
             _target = null;
         }
 
-        public void Update(float deltaTime)
+        public virtual void Update(float deltaTime)
         {
             _lastShotTime += deltaTime;
-            if (_target != null && _lastShotTime >= Delay)
+            if (_target != null && _lastShotTime >= _delay)
             {
-                _bullet = new BulletModel("bullet1", Position, _target, BulletSpeed);
-                _bullet.Hitted += _bullet_Hitted;
-                if (BulletShoot != null)
-                    BulletShoot(_bullet);
+                Shot();
                 _lastShotTime = 0f;
             }
         }
 
+        protected virtual void Shot()
+        {
+            _bullet = new BulletModel(_bulletVisual, _position, _target, _bulletSpeed);
+            _bullet.Hitted += _bullet_Hitted;
+            if (BulletShoot != null)
+                BulletShoot(_bullet);
+        }
+
         private void _bullet_Hitted(BulletModel bullet, UnitModel unit)
         {
-            unit.Health -= Damage;
+            unit.Health -= _damage;
         }
     }
 }

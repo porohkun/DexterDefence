@@ -1,0 +1,76 @@
+{
+    "gun_tower": {
+        "ai": "single_shot",
+        "levels": [
+            {
+                "radius": 5,
+                "delay": 1,
+                "bullet_speed": 15,
+                "damage": 35,
+                "bullet_visual": "bullet1"
+            },
+            {
+                "radius": 5,
+                "delay": 1,
+                "bullet_speed": 15,
+                "damage": 55,
+                "bullet_visual": "bullet2"
+            },
+            {
+                "radius": 5,
+                "delay": 1,
+                "bullet_speed": 15,
+                "damage": 75,
+                "bullet_visual": "bullet3"
+            },
+            {
+                "radius": 5,
+                "delay": 1,
+                "bullet_speed": 15,
+                "damage": 100,
+                "bullet_visual": "bullet4"
+            }
+        ]
+    },
+    "twin_gun_tower": {
+        "ai": "multi_shot",
+        "levels": [
+            {
+                "radius": 5,
+                "delay": 1.5,
+                "queue_delay": 0.1,
+                "bullet_speed": 15,
+                "damage": 35,
+                "shots": 2,
+                "bullet_visual": "bullet1"
+            },
+            {
+                "radius": 5,
+                "delay": 1.5,
+                "queue_delay": 0.1,
+                "bullet_speed": 15,
+                "damage": 55,
+                "shots": 2,
+                "bullet_visual": "bullet2"
+            },
+            {
+                "radius": 5,
+                "delay": 1.5,
+                "queue_delay": 0.1,
+                "bullet_speed": 15,
+                "damage": 75,
+                "shots": 4,
+                "bullet_visual": "bullet3"
+            },
+            {
+                "radius": 5,
+                "delay": 1.5,
+                "queue_delay": 0.1,
+                "bullet_speed": 15,
+                "damage": 100,
+                "shots": 4,
+                "bullet_visual": "bullet4"
+            }
+        ]
+    }
+}
