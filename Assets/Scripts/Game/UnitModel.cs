@@ -14,6 +14,7 @@ namespace Game
         public Vector2 Direction { get; private set; }
         public float Speed { get; private set; }
         public float Health { get; private set; }
+        public float Drunk { get; private set; }
         public event System.Action<UnitModel> Died;
         public event System.Action<UnitModel> Finished;
 
@@ -24,11 +25,12 @@ namespace Game
         private IEnumerator<bool> _currentMove = null;
         private float _lastdeltaTime;
 
-        public UnitModel(string visual, int health, float speed)
+        public UnitModel(string visual, int health, float speed, float drunk)
         {
             Visual = visual;
             Health = health;
             Speed = speed;
+            Drunk = drunk;
         }
 
         public void Initialize(MapModel map, StartPosition startPosition)
@@ -42,8 +44,8 @@ namespace Game
         private void CalcTargetPosition(Point position)
         {
             _targetPosition = new Vector2(
-                Random.Range(position.X - 0.45f, position.X + 0.45f),
-                Random.Range(position.Y - 0.45f, position.Y + 0.45f)
+                Random.Range(position.X - Drunk, position.X + Drunk),
+                Random.Range(position.Y - Drunk, position.Y + Drunk)
                 );
         }
 

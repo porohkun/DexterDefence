@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using StartPosition = System.Collections.Generic.KeyValuePair<Game.Point, Game.Direction>;
+using System;
 
 namespace Game
 {
@@ -82,6 +83,13 @@ namespace Game
             _lastStartPosition = _lastStartPosition % _startPositions.Count;
 
             unit.Initialize(this, _startPositions[_lastStartPosition]);
+        }
+
+        public void AddTower(TowerModel tower, Point position)
+        {
+            _towers.Add(tower);
+            tower.Initialize(this, position);
+            this[position].Tower = tower;
         }
 
         public void Update(float deltaTime)

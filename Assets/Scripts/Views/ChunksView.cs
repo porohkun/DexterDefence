@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace Views
 {
-    public class ChunksView<T> : MonoBehaviour where T:Chunk
+    public class ChunksView<T> : MonoBehaviour where T : Chunk
     {
         private MapModel _map;
         private T[,] _chunks;
@@ -21,6 +21,12 @@ namespace Views
 
             CreateChunks();
             RegenerateChunks();
+        }
+
+        public void SetOverlayAlpha(float value)
+        {
+            foreach (var chunk in _chunks)
+                chunk.SetOverlayAlpha(value);
         }
 
         private void CreateChunks()

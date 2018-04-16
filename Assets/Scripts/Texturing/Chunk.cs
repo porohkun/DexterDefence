@@ -33,6 +33,11 @@ namespace Texturing
 
         }
 
+        public void SetOverlayAlpha(float value)
+        {
+            _renderer.material.SetFloat("_OverlayAlpha", value);
+        }
+
         public void Regenerate()
         {
             _manifest = GraphicsManager.GetManifest(_texture);
@@ -57,8 +62,8 @@ namespace Texturing
 
             var cell = _map[x, y];
             var sprite1 = _manifest["surface." + cell.Surface];
-            var sprite2 = _manifest[string.IsNullOrEmpty(cell.Obstacle) ? "empty" : "objects." + cell.Obstacle];
-            var sprite3 = _manifest["empty"];
+            var sprite2 = _manifest[cell.HaveObstacle ? "objects." + cell.Obstacle : "empty"];
+            var sprite3 = _manifest[cell.CanBuild ? "misc.rect" : "empty"];
             var center = GraphicsManager.Scale(new Vector2(x, y) - (Vector2)_startPoint);
 
             yield return GetSpriteMesh(sprite1, sprite2, sprite3, center, z, 1);

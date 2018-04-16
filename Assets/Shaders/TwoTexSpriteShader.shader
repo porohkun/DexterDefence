@@ -4,7 +4,10 @@
         {
                 _MainTex ("Sprite Texture", 2D) = "white" {}
                 _Color ("Tint", Color) = (1,1,1,1)
-                [MaterialToggle] PixelSnap ("Pixel snap", Float) = 0
+                [MaterialToggle]
+				PixelSnap ("Pixel snap", Float) = 0
+				[PerRendererData]
+				_OverlayAlpha("Overlay Alpha", Float) = 0
         }
 
         SubShader
@@ -68,6 +71,7 @@
 
                         sampler2D _MainTex;
                         float _AlphaSplitEnabled;
+						half _OverlayAlpha;
 
                         fixed4 SampleSpriteTexture (float2 uv)
                         {
@@ -86,7 +90,7 @@
                                 clip(c.a - 0.5);
 
 								half4 decal2 = tex2D(_MainTex, IN.texcoord2);
-								c.rgb = lerp(c.rgb, decal2.rgb, decal2.a);
+								c.rgb = lerp(c.rgb, decal2.rgb, decal2.a * _OverlayAlpha);
 								clip(c.a - 0.5);
 
                                 return c * IN.color;

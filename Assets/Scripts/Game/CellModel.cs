@@ -12,6 +12,9 @@ namespace Game
         public string Obstacle { get; set; }
         public string Covering { get; set; }
         public Direction Waypoints { get; set; }
+        public TowerModel Tower { get; set; }
+        public bool HaveObstacle { get { return !string.IsNullOrEmpty(Obstacle); } }
+        public bool CanBuild { get { return !HaveObstacle && Surface == "grass" && Tower == null; } }
 
         private int _lastWaypoint = -1;
 
@@ -41,7 +44,7 @@ namespace Game
             var result = new JsonObject(
                 new JOPair("position", Position.ToJson()),
                 new JOPair("surface", Surface));
-            if (!string.IsNullOrEmpty(Obstacle))
+            if (HaveObstacle)
                 result.Add("obstacle", Obstacle);
             if (Waypoints != Direction.None)
                 result.Add("waypoints", Waypoints.Stringify());

@@ -8,6 +8,6 @@ namespace Views
 {
     public class MapView : ChunksView<Chunk>
     {
-
+        
     }
 }
