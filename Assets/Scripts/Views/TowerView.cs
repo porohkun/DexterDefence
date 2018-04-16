@@ -12,7 +12,13 @@ namespace Views
     {
         [SerializeField]
         private Transform _turret;
+        [SerializeField]
+        private TextMesh _level;
         private TowerModel _tower;
+
+        public int Level { get { return _tower.Level; } }
+        public bool CanBeUpgraded { get { return _tower.CanBeUpgraded; } }
+        public int UpgradeCost { get { return _tower.UpgradeCost; } }
 
         public void AttachTo(TowerModel tower)
         {
@@ -24,6 +30,12 @@ namespace Views
         private void Update()
         {
             _turret.rotation = Quaternion.LookRotation(Vector3.forward, _tower.Direction);
+            _level.text = (Level + 1).ToString();
+        }
+
+        public void UpgradeTower()
+        {
+            _tower.UpgradeTower();
         }
     }
 }

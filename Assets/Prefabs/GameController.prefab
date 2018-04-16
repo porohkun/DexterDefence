@@ -152,4 +152,6 @@ MonoBehaviour:
   _bulletViewPrefabs:
   - {fileID: 114408720367075824, guid: 5e22d7fe7e85de84fbe4c943db54d7a9, type: 2}
   - {fileID: 114186067781180556, guid: f730df0f72b8df646b1add104e41ca99, type: 2}
+  - {fileID: 114318364686316586, guid: 8f1cb47afdb5f154c9eeb4d80c751935, type: 2}
+  - {fileID: 114778242526503968, guid: 3c7103dbf61c71a4184175909ef1d290, type: 2}
   _bulletsRoot: {fileID: 4629475409297602}

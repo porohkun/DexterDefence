@@ -11,6 +11,10 @@ namespace Game
         public Vector2 Position { get; private set; }
         public Vector2 Direction { get; private set; }
         public event Action<BulletModel> BulletShoot;
+        public int Level { get { return TowerAI.Level; } }
+        public bool CanBeUpgraded { get { return TowerAI.CanBeUpgraded; } }
+        public int UpgradeCost { get { return TowerAI.UpgradeCost; } }
+        public int Cashback { get { return TowerAI.Cashback; } }
 
         private MapModel _map;
         private UnitModel _target;
@@ -21,6 +25,11 @@ namespace Game
             TowerAI = towerAI;
             TowerAI.BulletShoot += TowerAI_BulletShoot;
             RotateSpeed = rotateSpeed;
+        }
+
+        public void UpgradeTower()
+        {
+            TowerAI.UpgradeTower();
         }
 
         private void TowerAI_BulletShoot(BulletModel bullet)

@@ -103,6 +103,11 @@ namespace Game
             tower.BulletShoot += Tower_BulletShoot;
         }
 
+        public void RemoveTower(TowerModel tower)
+        {
+            _towers.Remove(tower);
+        }
+
         private void Tower_BulletShoot(BulletModel bullet)
         {
             _bullets.Add(bullet);
@@ -121,9 +126,9 @@ namespace Game
             for (int i = _units.Count - 1; i >= 0; i--)
                 _units[i].Update(deltaTime);
 
-            foreach (var tower in _towers)
-                tower.Update(deltaTime);
-
+            for (int i = _towers.Count - 1; i >= 0; i--)
+                _towers[i].Update(deltaTime);
+            
             for (int i = _bullets.Count - 1; i >= 0; i--)
                 _bullets[i].Update(deltaTime);
         }

@@ -3,32 +3,40 @@
         "ai": "single_shot",
         "levels": [
             {
+                "cost":100,
+                "cashback":40,
                 "radius": 5,
                 "delay": 1,
                 "bullet_speed": 15,
                 "damage": 35,
-                "bullet_visual": "bullet1"
+                "bullet_visual": "bullet0"
             },
             {
+                "cost":150,
+                "cashback":100,
                 "radius": 5,
                 "delay": 1,
                 "bullet_speed": 15,
                 "damage": 55,
-                "bullet_visual": "bullet2"
+                "bullet_visual": "bullet1"
             },
             {
+                "cost":200,
+                "cashback":180,
                 "radius": 5,
                 "delay": 1,
                 "bullet_speed": 15,
                 "damage": 75,
-                "bullet_visual": "bullet3"
+                "bullet_visual": "bullet2"
             },
             {
+                "cost":250,
+                "cashback":280,
                 "radius": 5,
                 "delay": 1,
                 "bullet_speed": 15,
                 "damage": 100,
-                "bullet_visual": "bullet4"
+                "bullet_visual": "bullet3"
             }
         ]
     },
@@ -36,40 +44,171 @@
         "ai": "multi_shot",
         "levels": [
             {
+                "cost":150,
+                "cashback":60,
                 "radius": 5,
                 "delay": 1.5,
                 "queue_delay": 0.1,
                 "bullet_speed": 15,
                 "damage": 35,
                 "shots": 2,
-                "bullet_visual": "bullet1"
+                "bullet_visual": "bullet0"
             },
             {
+                "cost":200,
+                "cashback":140,
                 "radius": 5,
                 "delay": 1.5,
                 "queue_delay": 0.1,
                 "bullet_speed": 15,
                 "damage": 55,
                 "shots": 2,
-                "bullet_visual": "bullet2"
+                "bullet_visual": "bullet1"
             },
             {
+                "cost":300,
+                "cashback":260,
                 "radius": 5,
                 "delay": 1.5,
                 "queue_delay": 0.1,
                 "bullet_speed": 15,
                 "damage": 75,
                 "shots": 4,
-                "bullet_visual": "bullet3"
+                "bullet_visual": "bullet2"
             },
             {
+                "cost":400,
+                "cashback":420,
                 "radius": 5,
                 "delay": 1.5,
                 "queue_delay": 0.1,
                 "bullet_speed": 15,
                 "damage": 100,
                 "shots": 4,
-                "bullet_visual": "bullet4"
+                "bullet_visual": "bullet3"
+            }
+        ]
+    },
+    "laser_tower": {
+        "ai": "single_shot",
+        "levels": [
+            {
+                "cost":100,
+                "cashback":40,
+                "radius": 5,
+                "delay": 1,
+                "bullet_speed": 15,
+                "damage": 35,
+                "bullet_visual": "bullet0"
+            },
+            {
+                "cost":150,
+                "cashback":100,
+                "radius": 5,
+                "delay": 1,
+                "bullet_speed": 15,
+                "damage": 55,
+                "bullet_visual": "bullet1"
+            },
+            {
+                "cost":200,
+                "cashback":180,
+                "radius": 5,
+                "delay": 1,
+                "bullet_speed": 15,
+                "damage": 75,
+                "bullet_visual": "bullet2"
+            },
+            {
+                "cost":250,
+                "cashback":280,
+                "radius": 5,
+                "delay": 1,
+                "bullet_speed": 15,
+                "damage": 100,
+                "bullet_visual": "bullet3"
+            }
+        ]
+    },
+    "rocket_tower": {
+        "ai": "single_shot",
+        "levels": [
+            {
+                "cost":100,
+                "cashback":40,
+                "radius": 5,
+                "delay": 1,
+                "bullet_speed": 15,
+                "damage": 35,
+                "bullet_visual": "bullet0"
+            },
+            {
+                "cost":150,
+                "cashback":100,
+                "radius": 5,
+                "delay": 1,
+                "bullet_speed": 15,
+                "damage": 55,
+                "bullet_visual": "bullet1"
+            },
+            {
+                "cost":200,
+                "cashback":180,
+                "radius": 5,
+                "delay": 1,
+                "bullet_speed": 15,
+                "damage": 75,
+                "bullet_visual": "bullet2"
+            },
+            {
+                "cost":250,
+                "cashback":280,
+                "radius": 5,
+                "delay": 1,
+                "bullet_speed": 15,
+                "damage": 100,
+                "bullet_visual": "bullet3"
+            }
+        ]
+    },
+    "mega_rocket_tower": {
+        "ai": "single_shot",
+        "levels": [
+            {
+                "cost":100,
+                "cashback":40,
+                "radius": 5,
+                "delay": 1,
+                "bullet_speed": 15,
+                "damage": 35,
+                "bullet_visual": "bullet0"
+            },
+            {
+                "cost":150,
+                "cashback":100,
+                "radius": 5,
+                "delay": 1,
+                "bullet_speed": 15,
+                "damage": 55,
+                "bullet_visual": "bullet1"
+            },
+            {
+                "cost":200,
+                "cashback":180,
+                "radius": 5,
+                "delay": 1,
+                "bullet_speed": 15,
+                "damage": 75,
+                "bullet_visual": "bullet2"
+            },
+            {
+                "cost":250,
+                "cashback":280,
+                "radius": 5,
+                "delay": 1,
+                "bullet_speed": 15,
+                "damage": 100,
+                "bullet_visual": "bullet3"
             }
         ]
     }

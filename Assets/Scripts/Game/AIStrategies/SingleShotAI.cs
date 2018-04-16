@@ -11,6 +11,10 @@ namespace Game
     {
         public float Radius { get; private set; }
         public int Level { get; private set; }
+        public bool CanBeUpgraded { get { return Level < _turretData.Length - 1; } }
+        public int UpgradeCost { get { return _turretData[Level + 1]["cost"]; } }
+        public int Cashback { get { return _turretData[Level + 1]["cashback"]; } }
+
         public event Action<BulletModel> BulletShoot;
 
         private float _delay;
@@ -31,7 +35,12 @@ namespace Game
             _lastShotTime = _delay;
         }
 
-        public void UpgradeToLevel(int level)
+        public void UpgradeTower()
+        {
+            UpgradeToLevel(Level + 1);
+        }
+
+        private void UpgradeToLevel(int level)
         {
             var data = _turretData[level];
             UpgradeToLevel(data);
