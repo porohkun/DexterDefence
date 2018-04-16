@@ -13,11 +13,21 @@ namespace Game
         public Vector2 Position { get; private set; }
         public Vector2 Direction { get; private set; }
         public float Speed { get; private set; }
-        public float Health { get; private set; }
+        public float Health
+        {
+            get { return _health; }
+            set
+            {
+                _health = value;
+                if (_health <= 0 && Died != null)
+                    Died(this);
+            }
+        }
         public float Drunk { get; private set; }
         public event System.Action<UnitModel> Died;
         public event System.Action<UnitModel> Finished;
 
+        private float _health;
         private MapModel _map;
         private Vector2 _targetPosition;
         private CellModel _target;

@@ -110,7 +110,11 @@ namespace Game
 
         private void Unit_Died(UnitModel unit)
         {
-
+            if (_unitViews.ContainsKey(unit))
+            {
+                Destroy(_unitViews[unit].gameObject);
+                _unitViews.Remove(unit);
+            }
         }
 
         public bool CorrectTowerPosition(Point position)
@@ -123,7 +127,7 @@ namespace Game
             foreach (var towerPrefab in _towerViewPrefabs)
                 if (towerPrefab.name == towerName)
                 {
-                    var tower = new TowerModel(Shell.Bullet, new SingleShotAI(5f, 1f, 10f), 1f);
+                    var tower = new TowerModel(Shell.Bullet, new SingleShotAI(5f, 1f, 10f, 35f), 1f);
                     Map.AddTower(tower, curPos);
 
                     var towerView = Instantiate(towerPrefab, _towersRoot);
@@ -141,11 +145,20 @@ namespace Game
                 if (bulletPrefab.name == bullet.Visual)
                 {
                     var bulletView = Instantiate(bulletPrefab, _bulletsRoot);
+                    bullet.Hitted += Bullet_Hitted;
                     bulletView.AttachTo(bullet);
                     _bulletViews.Add(bullet, bulletView);
                     break;
                 }
         }
 
+        private void Bullet_Hitted(BulletModel bullet, UnitModel unit)
+        {
+            if (_bulletViews.ContainsKey(bullet))
+            {
+                Destroy(_bulletViews[bullet].gameObject);
+                _bulletViews.Remove(bullet);
+            }
+        }
     }
 }

@@ -81,11 +81,18 @@ namespace Game
         public void AddUnit(UnitModel unit)
         {
             _units.Add(unit);
+            unit.Died += Unit_Died;
+            unit.Finished += Unit_Died;
 
             _lastStartPosition++;
             _lastStartPosition = _lastStartPosition % _startPositions.Count;
 
             unit.Initialize(this, _startPositions[_lastStartPosition]);
+        }
+
+        private void Unit_Died(UnitModel unit)
+        {
+            _units.Remove(unit);
         }
 
         public void AddTower(TowerModel tower, Point position)
@@ -99,18 +106,26 @@ namespace Game
         private void Tower_BulletShoot(BulletModel bullet)
         {
             _bullets.Add(bullet);
+            bullet.Hitted += Bullet_Hitted;
             if (BulletCreated != null)
                 BulletCreated(bullet);
         }
 
+        private void Bullet_Hitted(BulletModel bullet, UnitModel unit)
+        {
+            _bullets.Remove(bullet);
+        }
+
         public void Update(float deltaTime)
         {
-            foreach (var unit in _units)
-                unit.Update(deltaTime);
+            for (int i = _units.Count - 1; i >= 0; i--)
+                _units[i].Update(deltaTime);
+
             foreach (var tower in _towers)
                 tower.Update(deltaTime);
-            foreach (var bullet in _bullets)
-                bullet.Update(deltaTime);
+
+            for (int i = _bullets.Count - 1; i >= 0; i--)
+                _bullets[i].Update(deltaTime);
         }
 
         public JsonValue ToJson()
