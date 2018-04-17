@@ -32,7 +32,7 @@ namespace Game
 
         protected override void _bullet_Hitted(BulletModel bullet, UnitModel _)
         {
-            foreach (var unit in _getUnits())
+            foreach (var unit in _getUnits().ToArray())
                 if (unit.Position.x >= bullet.Position.x - _explosionRadius && unit.Position.x <= bullet.Position.x + _explosionRadius &&
                     unit.Position.y >= bullet.Position.y - _explosionRadius && unit.Position.y <= bullet.Position.y + _explosionRadius)
                     if (unit.Position.DistanceTo(bullet.Position) < _explosionRadius)

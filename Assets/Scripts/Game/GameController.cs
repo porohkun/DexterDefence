@@ -53,6 +53,7 @@ namespace Game
         private bool _showTowerGrid = false;
         private MapView _mapView;
         private Wave[] _waves;
+        private bool _waveInProgress;
         private Dictionary<UnitModel, UnitView> _unitViews = new Dictionary<UnitModel, UnitView>();
         private Dictionary<TowerModel, TowerView> _towerViews = new Dictionary<TowerModel, TowerView>();
         private Dictionary<BulletModel, BulletView> _bulletViews = new Dictionary<BulletModel, BulletView>();
@@ -85,7 +86,7 @@ namespace Game
 
         private void Map_UnitsAreOver()
         {
-            if (WaveEnded != null)
+            if (WaveEnded != null && !_waveInProgress)
                 WaveEnded();
         }
 
@@ -114,6 +115,7 @@ namespace Game
 
         private IEnumerator WaveRoutine(Wave wave)
         {
+            _waveInProgress = true;
             foreach (var waveitem in wave.Items)
             {
                 if (waveitem is UnitWaveItem)
@@ -131,6 +133,7 @@ namespace Game
                     yield return new WaitForSeconds(item.Interval);
                 }
             }
+            _waveInProgress = false;
         }
 
         private void CreateUnit(string name)
@@ -229,6 +232,7 @@ namespace Game
                         {
                             case "single_shot": ai = new SingleShotAI(data["levels"]); break;
                             case "multi_shot": ai = new MultiShotAI(data["levels"]); break;
+                            case "laser_shot": ai = new LaserShotAI(data["levels"]); break;
                             case "rocket_shot": ai = new RocketShotAI(data["levels"], () => Map.Units); break;
                         }
                         var tower = new TowerModel(Shell.Bullet, ai, 1f);

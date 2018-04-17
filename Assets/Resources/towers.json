@@ -90,43 +90,35 @@
         ]
     },
     "laser_tower": {
-        "ai": "single_shot",
+        "ai": "laser_shot",
         "levels": [
             {
-                "cost":100,
-                "cashback":40,
-                "radius": 5,
-                "delay": 1,
-                "bullet_speed": 15,
-                "damage": 35,
-                "bullet_visual": "bullet0"
-            },
-            {
-                "cost":150,
-                "cashback":100,
-                "radius": 5,
-                "delay": 1,
-                "bullet_speed": 15,
-                "damage": 55,
-                "bullet_visual": "bullet1"
-            },
-            {
                 "cost":200,
-                "cashback":180,
-                "radius": 5,
-                "delay": 1,
-                "bullet_speed": 15,
-                "damage": 75,
-                "bullet_visual": "bullet2"
+                "cashback":80,
+                "radius": 3,
+                "damage": 50,
+                "bullet_visual": "laser"
             },
             {
                 "cost":250,
-                "cashback":280,
+                "cashback":180,
+                "radius": 3.5,
+                "damage": 70,
+                "bullet_visual": "laser"
+            },
+            {
+                "cost":300,
+                "cashback":300,
+                "radius": 4,
+                "damage": 90,
+                "bullet_visual": "laser"
+            },
+            {
+                "cost":400,
+                "cashback":460,
                 "radius": 5,
-                "delay": 1,
-                "bullet_speed": 15,
-                "damage": 100,
-                "bullet_visual": "bullet3"
+                "damage": 120,
+                "bullet_visual": "laser"
             }
         ]
     },

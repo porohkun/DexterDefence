@@ -9,7 +9,7 @@ namespace Game
 {
     public class SingleShotAI : ITowerAI
     {
-        public float Radius { get; private set; }
+        public float Radius { get; protected set; }
         public int Level { get; private set; }
         public bool CanBeUpgraded { get { return Level < _turretData.Length - 1; } }
         public int UpgradeCost { get { return _turretData[Level + 1]["cost"]; } }
@@ -61,12 +61,12 @@ namespace Game
             _position = position;
         }
 
-        public void SetTarget(UnitModel target)
+        public virtual void SetTarget(UnitModel target)
         {
             _target = target;
         }
 
-        public void ClearTarget()
+        public virtual void ClearTarget()
         {
             _target = null;
         }

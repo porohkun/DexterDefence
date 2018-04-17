@@ -21,7 +21,7 @@ namespace Views
 
         public float DestroyDelay { get { return _destroyDelay; } }
 
-        private BulletModel _bullet;
+        protected BulletModel _bullet;
         private bool _flying = true;
 
         public void AttachTo(BulletModel bullet)
@@ -30,7 +30,7 @@ namespace Views
             Update();
         }
 
-        private void Update()
+        protected virtual void Update()
         {
             if (_flying)
             {
