@@ -1,5 +1,5 @@
 ﻿{
-    "width": 25,
+    "width": 30,
     "height": 20,
     "cells": [
         {
@@ -29,1093 +29,344 @@
                 "x": 0,
                 "y": 3
             },
-            "surface": "rock",
-            "obstacle": "rock.1"
+            "surface": "rock"
         },
         {
             "position": {
                 "x": 0,
                 "y": 4
             },
-            "surface": "dirt"
+            "surface": "rock",
+            "obstacle": "rock.2"
         },
         {
             "position": {
                 "x": 0,
                 "y": 5
             },
-            "surface": "dirt"
+            "surface": "rock"
         },
         {
             "position": {
                 "x": 0,
                 "y": 6
             },
-            "surface": "dirt"
+            "surface": "rock",
+            "obstacle": "rock.1"
         },
         {
             "position": {
                 "x": 0,
                 "y": 7
             },
-            "surface": "dirt"
+            "surface": "rock"
         },
         {
             "position": {
                 "x": 0,
                 "y": 8
             },
-            "surface": "dirt",
-            "obstacle": "rock.1"
+            "surface": "rock",
+            "obstacle": "rock.0"
         },
         {
             "position": {
                 "x": 0,
                 "y": 9
             },
-            "surface": "dirt"
+            "surface": "rock"
         },
         {
             "position": {
                 "x": 0,
                 "y": 10
-            },
-            "surface": "dirt"
-        },
-        {
-            "position": {
-                "x": 0,
-                "y": 11
-            },
-            "surface": "dirt"
-        },
-        {
-            "position": {
-                "x": 0,
-                "y": 12
-            },
-            "surface": "dirt",
-            "obstacle": "tree.1"
-        },
-        {
-            "position": {
-                "x": 0,
-                "y": 13
-            },
-            "surface": "dirt"
-        },
-        {
-            "position": {
-                "x": 0,
-                "y": 14
-            },
-            "surface": "dirt"
-        },
-        {
-            "position": {
-                "x": 0,
-                "y": 15
-            },
-            "surface": "dirt",
-            "obstacle": "tree.1"
-        },
-        {
-            "position": {
-                "x": 0,
-                "y": 16
-            },
-            "surface": "dirt"
-        },
-        {
-            "position": {
-                "x": 0,
-                "y": 17
-            },
-            "surface": "dirt",
-            "obstacle": "tree.1"
-        },
-        {
-            "position": {
-                "x": 0,
-                "y": 18
-            },
-            "surface": "dirt"
-        },
-        {
-            "position": {
-                "x": 0,
-                "y": 19
-            },
-            "surface": "dirt"
-        },
-        {
-            "position": {
-                "x": 1,
-                "y": 0
-            },
-            "surface": "rock",
-            "obstacle": "rock.2"
-        },
-        {
-            "position": {
-                "x": 1,
-                "y": 1
-            },
-            "surface": "rock"
-        },
-        {
-            "position": {
-                "x": 1,
-                "y": 2
-            },
-            "surface": "rock"
-        },
-        {
-            "position": {
-                "x": 1,
-                "y": 3
-            },
-            "surface": "rock",
-            "obstacle": "rock.0"
-        },
-        {
-            "position": {
-                "x": 1,
-                "y": 4
-            },
-            "surface": "dirt",
-            "obstacle": "rock.2"
-        },
-        {
-            "position": {
-                "x": 1,
-                "y": 5
-            },
-            "surface": "dirt",
-            "obstacle": "tree.1"
-        },
-        {
-            "position": {
-                "x": 1,
-                "y": 6
-            },
-            "surface": "dirt"
-        },
-        {
-            "position": {
-                "x": 1,
-                "y": 7
-            },
-            "surface": "dirt",
-            "obstacle": "rock.0"
-        },
-        {
-            "position": {
-                "x": 1,
-                "y": 8
-            },
-            "surface": "dirt"
-        },
-        {
-            "position": {
-                "x": 1,
-                "y": 9
-            },
-            "surface": "grass",
-            "obstacle": "rock.1"
-        },
-        {
-            "position": {
-                "x": 1,
-                "y": 10
-            },
-            "surface": "grass"
-        },
-        {
-            "position": {
-                "x": 1,
-                "y": 11
-            },
-            "surface": "dirt",
-            "obstacle": "tree.1"
-        },
-        {
-            "position": {
-                "x": 1,
-                "y": 12
-            },
-            "surface": "dirt"
-        },
-        {
-            "position": {
-                "x": 1,
-                "y": 13
-            },
-            "surface": "dirt"
-        },
-        {
-            "position": {
-                "x": 1,
-                "y": 14
-            },
-            "surface": "dirt",
-            "obstacle": "tree.0"
-        },
-        {
-            "position": {
-                "x": 1,
-                "y": 15
-            },
-            "surface": "dirt"
-        },
-        {
-            "position": {
-                "x": 1,
-                "y": 16
-            },
-            "surface": "dirt"
-        },
-        {
-            "position": {
-                "x": 1,
-                "y": 17
-            },
-            "surface": "dirt"
-        },
-        {
-            "position": {
-                "x": 1,
-                "y": 18
-            },
-            "surface": "dirt"
-        },
-        {
-            "position": {
-                "x": 1,
-                "y": 19
-            },
-            "surface": "dirt",
-            "obstacle": "tree.0"
-        },
-        {
-            "position": {
-                "x": 2,
-                "y": 0
             },
             "surface": "rock",
             "obstacle": "rock.1"
         },
         {
             "position": {
-                "x": 2,
-                "y": 1
+                "x": 0,
+                "y": 11
             },
             "surface": "rock"
         },
         {
             "position": {
-                "x": 2,
-                "y": 2
+                "x": 0,
+                "y": 12
             },
             "surface": "rock",
-            "obstacle": "rock.0"
-        },
-        {
-            "position": {
-                "x": 2,
-                "y": 3
-            },
-            "surface": "rock"
-        },
-        {
-            "position": {
-                "x": 2,
-                "y": 4
-            },
-            "surface": "dirt"
-        },
-        {
-            "position": {
-                "x": 2,
-                "y": 5
-            },
-            "surface": "grass",
-            "obstacle": "tree.1"
-        },
-        {
-            "position": {
-                "x": 2,
-                "y": 6
-            },
-            "surface": "grass"
-        },
-        {
-            "position": {
-                "x": 2,
-                "y": 7
-            },
-            "surface": "grass",
             "obstacle": "rock.2"
         },
         {
             "position": {
-                "x": 2,
-                "y": 8
-            },
-            "surface": "grass"
-        },
-        {
-            "position": {
-                "x": 2,
-                "y": 9
-            },
-            "surface": "grass",
-            "obstacle": "tree.1"
-        },
-        {
-            "position": {
-                "x": 2,
-                "y": 10
-            },
-            "surface": "grass",
-            "obstacle": "tree.0"
-        },
-        {
-            "position": {
-                "x": 2,
-                "y": 11
-            },
-            "surface": "grass"
-        },
-        {
-            "position": {
-                "x": 2,
-                "y": 12
-            },
-            "surface": "grass",
-            "obstacle": "tree.3"
-        },
-        {
-            "position": {
-                "x": 2,
+                "x": 0,
                 "y": 13
-            },
-            "surface": "dirt",
-            "obstacle": "tree.4"
-        },
-        {
-            "position": {
-                "x": 2,
-                "y": 14
-            },
-            "surface": "dirt"
-        },
-        {
-            "position": {
-                "x": 2,
-                "y": 15
-            },
-            "surface": "dirt"
-        },
-        {
-            "position": {
-                "x": 2,
-                "y": 16
-            },
-            "surface": "dirt",
-            "obstacle": "tree.0"
-        },
-        {
-            "position": {
-                "x": 2,
-                "y": 17
-            },
-            "surface": "dirt"
-        },
-        {
-            "position": {
-                "x": 2,
-                "y": 18
-            },
-            "surface": "grass",
-            "obstacle": "tree.1"
-        },
-        {
-            "position": {
-                "x": 2,
-                "y": 19
-            },
-            "surface": "grass"
-        },
-        {
-            "position": {
-                "x": 3,
-                "y": 0
-            },
-            "surface": "rock"
-        },
-        {
-            "position": {
-                "x": 3,
-                "y": 1
-            },
-            "surface": "rock"
-        },
-        {
-            "position": {
-                "x": 3,
-                "y": 2
-            },
-            "surface": "rock"
-        },
-        {
-            "position": {
-                "x": 3,
-                "y": 3
             },
             "surface": "rock",
             "obstacle": "rock.0"
         },
         {
             "position": {
-                "x": 3,
-                "y": 4
-            },
-            "surface": "dirt"
-        },
-        {
-            "position": {
-                "x": 3,
-                "y": 5
-            },
-            "surface": "dirt",
-            "obstacle": "rock.1"
-        },
-        {
-            "position": {
-                "x": 3,
-                "y": 6
-            },
-            "surface": "grass",
-            "obstacle": "rock.0"
-        },
-        {
-            "position": {
-                "x": 3,
-                "y": 7
-            },
-            "surface": "grass"
-        },
-        {
-            "position": {
-                "x": 3,
-                "y": 8
-            },
-            "surface": "grass"
-        },
-        {
-            "position": {
-                "x": 3,
-                "y": 9
-            },
-            "surface": "grass"
-        },
-        {
-            "position": {
-                "x": 3,
-                "y": 10
-            },
-            "surface": "grass",
-            "obstacle": "tree.4"
-        },
-        {
-            "position": {
-                "x": 3,
-                "y": 11
-            },
-            "surface": "grass"
-        },
-        {
-            "position": {
-                "x": 3,
-                "y": 12
-            },
-            "surface": "grass"
-        },
-        {
-            "position": {
-                "x": 3,
-                "y": 13
-            },
-            "surface": "grass"
-        },
-        {
-            "position": {
-                "x": 3,
+                "x": 0,
                 "y": 14
             },
-            "surface": "grass",
-            "obstacle": "tree.1"
+            "surface": "rock"
         },
         {
             "position": {
-                "x": 3,
+                "x": 0,
                 "y": 15
             },
             "surface": "grass"
         },
         {
             "position": {
-                "x": 3,
+                "x": 0,
                 "y": 16
-            },
-            "surface": "grass",
-            "obstacle": "tree.4"
-        },
-        {
-            "position": {
-                "x": 3,
-                "y": 17
-            },
-            "surface": "grass"
-        },
-        {
-            "position": {
-                "x": 3,
-                "y": 18
-            },
-            "surface": "grass"
-        },
-        {
-            "position": {
-                "x": 3,
-                "y": 19
-            },
-            "surface": "grass"
-        },
-        {
-            "position": {
-                "x": 4,
-                "y": 0
-            },
-            "surface": "rock",
-            "obstacle": "rock.2"
-        },
-        {
-            "position": {
-                "x": 4,
-                "y": 1
-            },
-            "surface": "rock"
-        },
-        {
-            "position": {
-                "x": 4,
-                "y": 2
-            },
-            "surface": "rock"
-        },
-        {
-            "position": {
-                "x": 4,
-                "y": 3
-            },
-            "surface": "rock",
-            "obstacle": "rock.0"
-        },
-        {
-            "position": {
-                "x": 4,
-                "y": 4
-            },
-            "surface": "rock"
-        },
-        {
-            "position": {
-                "x": 4,
-                "y": 5
-            },
-            "surface": "dirt",
-            "obstacle": "tree.3"
-        },
-        {
-            "position": {
-                "x": 4,
-                "y": 6
-            },
-            "surface": "dirt",
-            "obstacle": "rock.2"
-        },
-        {
-            "position": {
-                "x": 4,
-                "y": 7
-            },
-            "surface": "dirt"
-        },
-        {
-            "position": {
-                "x": 4,
-                "y": 8
             },
             "surface": "dirt",
             "waypoints": "e"
         },
         {
             "position": {
-                "x": 4,
-                "y": 9
-            },
-            "surface": "dirt",
-            "waypoints": "s"
-        },
-        {
-            "position": {
-                "x": 4,
-                "y": 10
-            },
-            "surface": "dirt",
-            "waypoints": "s"
-        },
-        {
-            "position": {
-                "x": 4,
-                "y": 11
-            },
-            "surface": "dirt",
-            "waypoints": "s"
-        },
-        {
-            "position": {
-                "x": 4,
-                "y": 12
-            },
-            "surface": "dirt",
-            "waypoints": "s"
-        },
-        {
-            "position": {
-                "x": 4,
-                "y": 13
-            },
-            "surface": "dirt",
-            "waypoints": "s"
-        },
-        {
-            "position": {
-                "x": 4,
-                "y": 14
-            },
-            "surface": "dirt",
-            "waypoints": "s"
-        },
-        {
-            "position": {
-                "x": 4,
-                "y": 15
-            },
-            "surface": "dirt",
-            "waypoints": "s"
-        },
-        {
-            "position": {
-                "x": 4,
-                "y": 16
-            },
-            "surface": "dirt",
-            "waypoints": "s"
-        },
-        {
-            "position": {
-                "x": 4,
+                "x": 0,
                 "y": 17
             },
-            "surface": "dirt",
-            "waypoints": "s"
+            "surface": "grass"
         },
         {
             "position": {
-                "x": 4,
+                "x": 0,
                 "y": 18
             },
-            "surface": "dirt",
-            "waypoints": "s"
+            "surface": "rock"
         },
         {
             "position": {
-                "x": 4,
+                "x": 0,
                 "y": 19
             },
-            "surface": "dirt",
-            "waypoints": "s"
+            "surface": "rock",
+            "obstacle": "rock.0"
         },
         {
             "position": {
-                "x": 5,
+                "x": 1,
                 "y": 0
             },
             "surface": "rock"
         },
         {
             "position": {
-                "x": 5,
+                "x": 1,
                 "y": 1
+            },
+            "surface": "rock",
+            "obstacle": "rock.0"
+        },
+        {
+            "position": {
+                "x": 1,
+                "y": 2
+            },
+            "surface": "rock"
+        },
+        {
+            "position": {
+                "x": 1,
+                "y": 3
             },
             "surface": "rock",
             "obstacle": "rock.1"
         },
         {
             "position": {
-                "x": 5,
-                "y": 2
-            },
-            "surface": "rock",
-            "obstacle": "rock.2"
-        },
-        {
-            "position": {
-                "x": 5,
-                "y": 3
-            },
-            "surface": "rock"
-        },
-        {
-            "position": {
-                "x": 5,
+                "x": 1,
                 "y": 4
             },
             "surface": "rock"
         },
         {
             "position": {
-                "x": 5,
+                "x": 1,
                 "y": 5
+            },
+            "surface": "rock",
+            "obstacle": "rock.0"
+        },
+        {
+            "position": {
+                "x": 1,
+                "y": 6
             },
             "surface": "rock"
         },
         {
             "position": {
-                "x": 5,
-                "y": 6
+                "x": 1,
+                "y": 7
             },
-            "surface": "dirt",
+            "surface": "rock"
+        },
+        {
+            "position": {
+                "x": 1,
+                "y": 8
+            },
+            "surface": "rock"
+        },
+        {
+            "position": {
+                "x": 1,
+                "y": 9
+            },
+            "surface": "rock",
+            "obstacle": "rock.2"
+        },
+        {
+            "position": {
+                "x": 1,
+                "y": 10
+            },
+            "surface": "rock"
+        },
+        {
+            "position": {
+                "x": 1,
+                "y": 11
+            },
+            "surface": "rock",
+            "obstacle": "rock.0"
+        },
+        {
+            "position": {
+                "x": 1,
+                "y": 12
+            },
+            "surface": "rock"
+        },
+        {
+            "position": {
+                "x": 1,
+                "y": 13
+            },
+            "surface": "rock",
             "obstacle": "rock.1"
         },
         {
             "position": {
-                "x": 5,
-                "y": 7
-            },
-            "surface": "dirt"
-        },
-        {
-            "position": {
-                "x": 5,
-                "y": 8
-            },
-            "surface": "dirt",
-            "waypoints": "e"
-        },
-        {
-            "position": {
-                "x": 5,
-                "y": 9
-            },
-            "surface": "grass"
-        },
-        {
-            "position": {
-                "x": 5,
-                "y": 10
-            },
-            "surface": "grass"
-        },
-        {
-            "position": {
-                "x": 5,
-                "y": 11
-            },
-            "surface": "grass"
-        },
-        {
-            "position": {
-                "x": 5,
-                "y": 12
-            },
-            "surface": "grass",
-            "obstacle": "tree.4"
-        },
-        {
-            "position": {
-                "x": 5,
-                "y": 13
-            },
-            "surface": "grass"
-        },
-        {
-            "position": {
-                "x": 5,
+                "x": 1,
                 "y": 14
             },
-            "surface": "grass"
+            "surface": "rock"
         },
         {
             "position": {
-                "x": 5,
+                "x": 1,
                 "y": 15
             },
             "surface": "grass"
         },
         {
             "position": {
-                "x": 5,
+                "x": 1,
                 "y": 16
+            },
+            "surface": "dirt",
+            "waypoints": "e"
+        },
+        {
+            "position": {
+                "x": 1,
+                "y": 17
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 1,
+                "y": 18
+            },
+            "surface": "rock",
+            "obstacle": "rock.1"
+        },
+        {
+            "position": {
+                "x": 1,
+                "y": 19
+            },
+            "surface": "rock"
+        },
+        {
+            "position": {
+                "x": 2,
+                "y": 0
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 2,
+                "y": 1
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 2,
+                "y": 2
             },
             "surface": "grass",
             "obstacle": "tree.2"
         },
         {
             "position": {
-                "x": 5,
-                "y": 17
-            },
-            "surface": "grass"
-        },
-        {
-            "position": {
-                "x": 5,
-                "y": 18
-            },
-            "surface": "grass"
-        },
-        {
-            "position": {
-                "x": 5,
-                "y": 19
-            },
-            "surface": "grass"
-        },
-        {
-            "position": {
-                "x": 6,
-                "y": 0
-            },
-            "surface": "rock",
-            "obstacle": "rock.0"
-        },
-        {
-            "position": {
-                "x": 6,
-                "y": 1
-            },
-            "surface": "rock"
-        },
-        {
-            "position": {
-                "x": 6,
-                "y": 2
-            },
-            "surface": "rock"
-        },
-        {
-            "position": {
-                "x": 6,
+                "x": 2,
                 "y": 3
             },
-            "surface": "rock"
+            "surface": "grass"
         },
         {
             "position": {
-                "x": 6,
+                "x": 2,
                 "y": 4
             },
-            "surface": "rock",
-            "obstacle": "rock.1"
+            "surface": "grass"
         },
         {
             "position": {
-                "x": 6,
+                "x": 2,
                 "y": 5
             },
-            "surface": "rock",
-            "obstacle": "rock.0"
+            "surface": "grass"
         },
         {
             "position": {
-                "x": 6,
+                "x": 2,
                 "y": 6
             },
-            "surface": "dirt"
-        },
-        {
-            "position": {
-                "x": 6,
-                "y": 7
-            },
-            "surface": "dirt",
-            "obstacle": "tree.0"
-        },
-        {
-            "position": {
-                "x": 6,
-                "y": 8
-            },
-            "surface": "dirt",
-            "waypoints": "e"
-        },
-        {
-            "position": {
-                "x": 6,
-                "y": 9
-            },
-            "surface": "grass"
-        },
-        {
-            "position": {
-                "x": 6,
-                "y": 10
-            },
             "surface": "grass",
-            "obstacle": "tree.1"
-        },
-        {
-            "position": {
-                "x": 6,
-                "y": 11
-            },
-            "surface": "grass"
-        },
-        {
-            "position": {
-                "x": 6,
-                "y": 12
-            },
-            "surface": "dirt"
-        },
-        {
-            "position": {
-                "x": 6,
-                "y": 13
-            },
-            "surface": "dirt",
-            "obstacle": "tree.1"
-        },
-        {
-            "position": {
-                "x": 6,
-                "y": 14
-            },
-            "surface": "dirt"
-        },
-        {
-            "position": {
-                "x": 6,
-                "y": 15
-            },
-            "surface": "grass",
-            "obstacle": "tree.2"
-        },
-        {
-            "position": {
-                "x": 6,
-                "y": 16
-            },
-            "surface": "grass"
-        },
-        {
-            "position": {
-                "x": 6,
-                "y": 17
-            },
-            "surface": "dirt",
             "obstacle": "tree.4"
         },
         {
             "position": {
-                "x": 6,
-                "y": 18
-            },
-            "surface": "grass",
-            "obstacle": "tree.3"
-        },
-        {
-            "position": {
-                "x": 6,
-                "y": 19
+                "x": 2,
+                "y": 7
             },
             "surface": "grass"
         },
         {
             "position": {
-                "x": 7,
-                "y": 0
-            },
-            "surface": "rock"
-        },
-        {
-            "position": {
-                "x": 7,
-                "y": 1
-            },
-            "surface": "rock",
-            "obstacle": "rock.0"
-        },
-        {
-            "position": {
-                "x": 7,
-                "y": 2
-            },
-            "surface": "rock",
-            "obstacle": "rock.2"
-        },
-        {
-            "position": {
-                "x": 7,
-                "y": 3
-            },
-            "surface": "rock",
-            "obstacle": "rock.0"
-        },
-        {
-            "position": {
-                "x": 7,
-                "y": 4
-            },
-            "surface": "rock"
-        },
-        {
-            "position": {
-                "x": 7,
-                "y": 5
-            },
-            "surface": "rock",
-            "obstacle": "rock.1"
-        },
-        {
-            "position": {
-                "x": 7,
-                "y": 6
-            },
-            "surface": "dirt"
-        },
-        {
-            "position": {
-                "x": 7,
-                "y": 7
-            },
-            "surface": "dirt"
-        },
-        {
-            "position": {
-                "x": 7,
+                "x": 2,
                 "y": 8
             },
-            "surface": "dirt",
-            "waypoints": "e"
+            "surface": "grass"
         },
         {
             "position": {
-                "x": 7,
+                "x": 2,
                 "y": 9
             },
             "surface": "grass",
@@ -1123,357 +374,59 @@
         },
         {
             "position": {
-                "x": 7,
+                "x": 2,
                 "y": 10
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 2,
+                "y": 11
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 2,
+                "y": 12
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 2,
+                "y": 13
+            },
+            "surface": "grass",
+            "obstacle": "tree.2"
+        },
+        {
+            "position": {
+                "x": 2,
+                "y": 14
             },
             "surface": "grass",
             "obstacle": "tree.4"
         },
         {
             "position": {
-                "x": 7,
-                "y": 11
-            },
-            "surface": "dirt"
-        },
-        {
-            "position": {
-                "x": 7,
-                "y": 12
-            },
-            "surface": "dirt",
-            "obstacle": "tree.0"
-        },
-        {
-            "position": {
-                "x": 7,
-                "y": 13
-            },
-            "surface": "dirt"
-        },
-        {
-            "position": {
-                "x": 7,
-                "y": 14
-            },
-            "surface": "dirt"
-        },
-        {
-            "position": {
-                "x": 7,
+                "x": 2,
                 "y": 15
             },
-            "surface": "dirt"
+            "surface": "grass"
         },
         {
             "position": {
-                "x": 7,
+                "x": 2,
                 "y": 16
-            },
-            "surface": "dirt",
-            "obstacle": "tree.0"
-        },
-        {
-            "position": {
-                "x": 7,
-                "y": 17
-            },
-            "surface": "dirt",
-            "obstacle": "tree.1"
-        },
-        {
-            "position": {
-                "x": 7,
-                "y": 18
-            },
-            "surface": "dirt"
-        },
-        {
-            "position": {
-                "x": 7,
-                "y": 19
-            },
-            "surface": "dirt"
-        },
-        {
-            "position": {
-                "x": 8,
-                "y": 0
-            },
-            "surface": "rock",
-            "obstacle": "rock.2"
-        },
-        {
-            "position": {
-                "x": 8,
-                "y": 1
-            },
-            "surface": "rock",
-            "obstacle": "rock.0"
-        },
-        {
-            "position": {
-                "x": 8,
-                "y": 2
-            },
-            "surface": "rock"
-        },
-        {
-            "position": {
-                "x": 8,
-                "y": 3
-            },
-            "surface": "rock"
-        },
-        {
-            "position": {
-                "x": 8,
-                "y": 4
-            },
-            "surface": "rock",
-            "obstacle": "rock.2"
-        },
-        {
-            "position": {
-                "x": 8,
-                "y": 5
-            },
-            "surface": "rock"
-        },
-        {
-            "position": {
-                "x": 8,
-                "y": 6
-            },
-            "surface": "rock",
-            "obstacle": "rock.2"
-        },
-        {
-            "position": {
-                "x": 8,
-                "y": 7
-            },
-            "surface": "dirt"
-        },
-        {
-            "position": {
-                "x": 8,
-                "y": 8
             },
             "surface": "dirt",
             "waypoints": "e"
         },
         {
             "position": {
-                "x": 8,
-                "y": 9
-            },
-            "surface": "grass"
-        },
-        {
-            "position": {
-                "x": 8,
-                "y": 10
-            },
-            "surface": "dirt"
-        },
-        {
-            "position": {
-                "x": 8,
-                "y": 11
-            },
-            "surface": "dirt",
-            "obstacle": "tree.1"
-        },
-        {
-            "position": {
-                "x": 8,
-                "y": 12
-            },
-            "surface": "grass"
-        },
-        {
-            "position": {
-                "x": 8,
-                "y": 13
-            },
-            "surface": "dirt",
-            "obstacle": "tree.3"
-        },
-        {
-            "position": {
-                "x": 8,
-                "y": 14
-            },
-            "surface": "grass",
-            "obstacle": "tree.0"
-        },
-        {
-            "position": {
-                "x": 8,
-                "y": 15
-            },
-            "surface": "dirt",
-            "obstacle": "tree.1"
-        },
-        {
-            "position": {
-                "x": 8,
-                "y": 16
-            },
-            "surface": "dirt"
-        },
-        {
-            "position": {
-                "x": 8,
-                "y": 17
-            },
-            "surface": "dirt"
-        },
-        {
-            "position": {
-                "x": 8,
-                "y": 18
-            },
-            "surface": "grass",
-            "obstacle": "tree.1"
-        },
-        {
-            "position": {
-                "x": 8,
-                "y": 19
-            },
-            "surface": "dirt"
-        },
-        {
-            "position": {
-                "x": 9,
-                "y": 0
-            },
-            "surface": "rock"
-        },
-        {
-            "position": {
-                "x": 9,
-                "y": 1
-            },
-            "surface": "rock"
-        },
-        {
-            "position": {
-                "x": 9,
-                "y": 2
-            },
-            "surface": "rock",
-            "obstacle": "rock.1"
-        },
-        {
-            "position": {
-                "x": 9,
-                "y": 3
-            },
-            "surface": "rock"
-        },
-        {
-            "position": {
-                "x": 9,
-                "y": 4
-            },
-            "surface": "rock"
-        },
-        {
-            "position": {
-                "x": 9,
-                "y": 5
-            },
-            "surface": "rock",
-            "obstacle": "rock.1"
-        },
-        {
-            "position": {
-                "x": 9,
-                "y": 6
-            },
-            "surface": "dirt",
-            "obstacle": "tree.3"
-        },
-        {
-            "position": {
-                "x": 9,
-                "y": 7
-            },
-            "surface": "dirt"
-        },
-        {
-            "position": {
-                "x": 9,
-                "y": 8
-            },
-            "surface": "dirt",
-            "waypoints": "e"
-        },
-        {
-            "position": {
-                "x": 9,
-                "y": 9
-            },
-            "surface": "grass"
-        },
-        {
-            "position": {
-                "x": 9,
-                "y": 10
-            },
-            "surface": "grass",
-            "obstacle": "tree.1"
-        },
-        {
-            "position": {
-                "x": 9,
-                "y": 11
-            },
-            "surface": "grass",
-            "obstacle": "tree.1"
-        },
-        {
-            "position": {
-                "x": 9,
-                "y": 12
-            },
-            "surface": "grass",
-            "obstacle": "tree.2"
-        },
-        {
-            "position": {
-                "x": 9,
-                "y": 13
-            },
-            "surface": "grass"
-        },
-        {
-            "position": {
-                "x": 9,
-                "y": 14
-            },
-            "surface": "grass"
-        },
-        {
-            "position": {
-                "x": 9,
-                "y": 15
-            },
-            "surface": "dirt"
-        },
-        {
-            "position": {
-                "x": 9,
-                "y": 16
-            },
-            "surface": "grass"
-        },
-        {
-            "position": {
-                "x": 9,
+                "x": 2,
                 "y": 17
             },
             "surface": "grass",
@@ -1481,112 +434,118 @@
         },
         {
             "position": {
-                "x": 9,
+                "x": 2,
                 "y": 18
             },
-            "surface": "grass"
+            "surface": "rock"
         },
         {
             "position": {
-                "x": 9,
+                "x": 2,
                 "y": 19
             },
-            "surface": "dirt",
-            "obstacle": "tree.1"
+            "surface": "rock",
+            "obstacle": "rock.1"
         },
         {
             "position": {
-                "x": 10,
+                "x": 3,
                 "y": 0
             },
-            "surface": "rock",
-            "obstacle": "rock.0"
+            "surface": "dirt",
+            "waypoints": "n"
         },
         {
             "position": {
-                "x": 10,
+                "x": 3,
                 "y": 1
             },
-            "surface": "rock",
-            "obstacle": "rock.0"
+            "surface": "dirt",
+            "waypoints": "n"
         },
         {
             "position": {
-                "x": 10,
+                "x": 3,
                 "y": 2
             },
-            "surface": "rock"
+            "surface": "dirt",
+            "waypoints": "n"
         },
         {
             "position": {
-                "x": 10,
+                "x": 3,
                 "y": 3
             },
-            "surface": "rock"
+            "surface": "dirt",
+            "waypoints": "n"
         },
         {
             "position": {
-                "x": 10,
+                "x": 3,
                 "y": 4
             },
-            "surface": "rock",
-            "obstacle": "rock.0"
+            "surface": "dirt",
+            "waypoints": "n"
         },
         {
             "position": {
-                "x": 10,
+                "x": 3,
                 "y": 5
             },
-            "surface": "rock"
+            "surface": "dirt",
+            "waypoints": "n"
         },
         {
             "position": {
-                "x": 10,
+                "x": 3,
                 "y": 6
             },
             "surface": "dirt",
-            "obstacle": "tree.1"
+            "waypoints": "n"
         },
         {
             "position": {
-                "x": 10,
+                "x": 3,
                 "y": 7
             },
-            "surface": "dirt"
+            "surface": "dirt",
+            "waypoints": "n"
         },
         {
             "position": {
-                "x": 10,
+                "x": 3,
                 "y": 8
             },
             "surface": "dirt",
-            "waypoints": "e"
+            "waypoints": "n"
         },
         {
             "position": {
-                "x": 10,
+                "x": 3,
                 "y": 9
             },
-            "surface": "grass"
+            "surface": "dirt",
+            "waypoints": "n"
         },
         {
             "position": {
-                "x": 10,
+                "x": 3,
                 "y": 10
             },
-            "surface": "grass",
-            "obstacle": "tree.0"
+            "surface": "dirt",
+            "waypoints": "n"
         },
         {
             "position": {
-                "x": 10,
+                "x": 3,
                 "y": 11
             },
-            "surface": "grass"
+            "surface": "dirt",
+            "waypoints": "n"
         },
         {
             "position": {
-                "x": 10,
+                "x": 3,
                 "y": 12
             },
             "surface": "dirt",
@@ -1594,7 +553,7 @@
         },
         {
             "position": {
-                "x": 10,
+                "x": 3,
                 "y": 13
             },
             "surface": "dirt",
@@ -1602,7 +561,7 @@
         },
         {
             "position": {
-                "x": 10,
+                "x": 3,
                 "y": 14
             },
             "surface": "dirt",
@@ -1610,7 +569,7 @@
         },
         {
             "position": {
-                "x": 10,
+                "x": 3,
                 "y": 15
             },
             "surface": "dirt",
@@ -1618,7 +577,7 @@
         },
         {
             "position": {
-                "x": 10,
+                "x": 3,
                 "y": 16
             },
             "surface": "dirt",
@@ -1626,149 +585,146 @@
         },
         {
             "position": {
-                "x": 10,
+                "x": 3,
                 "y": 17
             },
             "surface": "grass"
         },
         {
             "position": {
-                "x": 10,
+                "x": 3,
                 "y": 18
-            },
-            "surface": "dirt",
-            "obstacle": "tree.2"
-        },
-        {
-            "position": {
-                "x": 10,
-                "y": 19
-            },
-            "surface": "dirt"
-        },
-        {
-            "position": {
-                "x": 11,
-                "y": 0
-            },
-            "surface": "rock"
-        },
-        {
-            "position": {
-                "x": 11,
-                "y": 1
-            },
-            "surface": "rock"
-        },
-        {
-            "position": {
-                "x": 11,
-                "y": 2
             },
             "surface": "rock",
             "obstacle": "rock.2"
         },
         {
             "position": {
-                "x": 11,
+                "x": 3,
+                "y": 19
+            },
+            "surface": "rock"
+        },
+        {
+            "position": {
+                "x": 4,
+                "y": 0
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 4,
+                "y": 1
+            },
+            "surface": "grass",
+            "obstacle": "tree.2"
+        },
+        {
+            "position": {
+                "x": 4,
+                "y": 2
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 4,
                 "y": 3
             },
-            "surface": "rock",
-            "obstacle": "rock.0"
+            "surface": "grass"
         },
         {
             "position": {
-                "x": 11,
+                "x": 4,
                 "y": 4
             },
-            "surface": "dirt"
+            "surface": "grass"
         },
         {
             "position": {
-                "x": 11,
+                "x": 4,
                 "y": 5
             },
-            "surface": "dirt"
+            "surface": "grass"
         },
         {
             "position": {
-                "x": 11,
+                "x": 4,
                 "y": 6
             },
-            "surface": "dirt",
-            "obstacle": "tree.1"
+            "surface": "grass",
+            "obstacle": "tree.4"
         },
         {
             "position": {
-                "x": 11,
+                "x": 4,
                 "y": 7
             },
-            "surface": "dirt",
-            "obstacle": "tree.0"
+            "surface": "grass"
         },
         {
             "position": {
-                "x": 11,
+                "x": 4,
                 "y": 8
             },
-            "surface": "dirt",
-            "waypoints": "e"
+            "surface": "grass"
         },
         {
             "position": {
-                "x": 11,
+                "x": 4,
                 "y": 9
-            },
-            "surface": "grass"
-        },
-        {
-            "position": {
-                "x": 11,
-                "y": 10
-            },
-            "surface": "grass"
-        },
-        {
-            "position": {
-                "x": 11,
-                "y": 11
-            },
-            "surface": "grass"
-        },
-        {
-            "position": {
-                "x": 11,
-                "y": 12
             },
             "surface": "dirt",
             "waypoints": "w"
         },
         {
             "position": {
-                "x": 11,
-                "y": 13
+                "x": 4,
+                "y": 10
             },
             "surface": "grass"
         },
         {
             "position": {
-                "x": 11,
-                "y": 14
+                "x": 4,
+                "y": 11
             },
-            "surface": "dirt",
+            "surface": "grass",
+            "obstacle": "tree.4"
+        },
+        {
+            "position": {
+                "x": 4,
+                "y": 12
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 4,
+                "y": 13
+            },
+            "surface": "grass",
             "obstacle": "tree.2"
         },
         {
             "position": {
-                "x": 11,
-                "y": 15
+                "x": 4,
+                "y": 14
             },
-            "surface": "dirt",
-            "obstacle": "tree.0"
+            "surface": "grass"
         },
         {
             "position": {
-                "x": 11,
+                "x": 4,
+                "y": 15
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 4,
                 "y": 16
             },
             "surface": "dirt",
@@ -1776,135 +732,130 @@
         },
         {
             "position": {
-                "x": 11,
+                "x": 4,
                 "y": 17
             },
             "surface": "grass"
         },
         {
             "position": {
-                "x": 11,
+                "x": 4,
                 "y": 18
             },
-            "surface": "dirt",
-            "obstacle": "tree.0"
+            "surface": "rock"
         },
         {
             "position": {
-                "x": 11,
+                "x": 4,
                 "y": 19
             },
-            "surface": "dirt",
-            "obstacle": "tree.1"
+            "surface": "rock"
         },
         {
             "position": {
-                "x": 12,
+                "x": 5,
                 "y": 0
-            },
-            "surface": "rock"
-        },
-        {
-            "position": {
-                "x": 12,
-                "y": 1
-            },
-            "surface": "rock",
-            "obstacle": "rock.1"
-        },
-        {
-            "position": {
-                "x": 12,
-                "y": 2
-            },
-            "surface": "rock"
-        },
-        {
-            "position": {
-                "x": 12,
-                "y": 3
-            },
-            "surface": "rock"
-        },
-        {
-            "position": {
-                "x": 12,
-                "y": 4
-            },
-            "surface": "dirt",
-            "obstacle": "rock.2"
-        },
-        {
-            "position": {
-                "x": 12,
-                "y": 5
-            },
-            "surface": "rock"
-        },
-        {
-            "position": {
-                "x": 12,
-                "y": 6
-            },
-            "surface": "dirt",
-            "obstacle": "rock.1"
-        },
-        {
-            "position": {
-                "x": 12,
-                "y": 7
-            },
-            "surface": "dirt"
-        },
-        {
-            "position": {
-                "x": 12,
-                "y": 8
-            },
-            "surface": "dirt",
-            "waypoints": "e"
-        },
-        {
-            "position": {
-                "x": 12,
-                "y": 9
-            },
-            "surface": "grass",
-            "obstacle": "tree.4"
-        },
-        {
-            "position": {
-                "x": 12,
-                "y": 10
-            },
-            "surface": "grass",
-            "obstacle": "tree.1"
-        },
-        {
-            "position": {
-                "x": 12,
-                "y": 11
             },
             "surface": "grass"
         },
         {
             "position": {
-                "x": 12,
-                "y": 12
+                "x": 5,
+                "y": 1
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 5,
+                "y": 2
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 5,
+                "y": 3
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 5,
+                "y": 4
+            },
+            "surface": "grass",
+            "obstacle": "tree.2"
+        },
+        {
+            "position": {
+                "x": 5,
+                "y": 5
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 5,
+                "y": 6
+            },
+            "surface": "dirt"
+        },
+        {
+            "position": {
+                "x": 5,
+                "y": 7
+            },
+            "surface": "dirt",
+            "obstacle": "tree.1"
+        },
+        {
+            "position": {
+                "x": 5,
+                "y": 8
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 5,
+                "y": 9
             },
             "surface": "dirt",
             "waypoints": "w"
         },
         {
             "position": {
-                "x": 12,
-                "y": 13
+                "x": 5,
+                "y": 10
             },
             "surface": "grass"
         },
         {
             "position": {
-                "x": 12,
+                "x": 5,
+                "y": 11
+            },
+            "surface": "dirt",
+            "obstacle": "tree.1"
+        },
+        {
+            "position": {
+                "x": 5,
+                "y": 12
+            },
+            "surface": "dirt"
+        },
+        {
+            "position": {
+                "x": 5,
+                "y": 13
+            },
+            "surface": "dirt"
+        },
+        {
+            "position": {
+                "x": 5,
                 "y": 14
             },
             "surface": "dirt",
@@ -1912,14 +863,14 @@
         },
         {
             "position": {
-                "x": 12,
+                "x": 5,
                 "y": 15
             },
-            "surface": "dirt"
+            "surface": "grass"
         },
         {
             "position": {
-                "x": 12,
+                "x": 5,
                 "y": 16
             },
             "surface": "dirt",
@@ -1927,81 +878,235 @@
         },
         {
             "position": {
-                "x": 12,
+                "x": 5,
                 "y": 17
             },
             "surface": "grass"
         },
         {
             "position": {
-                "x": 12,
+                "x": 5,
                 "y": 18
             },
-            "surface": "dirt",
-            "obstacle": "tree.4"
-        },
-        {
-            "position": {
-                "x": 12,
-                "y": 19
-            },
-            "surface": "dirt"
-        },
-        {
-            "position": {
-                "x": 13,
-                "y": 0
-            },
             "surface": "rock",
-            "obstacle": "rock.2"
-        },
-        {
-            "position": {
-                "x": 13,
-                "y": 1
-            },
-            "surface": "rock"
-        },
-        {
-            "position": {
-                "x": 13,
-                "y": 2
-            },
-            "surface": "rock",
-            "obstacle": "rock.2"
-        },
-        {
-            "position": {
-                "x": 13,
-                "y": 3
-            },
-            "surface": "dirt"
-        },
-        {
-            "position": {
-                "x": 13,
-                "y": 4
-            },
-            "surface": "dirt",
             "obstacle": "rock.0"
         },
         {
             "position": {
-                "x": 13,
+                "x": 5,
+                "y": 19
+            },
+            "surface": "rock"
+        },
+        {
+            "position": {
+                "x": 6,
+                "y": 0
+            },
+            "surface": "dirt",
+            "waypoints": "n"
+        },
+        {
+            "position": {
+                "x": 6,
+                "y": 1
+            },
+            "surface": "dirt",
+            "waypoints": "n"
+        },
+        {
+            "position": {
+                "x": 6,
+                "y": 2
+            },
+            "surface": "dirt",
+            "waypoints": "n"
+        },
+        {
+            "position": {
+                "x": 6,
+                "y": 3
+            },
+            "surface": "dirt",
+            "waypoints": "n"
+        },
+        {
+            "position": {
+                "x": 6,
+                "y": 4
+            },
+            "surface": "dirt",
+            "waypoints": "e"
+        },
+        {
+            "position": {
+                "x": 6,
                 "y": 5
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 6,
+                "y": 6
+            },
+            "surface": "dirt",
+            "obstacle": "tree.1"
+        },
+        {
+            "position": {
+                "x": 6,
+                "y": 7
             },
             "surface": "dirt"
         },
         {
             "position": {
-                "x": 13,
+                "x": 6,
+                "y": 8
+            },
+            "surface": "grass",
+            "obstacle": "tree.2"
+        },
+        {
+            "position": {
+                "x": 6,
+                "y": 9
+            },
+            "surface": "dirt",
+            "waypoints": "w"
+        },
+        {
+            "position": {
+                "x": 6,
+                "y": 10
+            },
+            "surface": "grass",
+            "obstacle": "tree.2"
+        },
+        {
+            "position": {
+                "x": 6,
+                "y": 11
+            },
+            "surface": "dirt"
+        },
+        {
+            "position": {
+                "x": 6,
+                "y": 12
+            },
+            "surface": "grass",
+            "obstacle": "tree.0"
+        },
+        {
+            "position": {
+                "x": 6,
+                "y": 13
+            },
+            "surface": "grass",
+            "obstacle": "tree.0"
+        },
+        {
+            "position": {
+                "x": 6,
+                "y": 14
+            },
+            "surface": "dirt"
+        },
+        {
+            "position": {
+                "x": 6,
+                "y": 15
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 6,
+                "y": 16
+            },
+            "surface": "dirt",
+            "waypoints": "e"
+        },
+        {
+            "position": {
+                "x": 6,
+                "y": 17
+            },
+            "surface": "grass",
+            "obstacle": "tree.4"
+        },
+        {
+            "position": {
+                "x": 6,
+                "y": 18
+            },
+            "surface": "rock"
+        },
+        {
+            "position": {
+                "x": 6,
+                "y": 19
+            },
+            "surface": "rock",
+            "obstacle": "rock.0"
+        },
+        {
+            "position": {
+                "x": 7,
+                "y": 0
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 7,
+                "y": 1
+            },
+            "surface": "grass",
+            "obstacle": "tree.2"
+        },
+        {
+            "position": {
+                "x": 7,
+                "y": 2
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 7,
+                "y": 3
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 7,
+                "y": 4
+            },
+            "surface": "dirt",
+            "waypoints": "e"
+        },
+        {
+            "position": {
+                "x": 7,
+                "y": 5
+            },
+            "surface": "grass",
+            "obstacle": "tree.4"
+        },
+        {
+            "position": {
+                "x": 7,
                 "y": 6
             },
             "surface": "dirt"
         },
         {
             "position": {
-                "x": 13,
+                "x": 7,
                 "y": 7
             },
             "surface": "dirt",
@@ -2009,8 +1114,874 @@
         },
         {
             "position": {
-                "x": 13,
+                "x": 7,
                 "y": 8
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 7,
+                "y": 9
+            },
+            "surface": "dirt",
+            "waypoints": "w"
+        },
+        {
+            "position": {
+                "x": 7,
+                "y": 10
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 7,
+                "y": 11
+            },
+            "surface": "dirt"
+        },
+        {
+            "position": {
+                "x": 7,
+                "y": 12
+            },
+            "surface": "grass",
+            "obstacle": "tree.0"
+        },
+        {
+            "position": {
+                "x": 7,
+                "y": 13
+            },
+            "surface": "grass",
+            "obstacle": "tree.0"
+        },
+        {
+            "position": {
+                "x": 7,
+                "y": 14
+            },
+            "surface": "dirt"
+        },
+        {
+            "position": {
+                "x": 7,
+                "y": 15
+            },
+            "surface": "grass",
+            "obstacle": "tree.2"
+        },
+        {
+            "position": {
+                "x": 7,
+                "y": 16
+            },
+            "surface": "dirt",
+            "waypoints": "e"
+        },
+        {
+            "position": {
+                "x": 7,
+                "y": 17
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 7,
+                "y": 18
+            },
+            "surface": "rock"
+        },
+        {
+            "position": {
+                "x": 7,
+                "y": 19
+            },
+            "surface": "rock"
+        },
+        {
+            "position": {
+                "x": 8,
+                "y": 0
+            },
+            "surface": "rock"
+        },
+        {
+            "position": {
+                "x": 8,
+                "y": 1
+            },
+            "surface": "rock",
+            "obstacle": "rock.2"
+        },
+        {
+            "position": {
+                "x": 8,
+                "y": 2
+            },
+            "surface": "rock",
+            "obstacle": "rock.0"
+        },
+        {
+            "position": {
+                "x": 8,
+                "y": 3
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 8,
+                "y": 4
+            },
+            "surface": "dirt",
+            "waypoints": "e"
+        },
+        {
+            "position": {
+                "x": 8,
+                "y": 5
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 8,
+                "y": 6
+            },
+            "surface": "dirt",
+            "obstacle": "tree.1"
+        },
+        {
+            "position": {
+                "x": 8,
+                "y": 7
+            },
+            "surface": "dirt"
+        },
+        {
+            "position": {
+                "x": 8,
+                "y": 8
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 8,
+                "y": 9
+            },
+            "surface": "dirt",
+            "waypoints": "w"
+        },
+        {
+            "position": {
+                "x": 8,
+                "y": 10
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 8,
+                "y": 11
+            },
+            "surface": "dirt",
+            "obstacle": "tree.1"
+        },
+        {
+            "position": {
+                "x": 8,
+                "y": 12
+            },
+            "surface": "dirt"
+        },
+        {
+            "position": {
+                "x": 8,
+                "y": 13
+            },
+            "surface": "dirt"
+        },
+        {
+            "position": {
+                "x": 8,
+                "y": 14
+            },
+            "surface": "dirt",
+            "obstacle": "tree.1"
+        },
+        {
+            "position": {
+                "x": 8,
+                "y": 15
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 8,
+                "y": 16
+            },
+            "surface": "dirt",
+            "waypoints": "e"
+        },
+        {
+            "position": {
+                "x": 8,
+                "y": 17
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 8,
+                "y": 18
+            },
+            "surface": "rock",
+            "obstacle": "rock.1"
+        },
+        {
+            "position": {
+                "x": 8,
+                "y": 19
+            },
+            "surface": "rock",
+            "obstacle": "rock.2"
+        },
+        {
+            "position": {
+                "x": 9,
+                "y": 0
+            },
+            "surface": "rock",
+            "obstacle": "rock.1"
+        },
+        {
+            "position": {
+                "x": 9,
+                "y": 1
+            },
+            "surface": "rock"
+        },
+        {
+            "position": {
+                "x": 9,
+                "y": 2
+            },
+            "surface": "rock"
+        },
+        {
+            "position": {
+                "x": 9,
+                "y": 3
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 9,
+                "y": 4
+            },
+            "surface": "dirt",
+            "waypoints": "e"
+        },
+        {
+            "position": {
+                "x": 9,
+                "y": 5
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 9,
+                "y": 6
+            },
+            "surface": "grass",
+            "obstacle": "tree.2"
+        },
+        {
+            "position": {
+                "x": 9,
+                "y": 7
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 9,
+                "y": 8
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 9,
+                "y": 9
+            },
+            "surface": "dirt",
+            "waypoints": "w"
+        },
+        {
+            "position": {
+                "x": 9,
+                "y": 10
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 9,
+                "y": 11
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 9,
+                "y": 12
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 9,
+                "y": 13
+            },
+            "surface": "grass",
+            "obstacle": "tree.4"
+        },
+        {
+            "position": {
+                "x": 9,
+                "y": 14
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 9,
+                "y": 15
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 9,
+                "y": 16
+            },
+            "surface": "dirt",
+            "waypoints": "e"
+        },
+        {
+            "position": {
+                "x": 9,
+                "y": 17
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 9,
+                "y": 18
+            },
+            "surface": "rock"
+        },
+        {
+            "position": {
+                "x": 9,
+                "y": 19
+            },
+            "surface": "rock"
+        },
+        {
+            "position": {
+                "x": 10,
+                "y": 0
+            },
+            "surface": "rock"
+        },
+        {
+            "position": {
+                "x": 10,
+                "y": 1
+            },
+            "surface": "rock",
+            "obstacle": "rock.1"
+        },
+        {
+            "position": {
+                "x": 10,
+                "y": 2
+            },
+            "surface": "rock",
+            "obstacle": "rock.0"
+        },
+        {
+            "position": {
+                "x": 10,
+                "y": 3
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 10,
+                "y": 4
+            },
+            "surface": "dirt",
+            "waypoints": "e"
+        },
+        {
+            "position": {
+                "x": 10,
+                "y": 5
+            },
+            "surface": "dirt",
+            "waypoints": "s"
+        },
+        {
+            "position": {
+                "x": 10,
+                "y": 6
+            },
+            "surface": "dirt",
+            "waypoints": "s"
+        },
+        {
+            "position": {
+                "x": 10,
+                "y": 7
+            },
+            "surface": "dirt",
+            "waypoints": "s"
+        },
+        {
+            "position": {
+                "x": 10,
+                "y": 8
+            },
+            "surface": "dirt",
+            "waypoints": "s"
+        },
+        {
+            "position": {
+                "x": 10,
+                "y": 9
+            },
+            "surface": "dirt",
+            "waypoints": "swe"
+        },
+        {
+            "position": {
+                "x": 10,
+                "y": 10
+            },
+            "surface": "dirt",
+            "waypoints": "s"
+        },
+        {
+            "position": {
+                "x": 10,
+                "y": 11
+            },
+            "surface": "dirt",
+            "waypoints": "s"
+        },
+        {
+            "position": {
+                "x": 10,
+                "y": 12
+            },
+            "surface": "dirt",
+            "waypoints": "s"
+        },
+        {
+            "position": {
+                "x": 10,
+                "y": 13
+            },
+            "surface": "dirt",
+            "waypoints": "s"
+        },
+        {
+            "position": {
+                "x": 10,
+                "y": 14
+            },
+            "surface": "dirt",
+            "waypoints": "s"
+        },
+        {
+            "position": {
+                "x": 10,
+                "y": 15
+            },
+            "surface": "dirt",
+            "waypoints": "s"
+        },
+        {
+            "position": {
+                "x": 10,
+                "y": 16
+            },
+            "surface": "dirt",
+            "waypoints": "se"
+        },
+        {
+            "position": {
+                "x": 10,
+                "y": 17
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 10,
+                "y": 18
+            },
+            "surface": "rock"
+        },
+        {
+            "position": {
+                "x": 10,
+                "y": 19
+            },
+            "surface": "rock",
+            "obstacle": "rock.1"
+        },
+        {
+            "position": {
+                "x": 11,
+                "y": 0
+            },
+            "surface": "rock"
+        },
+        {
+            "position": {
+                "x": 11,
+                "y": 1
+            },
+            "surface": "rock"
+        },
+        {
+            "position": {
+                "x": 11,
+                "y": 2
+            },
+            "surface": "rock"
+        },
+        {
+            "position": {
+                "x": 11,
+                "y": 3
+            },
+            "surface": "grass",
+            "obstacle": "tree.4"
+        },
+        {
+            "position": {
+                "x": 11,
+                "y": 4
+            },
+            "surface": "dirt",
+            "waypoints": "e"
+        },
+        {
+            "position": {
+                "x": 11,
+                "y": 5
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 11,
+                "y": 6
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 11,
+                "y": 7
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 11,
+                "y": 8
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 11,
+                "y": 9
+            },
+            "surface": "dirt",
+            "waypoints": "e"
+        },
+        {
+            "position": {
+                "x": 11,
+                "y": 10
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 11,
+                "y": 11
+            },
+            "surface": "grass",
+            "obstacle": "tree.2"
+        },
+        {
+            "position": {
+                "x": 11,
+                "y": 12
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 11,
+                "y": 13
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 11,
+                "y": 14
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 11,
+                "y": 15
+            },
+            "surface": "grass",
+            "obstacle": "tree.4"
+        },
+        {
+            "position": {
+                "x": 11,
+                "y": 16
+            },
+            "surface": "dirt",
+            "waypoints": "e"
+        },
+        {
+            "position": {
+                "x": 11,
+                "y": 17
+            },
+            "surface": "grass",
+            "obstacle": "tree.2"
+        },
+        {
+            "position": {
+                "x": 11,
+                "y": 18
+            },
+            "surface": "rock",
+            "obstacle": "rock.2"
+        },
+        {
+            "position": {
+                "x": 11,
+                "y": 19
+            },
+            "surface": "rock"
+        },
+        {
+            "position": {
+                "x": 12,
+                "y": 0
+            },
+            "surface": "rock",
+            "obstacle": "rock.2"
+        },
+        {
+            "position": {
+                "x": 12,
+                "y": 1
+            },
+            "surface": "rock"
+        },
+        {
+            "position": {
+                "x": 12,
+                "y": 2
+            },
+            "surface": "rock"
+        },
+        {
+            "position": {
+                "x": 12,
+                "y": 3
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 12,
+                "y": 4
+            },
+            "surface": "dirt",
+            "waypoints": "e"
+        },
+        {
+            "position": {
+                "x": 12,
+                "y": 5
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 12,
+                "y": 6
+            },
+            "surface": "dirt"
+        },
+        {
+            "position": {
+                "x": 12,
+                "y": 7
+            },
+            "surface": "dirt",
+            "obstacle": "tree.1"
+        },
+        {
+            "position": {
+                "x": 12,
+                "y": 8
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 12,
+                "y": 9
+            },
+            "surface": "dirt",
+            "waypoints": "e"
+        },
+        {
+            "position": {
+                "x": 12,
+                "y": 10
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 12,
+                "y": 11
+            },
+            "surface": "dirt",
+            "obstacle": "tree.1"
+        },
+        {
+            "position": {
+                "x": 12,
+                "y": 12
+            },
+            "surface": "dirt"
+        },
+        {
+            "position": {
+                "x": 12,
+                "y": 13
+            },
+            "surface": "dirt"
+        },
+        {
+            "position": {
+                "x": 12,
+                "y": 14
+            },
+            "surface": "dirt",
+            "obstacle": "tree.1"
+        },
+        {
+            "position": {
+                "x": 12,
+                "y": 15
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 12,
+                "y": 16
+            },
+            "surface": "dirt",
+            "waypoints": "e"
+        },
+        {
+            "position": {
+                "x": 12,
+                "y": 17
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 12,
+                "y": 18
+            },
+            "surface": "rock",
+            "obstacle": "rock.0"
+        },
+        {
+            "position": {
+                "x": 12,
+                "y": 19
+            },
+            "surface": "rock"
+        },
+        {
+            "position": {
+                "x": 13,
+                "y": 0
+            },
+            "surface": "rock"
+        },
+        {
+            "position": {
+                "x": 13,
+                "y": 1
+            },
+            "surface": "rock"
+        },
+        {
+            "position": {
+                "x": 13,
+                "y": 2
+            },
+            "surface": "rock"
+        },
+        {
+            "position": {
+                "x": 13,
+                "y": 3
+            },
+            "surface": "grass",
+            "obstacle": "tree.2"
+        },
+        {
+            "position": {
+                "x": 13,
+                "y": 4
             },
             "surface": "dirt",
             "waypoints": "e"
@@ -2018,10 +1989,40 @@
         {
             "position": {
                 "x": 13,
-                "y": 9
+                "y": 5
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 13,
+                "y": 6
+            },
+            "surface": "dirt",
+            "obstacle": "tree.1"
+        },
+        {
+            "position": {
+                "x": 13,
+                "y": 7
+            },
+            "surface": "dirt"
+        },
+        {
+            "position": {
+                "x": 13,
+                "y": 8
             },
             "surface": "grass",
-            "obstacle": "tree.0"
+            "obstacle": "tree.2"
+        },
+        {
+            "position": {
+                "x": 13,
+                "y": 9
+            },
+            "surface": "dirt",
+            "waypoints": "e"
         },
         {
             "position": {
@@ -2036,490 +2037,791 @@
                 "y": 11
             },
             "surface": "grass",
-            "obstacle": "tree.2"
+            "obstacle": "tree.4"
         },
         {
             "position": {
                 "x": 13,
                 "y": 12
             },
-            "surface": "dirt",
-            "waypoints": "w"
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 13,
                 "y": 13
             },
-            "surface": "dirt",
-            "obstacle": "tree.1"
+            "surface": "grass",
+            "obstacle": "tree.2"
         },
         {
             "position": {
                 "x": 13,
                 "y": 14
             },
-            "surface": "dirt"
+            "surface": "grass"
         },
         {
             "position": {
                 "x": 13,
                 "y": 15
             },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 13,
+                "y": 16
+            },
             "surface": "dirt",
+            "waypoints": "e"
+        },
+        {
+            "position": {
+                "x": 13,
+                "y": 17
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 13,
+                "y": 18
+            },
+            "surface": "rock"
+        },
+        {
+            "position": {
+                "x": 13,
+                "y": 19
+            },
+            "surface": "rock"
+        },
+        {
+            "position": {
+                "x": 14,
+                "y": 0
+            },
+            "surface": "rock",
+            "obstacle": "rock.1"
+        },
+        {
+            "position": {
+                "x": 14,
+                "y": 1
+            },
+            "surface": "rock",
+            "obstacle": "rock.0"
+        },
+        {
+            "position": {
+                "x": 14,
+                "y": 2
+            },
+            "surface": "rock",
+            "obstacle": "rock.1"
+        },
+        {
+            "position": {
+                "x": 14,
+                "y": 3
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 14,
+                "y": 4
+            },
+            "surface": "dirt",
+            "waypoints": "e"
+        },
+        {
+            "position": {
+                "x": 14,
+                "y": 5
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 14,
+                "y": 6
+            },
+            "surface": "dirt"
+        },
+        {
+            "position": {
+                "x": 14,
+                "y": 7
+            },
+            "surface": "dirt",
+            "obstacle": "tree.1"
+        },
+        {
+            "position": {
+                "x": 14,
+                "y": 8
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 14,
+                "y": 9
+            },
+            "surface": "dirt",
+            "waypoints": "e"
+        },
+        {
+            "position": {
+                "x": 14,
+                "y": 10
+            },
+            "surface": "dirt",
+            "waypoints": "s"
+        },
+        {
+            "position": {
+                "x": 14,
+                "y": 11
+            },
+            "surface": "dirt",
+            "waypoints": "s"
+        },
+        {
+            "position": {
+                "x": 14,
+                "y": 12
+            },
+            "surface": "dirt",
+            "waypoints": "s"
+        },
+        {
+            "position": {
+                "x": 14,
+                "y": 13
+            },
+            "surface": "dirt",
+            "waypoints": "s"
+        },
+        {
+            "position": {
+                "x": 14,
+                "y": 14
+            },
+            "surface": "dirt",
+            "waypoints": "s"
+        },
+        {
+            "position": {
+                "x": 14,
+                "y": 15
+            },
+            "surface": "dirt",
+            "waypoints": "s"
+        },
+        {
+            "position": {
+                "x": 14,
+                "y": 16
+            },
+            "surface": "dirt",
+            "waypoints": "se"
+        },
+        {
+            "position": {
+                "x": 14,
+                "y": 17
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 14,
+                "y": 18
+            },
+            "surface": "rock"
+        },
+        {
+            "position": {
+                "x": 14,
+                "y": 19
+            },
+            "surface": "rock",
+            "obstacle": "rock.1"
+        },
+        {
+            "position": {
+                "x": 15,
+                "y": 0
+            },
+            "surface": "rock"
+        },
+        {
+            "position": {
+                "x": 15,
+                "y": 1
+            },
+            "surface": "rock"
+        },
+        {
+            "position": {
+                "x": 15,
+                "y": 2
+            },
+            "surface": "rock"
+        },
+        {
+            "position": {
+                "x": 15,
+                "y": 3
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 15,
+                "y": 4
+            },
+            "surface": "dirt",
+            "waypoints": "e"
+        },
+        {
+            "position": {
+                "x": 15,
+                "y": 5
+            },
+            "surface": "grass",
+            "obstacle": "tree.2"
+        },
+        {
+            "position": {
+                "x": 15,
+                "y": 6
+            },
+            "surface": "dirt",
+            "obstacle": "tree.1"
+        },
+        {
+            "position": {
+                "x": 15,
+                "y": 7
+            },
+            "surface": "dirt"
+        },
+        {
+            "position": {
+                "x": 15,
+                "y": 8
+            },
+            "surface": "grass",
+            "obstacle": "tree.4"
+        },
+        {
+            "position": {
+                "x": 15,
+                "y": 9
+            },
+            "surface": "dirt",
+            "waypoints": "e"
+        },
+        {
+            "position": {
+                "x": 15,
+                "y": 10
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 15,
+                "y": 11
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 15,
+                "y": 12
+            },
+            "surface": "grass",
+            "obstacle": "tree.2"
+        },
+        {
+            "position": {
+                "x": 15,
+                "y": 13
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 15,
+                "y": 14
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 15,
+                "y": 15
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 15,
+                "y": 16
+            },
+            "surface": "dirt",
+            "waypoints": "e"
+        },
+        {
+            "position": {
+                "x": 15,
+                "y": 17
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 15,
+                "y": 18
+            },
+            "surface": "rock"
+        },
+        {
+            "position": {
+                "x": 15,
+                "y": 19
+            },
+            "surface": "rock"
+        },
+        {
+            "position": {
+                "x": 16,
+                "y": 0
+            },
+            "surface": "rock"
+        },
+        {
+            "position": {
+                "x": 16,
+                "y": 1
+            },
+            "surface": "rock"
+        },
+        {
+            "position": {
+                "x": 16,
+                "y": 2
+            },
+            "surface": "rock",
+            "obstacle": "rock.2"
+        },
+        {
+            "position": {
+                "x": 16,
+                "y": 3
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 16,
+                "y": 4
+            },
+            "surface": "dirt",
+            "waypoints": "e"
+        },
+        {
+            "position": {
+                "x": 16,
+                "y": 5
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 16,
+                "y": 6
+            },
+            "surface": "dirt"
+        },
+        {
+            "position": {
+                "x": 16,
+                "y": 7
+            },
+            "surface": "dirt",
+            "obstacle": "tree.1"
+        },
+        {
+            "position": {
+                "x": 16,
+                "y": 8
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 16,
+                "y": 9
+            },
+            "surface": "dirt",
+            "waypoints": "e"
+        },
+        {
+            "position": {
+                "x": 16,
+                "y": 10
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 16,
+                "y": 11
+            },
+            "surface": "dirt",
+            "obstacle": "tree.1"
+        },
+        {
+            "position": {
+                "x": 16,
+                "y": 12
+            },
+            "surface": "dirt"
+        },
+        {
+            "position": {
+                "x": 16,
+                "y": 13
+            },
+            "surface": "dirt"
+        },
+        {
+            "position": {
+                "x": 16,
+                "y": 14
+            },
+            "surface": "dirt",
+            "obstacle": "tree.1"
+        },
+        {
+            "position": {
+                "x": 16,
+                "y": 15
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 16,
+                "y": 16
+            },
+            "surface": "dirt",
+            "waypoints": "e"
+        },
+        {
+            "position": {
+                "x": 16,
+                "y": 17
+            },
+            "surface": "grass",
+            "obstacle": "tree.4"
+        },
+        {
+            "position": {
+                "x": 16,
+                "y": 18
+            },
+            "surface": "rock",
+            "obstacle": "rock.2"
+        },
+        {
+            "position": {
+                "x": 16,
+                "y": 19
+            },
+            "surface": "rock"
+        },
+        {
+            "position": {
+                "x": 17,
+                "y": 0
+            },
+            "surface": "rock",
+            "obstacle": "rock.0"
+        },
+        {
+            "position": {
+                "x": 17,
+                "y": 1
+            },
+            "surface": "rock"
+        },
+        {
+            "position": {
+                "x": 17,
+                "y": 2
+            },
+            "surface": "rock"
+        },
+        {
+            "position": {
+                "x": 17,
+                "y": 3
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 17,
+                "y": 4
+            },
+            "surface": "dirt",
+            "waypoints": "e"
+        },
+        {
+            "position": {
+                "x": 17,
+                "y": 5
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 17,
+                "y": 6
+            },
+            "surface": "dirt",
+            "obstacle": "tree.1"
+        },
+        {
+            "position": {
+                "x": 17,
+                "y": 7
+            },
+            "surface": "dirt"
+        },
+        {
+            "position": {
+                "x": 17,
+                "y": 8
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 17,
+                "y": 9
+            },
+            "surface": "dirt",
+            "waypoints": "e"
+        },
+        {
+            "position": {
+                "x": 17,
+                "y": 10
+            },
+            "surface": "grass",
+            "obstacle": "tree.4"
+        },
+        {
+            "position": {
+                "x": 17,
+                "y": 11
+            },
+            "surface": "dirt"
+        },
+        {
+            "position": {
+                "x": 17,
+                "y": 12
+            },
+            "surface": "grass",
+            "obstacle": "tree.0"
+        },
+        {
+            "position": {
+                "x": 17,
+                "y": 13
+            },
+            "surface": "grass",
+            "obstacle": "tree.0"
+        },
+        {
+            "position": {
+                "x": 17,
+                "y": 14
+            },
+            "surface": "dirt"
+        },
+        {
+            "position": {
+                "x": 17,
+                "y": 15
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 17,
+                "y": 16
+            },
+            "surface": "dirt",
+            "waypoints": "e"
+        },
+        {
+            "position": {
+                "x": 17,
+                "y": 17
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 17,
+                "y": 18
+            },
+            "surface": "rock",
+            "obstacle": "rock.1"
+        },
+        {
+            "position": {
+                "x": 17,
+                "y": 19
+            },
+            "surface": "rock",
+            "obstacle": "rock.0"
+        },
+        {
+            "position": {
+                "x": 18,
+                "y": 0
+            },
+            "surface": "rock"
+        },
+        {
+            "position": {
+                "x": 18,
+                "y": 1
+            },
+            "surface": "rock"
+        },
+        {
+            "position": {
+                "x": 18,
+                "y": 2
+            },
+            "surface": "rock",
+            "obstacle": "rock.2"
+        },
+        {
+            "position": {
+                "x": 18,
+                "y": 3
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 18,
+                "y": 4
+            },
+            "surface": "dirt",
+            "waypoints": "e"
+        },
+        {
+            "position": {
+                "x": 18,
+                "y": 5
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 18,
+                "y": 6
+            },
+            "surface": "dirt"
+        },
+        {
+            "position": {
+                "x": 18,
+                "y": 7
+            },
+            "surface": "dirt",
+            "obstacle": "tree.1"
+        },
+        {
+            "position": {
+                "x": 18,
+                "y": 8
+            },
+            "surface": "grass",
+            "obstacle": "tree.2"
+        },
+        {
+            "position": {
+                "x": 18,
+                "y": 9
+            },
+            "surface": "dirt",
+            "waypoints": "e"
+        },
+        {
+            "position": {
+                "x": 18,
+                "y": 10
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 18,
+                "y": 11
+            },
+            "surface": "dirt",
+            "obstacle": "tree.1"
+        },
+        {
+            "position": {
+                "x": 18,
+                "y": 12
+            },
+            "surface": "grass",
             "obstacle": "tree.3"
         },
         {
             "position": {
-                "x": 13,
-                "y": 16
-            },
-            "surface": "dirt",
-            "waypoints": "e"
-        },
-        {
-            "position": {
-                "x": 13,
-                "y": 17
-            },
-            "surface": "grass"
-        },
-        {
-            "position": {
-                "x": 13,
-                "y": 18
-            },
-            "surface": "dirt",
-            "obstacle": "tree.2"
-        },
-        {
-            "position": {
-                "x": 13,
-                "y": 19
-            },
-            "surface": "dirt",
-            "obstacle": "tree.0"
-        },
-        {
-            "position": {
-                "x": 14,
-                "y": 0
-            },
-            "surface": "rock"
-        },
-        {
-            "position": {
-                "x": 14,
-                "y": 1
-            },
-            "surface": "rock",
-            "obstacle": "rock.0"
-        },
-        {
-            "position": {
-                "x": 14,
-                "y": 2
-            },
-            "surface": "rock"
-        },
-        {
-            "position": {
-                "x": 14,
-                "y": 3
-            },
-            "surface": "dirt"
-        },
-        {
-            "position": {
-                "x": 14,
-                "y": 4
-            },
-            "surface": "rock"
-        },
-        {
-            "position": {
-                "x": 14,
-                "y": 5
-            },
-            "surface": "dirt"
-        },
-        {
-            "position": {
-                "x": 14,
-                "y": 6
-            },
-            "surface": "dirt",
-            "obstacle": "rock.1"
-        },
-        {
-            "position": {
-                "x": 14,
-                "y": 7
-            },
-            "surface": "dirt"
-        },
-        {
-            "position": {
-                "x": 14,
-                "y": 8
-            },
-            "surface": "dirt",
-            "waypoints": "e"
-        },
-        {
-            "position": {
-                "x": 14,
-                "y": 9
-            },
-            "surface": "grass",
-            "obstacle": "tree.2"
-        },
-        {
-            "position": {
-                "x": 14,
-                "y": 10
-            },
-            "surface": "grass"
-        },
-        {
-            "position": {
-                "x": 14,
-                "y": 11
-            },
-            "surface": "grass"
-        },
-        {
-            "position": {
-                "x": 14,
-                "y": 12
-            },
-            "surface": "dirt",
-            "waypoints": "w"
-        },
-        {
-            "position": {
-                "x": 14,
+                "x": 18,
                 "y": 13
             },
-            "surface": "grass"
-        },
-        {
-            "position": {
-                "x": 14,
-                "y": 14
-            },
-            "surface": "dirt",
-            "obstacle": "tree.4"
-        },
-        {
-            "position": {
-                "x": 14,
-                "y": 15
-            },
-            "surface": "dirt"
-        },
-        {
-            "position": {
-                "x": 14,
-                "y": 16
-            },
-            "surface": "dirt",
-            "waypoints": "e"
-        },
-        {
-            "position": {
-                "x": 14,
-                "y": 17
-            },
-            "surface": "grass"
-        },
-        {
-            "position": {
-                "x": 14,
-                "y": 18
-            },
-            "surface": "dirt"
-        },
-        {
-            "position": {
-                "x": 14,
-                "y": 19
-            },
-            "surface": "dirt"
-        },
-        {
-            "position": {
-                "x": 15,
-                "y": 0
-            },
-            "surface": "rock",
-            "obstacle": "rock.0"
-        },
-        {
-            "position": {
-                "x": 15,
-                "y": 1
-            },
-            "surface": "rock"
-        },
-        {
-            "position": {
-                "x": 15,
-                "y": 2
-            },
-            "surface": "rock"
-        },
-        {
-            "position": {
-                "x": 15,
-                "y": 3
-            },
-            "surface": "rock"
-        },
-        {
-            "position": {
-                "x": 15,
-                "y": 4
-            },
-            "surface": "rock",
-            "obstacle": "rock.2"
-        },
-        {
-            "position": {
-                "x": 15,
-                "y": 5
-            },
-            "surface": "rock",
-            "obstacle": "rock.1"
-        },
-        {
-            "position": {
-                "x": 15,
-                "y": 6
-            },
-            "surface": "dirt"
-        },
-        {
-            "position": {
-                "x": 15,
-                "y": 7
-            },
-            "surface": "dirt"
-        },
-        {
-            "position": {
-                "x": 15,
-                "y": 8
-            },
-            "surface": "dirt",
-            "waypoints": "e"
-        },
-        {
-            "position": {
-                "x": 15,
-                "y": 9
-            },
-            "surface": "grass"
-        },
-        {
-            "position": {
-                "x": 15,
-                "y": 10
-            },
             "surface": "grass",
-            "obstacle": "tree.0"
+            "obstacle": "tree.3"
         },
         {
             "position": {
-                "x": 15,
-                "y": 11
-            },
-            "surface": "grass"
-        },
-        {
-            "position": {
-                "x": 15,
-                "y": 12
-            },
-            "surface": "dirt",
-            "waypoints": "w"
-        },
-        {
-            "position": {
-                "x": 15,
-                "y": 13
-            },
-            "surface": "grass"
-        },
-        {
-            "position": {
-                "x": 15,
+                "x": 18,
                 "y": 14
-            },
-            "surface": "dirt",
-            "obstacle": "tree.2"
-        },
-        {
-            "position": {
-                "x": 15,
-                "y": 15
-            },
-            "surface": "dirt"
-        },
-        {
-            "position": {
-                "x": 15,
-                "y": 16
-            },
-            "surface": "dirt",
-            "waypoints": "e"
-        },
-        {
-            "position": {
-                "x": 15,
-                "y": 17
-            },
-            "surface": "dirt",
-            "obstacle": "tree.4"
-        },
-        {
-            "position": {
-                "x": 15,
-                "y": 18
             },
             "surface": "dirt",
             "obstacle": "tree.1"
         },
         {
             "position": {
-                "x": 15,
-                "y": 19
-            },
-            "surface": "dirt"
-        },
-        {
-            "position": {
-                "x": 16,
-                "y": 0
-            },
-            "surface": "rock"
-        },
-        {
-            "position": {
-                "x": 16,
-                "y": 1
-            },
-            "surface": "rock",
-            "obstacle": "rock.1"
-        },
-        {
-            "position": {
-                "x": 16,
-                "y": 2
-            },
-            "surface": "rock"
-        },
-        {
-            "position": {
-                "x": 16,
-                "y": 3
-            },
-            "surface": "rock",
-            "obstacle": "rock.1"
-        },
-        {
-            "position": {
-                "x": 16,
-                "y": 4
-            },
-            "surface": "rock"
-        },
-        {
-            "position": {
-                "x": 16,
-                "y": 5
-            },
-            "surface": "rock"
-        },
-        {
-            "position": {
-                "x": 16,
-                "y": 6
-            },
-            "surface": "dirt",
-            "obstacle": "tree.0"
-        },
-        {
-            "position": {
-                "x": 16,
-                "y": 7
-            },
-            "surface": "dirt"
-        },
-        {
-            "position": {
-                "x": 16,
-                "y": 8
-            },
-            "surface": "dirt",
-            "waypoints": "e"
-        },
-        {
-            "position": {
-                "x": 16,
-                "y": 9
-            },
-            "surface": "grass"
-        },
-        {
-            "position": {
-                "x": 16,
-                "y": 10
-            },
-            "surface": "grass"
-        },
-        {
-            "position": {
-                "x": 16,
-                "y": 11
-            },
-            "surface": "grass",
-            "obstacle": "tree.3"
-        },
-        {
-            "position": {
-                "x": 16,
-                "y": 12
-            },
-            "surface": "dirt",
-            "waypoints": "w"
-        },
-        {
-            "position": {
-                "x": 16,
-                "y": 13
-            },
-            "surface": "grass",
-            "obstacle": "tree.3"
-        },
-        {
-            "position": {
-                "x": 16,
-                "y": 14
-            },
-            "surface": "grass"
-        },
-        {
-            "position": {
-                "x": 16,
+                "x": 18,
                 "y": 15
             },
-            "surface": "dirt",
+            "surface": "grass",
             "obstacle": "tree.2"
         },
         {
             "position": {
-                "x": 16,
+                "x": 18,
                 "y": 16
             },
             "surface": "dirt",
@@ -2527,44 +2829,489 @@
         },
         {
             "position": {
-                "x": 16,
+                "x": 18,
                 "y": 17
             },
-            "surface": "dirt",
+            "surface": "grass",
             "obstacle": "tree.2"
         },
         {
             "position": {
-                "x": 16,
+                "x": 18,
                 "y": 18
+            },
+            "surface": "rock"
+        },
+        {
+            "position": {
+                "x": 18,
+                "y": 19
+            },
+            "surface": "rock"
+        },
+        {
+            "position": {
+                "x": 19,
+                "y": 0
+            },
+            "surface": "rock",
+            "obstacle": "rock.2"
+        },
+        {
+            "position": {
+                "x": 19,
+                "y": 1
+            },
+            "surface": "rock",
+            "obstacle": "rock.0"
+        },
+        {
+            "position": {
+                "x": 19,
+                "y": 2
+            },
+            "surface": "rock"
+        },
+        {
+            "position": {
+                "x": 19,
+                "y": 3
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 19,
+                "y": 4
+            },
+            "surface": "dirt",
+            "waypoints": "e"
+        },
+        {
+            "position": {
+                "x": 19,
+                "y": 5
+            },
+            "surface": "grass",
+            "obstacle": "tree.4"
+        },
+        {
+            "position": {
+                "x": 19,
+                "y": 6
+            },
+            "surface": "dirt",
+            "obstacle": "tree.1"
+        },
+        {
+            "position": {
+                "x": 19,
+                "y": 7
             },
             "surface": "dirt"
         },
         {
             "position": {
-                "x": 16,
-                "y": 19
+                "x": 19,
+                "y": 8
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 19,
+                "y": 9
             },
             "surface": "dirt",
+            "waypoints": "e"
+        },
+        {
+            "position": {
+                "x": 19,
+                "y": 10
+            },
+            "surface": "grass",
             "obstacle": "tree.2"
         },
         {
             "position": {
-                "x": 17,
+                "x": 19,
+                "y": 11
+            },
+            "surface": "dirt"
+        },
+        {
+            "position": {
+                "x": 19,
+                "y": 12
+            },
+            "surface": "grass",
+            "obstacle": "tree.0"
+        },
+        {
+            "position": {
+                "x": 19,
+                "y": 13
+            },
+            "surface": "grass",
+            "obstacle": "tree.0"
+        },
+        {
+            "position": {
+                "x": 19,
+                "y": 14
+            },
+            "surface": "dirt"
+        },
+        {
+            "position": {
+                "x": 19,
+                "y": 15
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 19,
+                "y": 16
+            },
+            "surface": "dirt",
+            "waypoints": "e"
+        },
+        {
+            "position": {
+                "x": 19,
+                "y": 17
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 19,
+                "y": 18
+            },
+            "surface": "rock"
+        },
+        {
+            "position": {
+                "x": 19,
+                "y": 19
+            },
+            "surface": "rock",
+            "obstacle": "rock.2"
+        },
+        {
+            "position": {
+                "x": 20,
                 "y": 0
             },
             "surface": "rock"
         },
         {
             "position": {
-                "x": 17,
+                "x": 20,
+                "y": 1
+            },
+            "surface": "rock",
+            "obstacle": "rock.1"
+        },
+        {
+            "position": {
+                "x": 20,
+                "y": 2
+            },
+            "surface": "rock"
+        },
+        {
+            "position": {
+                "x": 20,
+                "y": 3
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 20,
+                "y": 4
+            },
+            "surface": "dirt",
+            "waypoints": "e"
+        },
+        {
+            "position": {
+                "x": 20,
+                "y": 5
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 20,
+                "y": 6
+            },
+            "surface": "dirt"
+        },
+        {
+            "position": {
+                "x": 20,
+                "y": 7
+            },
+            "surface": "dirt",
+            "obstacle": "tree.1"
+        },
+        {
+            "position": {
+                "x": 20,
+                "y": 8
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 20,
+                "y": 9
+            },
+            "surface": "dirt",
+            "waypoints": "e"
+        },
+        {
+            "position": {
+                "x": 20,
+                "y": 10
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 20,
+                "y": 11
+            },
+            "surface": "dirt",
+            "obstacle": "tree.1"
+        },
+        {
+            "position": {
+                "x": 20,
+                "y": 12
+            },
+            "surface": "dirt"
+        },
+        {
+            "position": {
+                "x": 20,
+                "y": 13
+            },
+            "surface": "dirt"
+        },
+        {
+            "position": {
+                "x": 20,
+                "y": 14
+            },
+            "surface": "dirt",
+            "obstacle": "tree.1"
+        },
+        {
+            "position": {
+                "x": 20,
+                "y": 15
+            },
+            "surface": "grass",
+            "obstacle": "tree.4"
+        },
+        {
+            "position": {
+                "x": 20,
+                "y": 16
+            },
+            "surface": "dirt",
+            "waypoints": "e"
+        },
+        {
+            "position": {
+                "x": 20,
+                "y": 17
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 20,
+                "y": 18
+            },
+            "surface": "rock"
+        },
+        {
+            "position": {
+                "x": 20,
+                "y": 19
+            },
+            "surface": "rock"
+        },
+        {
+            "position": {
+                "x": 21,
+                "y": 0
+            },
+            "surface": "rock"
+        },
+        {
+            "position": {
+                "x": 21,
                 "y": 1
             },
             "surface": "rock"
         },
         {
             "position": {
-                "x": 17,
+                "x": 21,
+                "y": 2
+            },
+            "surface": "rock"
+        },
+        {
+            "position": {
+                "x": 21,
+                "y": 3
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 21,
+                "y": 4
+            },
+            "surface": "dirt",
+            "waypoints": "e"
+        },
+        {
+            "position": {
+                "x": 21,
+                "y": 5
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 21,
+                "y": 6
+            },
+            "surface": "dirt",
+            "obstacle": "tree.1"
+        },
+        {
+            "position": {
+                "x": 21,
+                "y": 7
+            },
+            "surface": "dirt"
+        },
+        {
+            "position": {
+                "x": 21,
+                "y": 8
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 21,
+                "y": 9
+            },
+            "surface": "dirt",
+            "waypoints": "e"
+        },
+        {
+            "position": {
+                "x": 21,
+                "y": 10
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 21,
+                "y": 11
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 21,
+                "y": 12
+            },
+            "surface": "grass",
+            "obstacle": "tree.2"
+        },
+        {
+            "position": {
+                "x": 21,
+                "y": 13
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 21,
+                "y": 14
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 21,
+                "y": 15
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 21,
+                "y": 16
+            },
+            "surface": "dirt",
+            "waypoints": "e"
+        },
+        {
+            "position": {
+                "x": 21,
+                "y": 17
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 21,
+                "y": 18
+            },
+            "surface": "rock",
+            "obstacle": "rock.0"
+        },
+        {
+            "position": {
+                "x": 21,
+                "y": 19
+            },
+            "surface": "rock"
+        },
+        {
+            "position": {
+                "x": 22,
+                "y": 0
+            },
+            "surface": "rock",
+            "obstacle": "rock.1"
+        },
+        {
+            "position": {
+                "x": 22,
+                "y": 1
+            },
+            "surface": "rock"
+        },
+        {
+            "position": {
+                "x": 22,
                 "y": 2
             },
             "surface": "rock",
@@ -2572,43 +3319,645 @@
         },
         {
             "position": {
-                "x": 17,
+                "x": 22,
                 "y": 3
             },
-            "surface": "rock"
+            "surface": "grass",
+            "obstacle": "tree.2"
         },
         {
             "position": {
-                "x": 17,
+                "x": 22,
                 "y": 4
             },
-            "surface": "rock"
+            "surface": "dirt",
+            "waypoints": "e"
         },
         {
             "position": {
-                "x": 17,
+                "x": 22,
                 "y": 5
             },
-            "surface": "dirt",
-            "obstacle": "rock.0"
+            "surface": "grass",
+            "obstacle": "tree.2"
         },
         {
             "position": {
-                "x": 17,
+                "x": 22,
                 "y": 6
             },
             "surface": "dirt"
         },
         {
             "position": {
-                "x": 17,
+                "x": 22,
+                "y": 7
+            },
+            "surface": "dirt",
+            "obstacle": "tree.1"
+        },
+        {
+            "position": {
+                "x": 22,
+                "y": 8
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 22,
+                "y": 9
+            },
+            "surface": "dirt",
+            "waypoints": "n"
+        },
+        {
+            "position": {
+                "x": 22,
+                "y": 10
+            },
+            "surface": "dirt",
+            "waypoints": "n"
+        },
+        {
+            "position": {
+                "x": 22,
+                "y": 11
+            },
+            "surface": "dirt",
+            "waypoints": "n"
+        },
+        {
+            "position": {
+                "x": 22,
+                "y": 12
+            },
+            "surface": "dirt",
+            "waypoints": "n"
+        },
+        {
+            "position": {
+                "x": 22,
+                "y": 13
+            },
+            "surface": "dirt",
+            "waypoints": "n"
+        },
+        {
+            "position": {
+                "x": 22,
+                "y": 14
+            },
+            "surface": "dirt",
+            "waypoints": "n"
+        },
+        {
+            "position": {
+                "x": 22,
+                "y": 15
+            },
+            "surface": "dirt",
+            "waypoints": "n"
+        },
+        {
+            "position": {
+                "x": 22,
+                "y": 16
+            },
+            "surface": "dirt",
+            "waypoints": "e"
+        },
+        {
+            "position": {
+                "x": 22,
+                "y": 17
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 22,
+                "y": 18
+            },
+            "surface": "rock"
+        },
+        {
+            "position": {
+                "x": 22,
+                "y": 19
+            },
+            "surface": "rock"
+        },
+        {
+            "position": {
+                "x": 23,
+                "y": 0
+            },
+            "surface": "rock"
+        },
+        {
+            "position": {
+                "x": 23,
+                "y": 1
+            },
+            "surface": "rock",
+            "obstacle": "rock.0"
+        },
+        {
+            "position": {
+                "x": 23,
+                "y": 2
+            },
+            "surface": "rock",
+            "obstacle": "rock.2"
+        },
+        {
+            "position": {
+                "x": 23,
+                "y": 3
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 23,
+                "y": 4
+            },
+            "surface": "dirt",
+            "waypoints": "e"
+        },
+        {
+            "position": {
+                "x": 23,
+                "y": 5
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 23,
+                "y": 6
+            },
+            "surface": "dirt",
+            "obstacle": "tree.1"
+        },
+        {
+            "position": {
+                "x": 23,
                 "y": 7
             },
             "surface": "dirt"
         },
         {
             "position": {
-                "x": 17,
+                "x": 23,
+                "y": 8
+            },
+            "surface": "grass",
+            "obstacle": "tree.2"
+        },
+        {
+            "position": {
+                "x": 23,
+                "y": 9
+            },
+            "surface": "dirt",
+            "waypoints": "w"
+        },
+        {
+            "position": {
+                "x": 23,
+                "y": 10
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 23,
+                "y": 11
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 23,
+                "y": 12
+            },
+            "surface": "grass",
+            "obstacle": "tree.4"
+        },
+        {
+            "position": {
+                "x": 23,
+                "y": 13
+            },
+            "surface": "grass",
+            "obstacle": "tree.2"
+        },
+        {
+            "position": {
+                "x": 23,
+                "y": 14
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 23,
+                "y": 15
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 23,
+                "y": 16
+            },
+            "surface": "dirt",
+            "waypoints": "e"
+        },
+        {
+            "position": {
+                "x": 23,
+                "y": 17
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 23,
+                "y": 18
+            },
+            "surface": "rock"
+        },
+        {
+            "position": {
+                "x": 23,
+                "y": 19
+            },
+            "surface": "rock",
+            "obstacle": "rock.1"
+        },
+        {
+            "position": {
+                "x": 24,
+                "y": 0
+            },
+            "surface": "rock"
+        },
+        {
+            "position": {
+                "x": 24,
+                "y": 1
+            },
+            "surface": "rock"
+        },
+        {
+            "position": {
+                "x": 24,
+                "y": 2
+            },
+            "surface": "rock"
+        },
+        {
+            "position": {
+                "x": 24,
+                "y": 3
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 24,
+                "y": 4
+            },
+            "surface": "dirt",
+            "waypoints": "e"
+        },
+        {
+            "position": {
+                "x": 24,
+                "y": 5
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 24,
+                "y": 6
+            },
+            "surface": "dirt"
+        },
+        {
+            "position": {
+                "x": 24,
+                "y": 7
+            },
+            "surface": "dirt",
+            "obstacle": "tree.1"
+        },
+        {
+            "position": {
+                "x": 24,
+                "y": 8
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 24,
+                "y": 9
+            },
+            "surface": "dirt",
+            "waypoints": "w"
+        },
+        {
+            "position": {
+                "x": 24,
+                "y": 10
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 24,
+                "y": 11
+            },
+            "surface": "rock"
+        },
+        {
+            "position": {
+                "x": 24,
+                "y": 12
+            },
+            "surface": "rock"
+        },
+        {
+            "position": {
+                "x": 24,
+                "y": 13
+            },
+            "surface": "rock"
+        },
+        {
+            "position": {
+                "x": 24,
+                "y": 14
+            },
+            "surface": "rock",
+            "obstacle": "rock.1"
+        },
+        {
+            "position": {
+                "x": 24,
+                "y": 15
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 24,
+                "y": 16
+            },
+            "surface": "dirt",
+            "waypoints": "e"
+        },
+        {
+            "position": {
+                "x": 24,
+                "y": 17
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 24,
+                "y": 18
+            },
+            "surface": "rock",
+            "obstacle": "rock.2"
+        },
+        {
+            "position": {
+                "x": 24,
+                "y": 19
+            },
+            "surface": "rock"
+        },
+        {
+            "position": {
+                "x": 25,
+                "y": 0
+            },
+            "surface": "rock"
+        },
+        {
+            "position": {
+                "x": 25,
+                "y": 1
+            },
+            "surface": "rock",
+            "obstacle": "rock.2"
+        },
+        {
+            "position": {
+                "x": 25,
+                "y": 2
+            },
+            "surface": "rock"
+        },
+        {
+            "position": {
+                "x": 25,
+                "y": 3
+            },
+            "surface": "grass",
+            "obstacle": "tree.4"
+        },
+        {
+            "position": {
+                "x": 25,
+                "y": 4
+            },
+            "surface": "dirt",
+            "waypoints": "e"
+        },
+        {
+            "position": {
+                "x": 25,
+                "y": 5
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 25,
+                "y": 6
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 25,
+                "y": 7
+            },
+            "surface": "grass",
+            "obstacle": "tree.2"
+        },
+        {
+            "position": {
+                "x": 25,
+                "y": 8
+            },
+            "surface": "grass",
+            "obstacle": "tree.4"
+        },
+        {
+            "position": {
+                "x": 25,
+                "y": 9
+            },
+            "surface": "dirt",
+            "waypoints": "w"
+        },
+        {
+            "position": {
+                "x": 25,
+                "y": 10
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 25,
+                "y": 11
+            },
+            "surface": "rock",
+            "obstacle": "rock.1"
+        },
+        {
+            "position": {
+                "x": 25,
+                "y": 12
+            },
+            "surface": "rock",
+            "obstacle": "rock.0"
+        },
+        {
+            "position": {
+                "x": 25,
+                "y": 13
+            },
+            "surface": "rock"
+        },
+        {
+            "position": {
+                "x": 25,
+                "y": 14
+            },
+            "surface": "rock"
+        },
+        {
+            "position": {
+                "x": 25,
+                "y": 15
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 25,
+                "y": 16
+            },
+            "surface": "dirt",
+            "waypoints": "e"
+        },
+        {
+            "position": {
+                "x": 25,
+                "y": 17
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 25,
+                "y": 18
+            },
+            "surface": "rock"
+        },
+        {
+            "position": {
+                "x": 25,
+                "y": 19
+            },
+            "surface": "rock"
+        },
+        {
+            "position": {
+                "x": 26,
+                "y": 0
+            },
+            "surface": "rock",
+            "obstacle": "rock.0"
+        },
+        {
+            "position": {
+                "x": 26,
+                "y": 1
+            },
+            "surface": "rock",
+            "obstacle": "rock.1"
+        },
+        {
+            "position": {
+                "x": 26,
+                "y": 2
+            },
+            "surface": "rock"
+        },
+        {
+            "position": {
+                "x": 26,
+                "y": 3
+            },
+            "surface": "grass"
+        },
+        {
+            "position": {
+                "x": 26,
+                "y": 4
+            },
+            "surface": "dirt",
+            "waypoints": "n"
+        },
+        {
+            "position": {
+                "x": 26,
+                "y": 5
+            },
+            "surface": "dirt",
+            "waypoints": "n"
+        },
+        {
+            "position": {
+                "x": 26,
+                "y": 6
+            },
+            "surface": "dirt",
+            "waypoints": "n"
+        },
+        {
+            "position": {
+                "x": 26,
+                "y": 7
+            },
+            "surface": "dirt",
+            "waypoints": "n"
+        },
+        {
+            "position": {
+                "x": 26,
                 "y": 8
             },
             "surface": "dirt",
@@ -2616,60 +3965,60 @@
         },
         {
             "position": {
-                "x": 17,
+                "x": 26,
                 "y": 9
-            },
-            "surface": "dirt",
-            "waypoints": "n"
-        },
-        {
-            "position": {
-                "x": 17,
-                "y": 10
-            },
-            "surface": "dirt",
-            "waypoints": "n"
-        },
-        {
-            "position": {
-                "x": 17,
-                "y": 11
-            },
-            "surface": "dirt",
-            "waypoints": "n"
-        },
-        {
-            "position": {
-                "x": 17,
-                "y": 12
             },
             "surface": "dirt",
             "waypoints": "w"
         },
         {
             "position": {
-                "x": 17,
+                "x": 26,
+                "y": 10
+            },
+            "surface": "grass",
+            "obstacle": "tree.2"
+        },
+        {
+            "position": {
+                "x": 26,
+                "y": 11
+            },
+            "surface": "rock"
+        },
+        {
+            "position": {
+                "x": 26,
+                "y": 12
+            },
+            "surface": "rock"
+        },
+        {
+            "position": {
+                "x": 26,
                 "y": 13
             },
-            "surface": "grass"
+            "surface": "rock",
+            "obstacle": "rock.2"
         },
         {
             "position": {
-                "x": 17,
+                "x": 26,
                 "y": 14
             },
-            "surface": "grass"
+            "surface": "rock",
+            "obstacle": "rock.0"
         },
         {
             "position": {
-                "x": 17,
+                "x": 26,
                 "y": 15
             },
             "surface": "grass"
         },
         {
             "position": {
-                "x": 17,
+                "x": 26,
                 "y": 16
             },
             "surface": "dirt",
@@ -2677,150 +4026,146 @@
         },
         {
             "position": {
-                "x": 17,
+                "x": 26,
                 "y": 17
             },
-            "surface": "grass"
+            "surface": "grass",
+            "obstacle": "tree.2"
         },
         {
             "position": {
-                "x": 17,
+                "x": 26,
                 "y": 18
             },
-            "surface": "grass",
-            "obstacle": "tree.3"
+            "surface": "rock"
         },
         {
             "position": {
-                "x": 17,
+                "x": 26,
                 "y": 19
-            },
-            "surface": "dirt"
-        },
-        {
-            "position": {
-                "x": 18,
-                "y": 0
             },
             "surface": "rock",
             "obstacle": "rock.0"
         },
         {
             "position": {
-                "x": 18,
+                "x": 27,
+                "y": 0
+            },
+            "surface": "rock"
+        },
+        {
+            "position": {
+                "x": 27,
                 "y": 1
             },
             "surface": "rock"
         },
         {
             "position": {
-                "x": 18,
+                "x": 27,
                 "y": 2
             },
             "surface": "rock"
         },
         {
             "position": {
-                "x": 18,
+                "x": 27,
                 "y": 3
             },
-            "surface": "rock",
-            "obstacle": "rock.0"
+            "surface": "grass"
         },
         {
             "position": {
-                "x": 18,
+                "x": 27,
                 "y": 4
             },
-            "surface": "dirt"
+            "surface": "grass"
         },
         {
             "position": {
-                "x": 18,
+                "x": 27,
                 "y": 5
             },
-            "surface": "dirt",
-            "obstacle": "tree.2"
+            "surface": "grass"
         },
         {
             "position": {
-                "x": 18,
+                "x": 27,
                 "y": 6
             },
-            "surface": "dirt",
+            "surface": "grass",
             "obstacle": "tree.2"
         },
         {
             "position": {
-                "x": 18,
+                "x": 27,
                 "y": 7
             },
-            "surface": "grass",
-            "obstacle": "tree.0"
+            "surface": "grass"
         },
         {
             "position": {
-                "x": 18,
+                "x": 27,
                 "y": 8
             },
             "surface": "grass"
         },
         {
             "position": {
-                "x": 18,
+                "x": 27,
                 "y": 9
             },
-            "surface": "grass",
-            "obstacle": "rock.1"
+            "surface": "grass"
         },
         {
             "position": {
-                "x": 18,
+                "x": 27,
                 "y": 10
             },
             "surface": "grass"
         },
         {
             "position": {
-                "x": 18,
+                "x": 27,
                 "y": 11
+            },
+            "surface": "rock",
+            "obstacle": "rock.0"
+        },
+        {
+            "position": {
+                "x": 27,
+                "y": 12
+            },
+            "surface": "rock"
+        },
+        {
+            "position": {
+                "x": 27,
+                "y": 13
+            },
+            "surface": "rock",
+            "obstacle": "rock.1"
+        },
+        {
+            "position": {
+                "x": 27,
+                "y": 14
+            },
+            "surface": "rock"
+        },
+        {
+            "position": {
+                "x": 27,
+                "y": 15
             },
             "surface": "grass",
             "obstacle": "tree.2"
         },
         {
             "position": {
-                "x": 18,
-                "y": 12
-            },
-            "surface": "grass"
-        },
-        {
-            "position": {
-                "x": 18,
-                "y": 13
-            },
-            "surface": "grass",
-            "obstacle": "tree.0"
-        },
-        {
-            "position": {
-                "x": 18,
-                "y": 14
-            },
-            "surface": "grass",
-            "obstacle": "tree.1"
-        },
-        {
-            "position": {
-                "x": 18,
-                "y": 15
-            },
-            "surface": "grass"
-        },
-        {
-            "position": {
-                "x": 18,
+                "x": 27,
                 "y": 16
             },
             "surface": "dirt",
@@ -2828,298 +4173,151 @@
         },
         {
             "position": {
-                "x": 18,
+                "x": 27,
                 "y": 17
             },
             "surface": "grass"
         },
         {
             "position": {
-                "x": 18,
+                "x": 27,
                 "y": 18
-            },
-            "surface": "grass"
-        },
-        {
-            "position": {
-                "x": 18,
-                "y": 19
-            },
-            "surface": "dirt",
-            "obstacle": "tree.1"
-        },
-        {
-            "position": {
-                "x": 19,
-                "y": 0
-            },
-            "surface": "rock"
-        },
-        {
-            "position": {
-                "x": 19,
-                "y": 1
-            },
-            "surface": "rock"
-        },
-        {
-            "position": {
-                "x": 19,
-                "y": 2
             },
             "surface": "rock",
             "obstacle": "rock.0"
         },
         {
             "position": {
-                "x": 19,
+                "x": 27,
+                "y": 19
+            },
+            "surface": "rock",
+            "obstacle": "rock.1"
+        },
+        {
+            "position": {
+                "x": 28,
+                "y": 0
+            },
+            "surface": "rock",
+            "obstacle": "rock.1"
+        },
+        {
+            "position": {
+                "x": 28,
+                "y": 1
+            },
+            "surface": "rock",
+            "obstacle": "rock.0"
+        },
+        {
+            "position": {
+                "x": 28,
+                "y": 2
+            },
+            "surface": "rock",
+            "obstacle": "rock.2"
+        },
+        {
+            "position": {
+                "x": 28,
                 "y": 3
             },
             "surface": "rock"
         },
         {
             "position": {
-                "x": 19,
+                "x": 28,
                 "y": 4
             },
-            "surface": "dirt"
-        },
-        {
-            "position": {
-                "x": 19,
-                "y": 5
-            },
-            "surface": "dirt"
-        },
-        {
-            "position": {
-                "x": 19,
-                "y": 6
-            },
-            "surface": "dirt",
-            "obstacle": "rock.1"
-        },
-        {
-            "position": {
-                "x": 19,
-                "y": 7
-            },
-            "surface": "grass"
-        },
-        {
-            "position": {
-                "x": 19,
-                "y": 8
-            },
-            "surface": "grass",
+            "surface": "rock",
             "obstacle": "rock.0"
         },
         {
             "position": {
-                "x": 19,
-                "y": 9
+                "x": 28,
+                "y": 5
             },
-            "surface": "grass"
+            "surface": "rock"
         },
         {
             "position": {
-                "x": 19,
-                "y": 10
+                "x": 28,
+                "y": 6
             },
-            "surface": "grass",
+            "surface": "rock",
+            "obstacle": "rock.1"
+        },
+        {
+            "position": {
+                "x": 28,
+                "y": 7
+            },
+            "surface": "rock"
+        },
+        {
+            "position": {
+                "x": 28,
+                "y": 8
+            },
+            "surface": "rock",
             "obstacle": "rock.2"
         },
         {
             "position": {
-                "x": 19,
+                "x": 28,
+                "y": 9
+            },
+            "surface": "rock",
+            "obstacle": "rock.0"
+        },
+        {
+            "position": {
+                "x": 28,
+                "y": 10
+            },
+            "surface": "rock"
+        },
+        {
+            "position": {
+                "x": 28,
                 "y": 11
             },
-            "surface": "grass"
+            "surface": "rock"
         },
         {
             "position": {
-                "x": 19,
+                "x": 28,
                 "y": 12
             },
-            "surface": "grass",
-            "obstacle": "tree.1"
+            "surface": "rock",
+            "obstacle": "rock.1"
         },
         {
             "position": {
-                "x": 19,
+                "x": 28,
                 "y": 13
             },
-            "surface": "grass"
+            "surface": "rock"
         },
         {
             "position": {
-                "x": 19,
+                "x": 28,
                 "y": 14
             },
-            "surface": "grass",
-            "obstacle": "tree.2"
+            "surface": "rock"
         },
         {
             "position": {
-                "x": 19,
+                "x": 28,
                 "y": 15
-            },
-            "surface": "grass"
-        },
-        {
-            "position": {
-                "x": 19,
-                "y": 16
-            },
-            "surface": "dirt",
-            "waypoints": "e"
-        },
-        {
-            "position": {
-                "x": 19,
-                "y": 17
-            },
-            "surface": "grass",
-            "obstacle": "tree.1"
-        },
-        {
-            "position": {
-                "x": 19,
-                "y": 18
-            },
-            "surface": "dirt"
-        },
-        {
-            "position": {
-                "x": 19,
-                "y": 19
-            },
-            "surface": "dirt"
-        },
-        {
-            "position": {
-                "x": 20,
-                "y": 0
-            },
-            "surface": "rock",
-            "obstacle": "rock.2"
-        },
-        {
-            "position": {
-                "x": 20,
-                "y": 1
-            },
-            "surface": "rock",
-            "obstacle": "rock.1"
-        },
-        {
-            "position": {
-                "x": 20,
-                "y": 2
-            },
-            "surface": "rock"
-        },
-        {
-            "position": {
-                "x": 20,
-                "y": 3
-            },
-            "surface": "rock"
-        },
-        {
-            "position": {
-                "x": 20,
-                "y": 4
-            },
-            "surface": "dirt",
-            "obstacle": "rock.2"
-        },
-        {
-            "position": {
-                "x": 20,
-                "y": 5
-            },
-            "surface": "dirt",
-            "obstacle": "rock.0"
-        },
-        {
-            "position": {
-                "x": 20,
-                "y": 6
-            },
-            "surface": "dirt"
-        },
-        {
-            "position": {
-                "x": 20,
-                "y": 7
-            },
-            "surface": "dirt",
-            "obstacle": "tree.0"
-        },
-        {
-            "position": {
-                "x": 20,
-                "y": 8
-            },
-            "surface": "dirt",
-            "obstacle": "tree.2"
-        },
-        {
-            "position": {
-                "x": 20,
-                "y": 9
-            },
-            "surface": "grass",
-            "obstacle": "tree.2"
-        },
-        {
-            "position": {
-                "x": 20,
-                "y": 10
-            },
-            "surface": "grass"
-        },
-        {
-            "position": {
-                "x": 20,
-                "y": 11
-            },
-            "surface": "grass",
-            "obstacle": "tree.2"
-        },
-        {
-            "position": {
-                "x": 20,
-                "y": 12
             },
             "surface": "grass",
             "obstacle": "tree.4"
         },
         {
             "position": {
-                "x": 20,
-                "y": 13
-            },
-            "surface": "grass"
-        },
-        {
-            "position": {
-                "x": 20,
-                "y": 14
-            },
-            "surface": "grass"
-        },
-        {
-            "position": {
-                "x": 20,
-                "y": 15
-            },
-            "surface": "grass"
-        },
-        {
-            "position": {
-                "x": 20,
+                "x": 28,
                 "y": 16
             },
             "surface": "dirt",
@@ -3127,337 +4325,36 @@
         },
         {
             "position": {
-                "x": 20,
+                "x": 28,
                 "y": 17
             },
             "surface": "grass"
         },
         {
             "position": {
-                "x": 20,
+                "x": 28,
                 "y": 18
             },
-            "surface": "dirt"
+            "surface": "rock"
         },
         {
             "position": {
-                "x": 20,
+                "x": 28,
                 "y": 19
             },
-            "surface": "dirt"
+            "surface": "rock",
+            "obstacle": "rock.2"
         },
         {
             "position": {
-                "x": 21,
+                "x": 29,
                 "y": 0
             },
             "surface": "rock"
         },
         {
             "position": {
-                "x": 21,
-                "y": 1
-            },
-            "surface": "rock"
-        },
-        {
-            "position": {
-                "x": 21,
-                "y": 2
-            },
-            "surface": "rock"
-        },
-        {
-            "position": {
-                "x": 21,
-                "y": 3
-            },
-            "surface": "rock",
-            "obstacle": "rock.1"
-        },
-        {
-            "position": {
-                "x": 21,
-                "y": 4
-            },
-            "surface": "rock"
-        },
-        {
-            "position": {
-                "x": 21,
-                "y": 5
-            },
-            "surface": "dirt",
-            "obstacle": "rock.1"
-        },
-        {
-            "position": {
-                "x": 21,
-                "y": 6
-            },
-            "surface": "dirt",
-            "obstacle": "rock.2"
-        },
-        {
-            "position": {
-                "x": 21,
-                "y": 7
-            },
-            "surface": "dirt",
-            "obstacle": "rock.0"
-        },
-        {
-            "position": {
-                "x": 21,
-                "y": 8
-            },
-            "surface": "dirt"
-        },
-        {
-            "position": {
-                "x": 21,
-                "y": 9
-            },
-            "surface": "dirt",
-            "obstacle": "rock.1"
-        },
-        {
-            "position": {
-                "x": 21,
-                "y": 10
-            },
-            "surface": "dirt"
-        },
-        {
-            "position": {
-                "x": 21,
-                "y": 11
-            },
-            "surface": "grass",
-            "obstacle": "rock.0"
-        },
-        {
-            "position": {
-                "x": 21,
-                "y": 12
-            },
-            "surface": "grass",
-            "obstacle": "tree.2"
-        },
-        {
-            "position": {
-                "x": 21,
-                "y": 13
-            },
-            "surface": "grass",
-            "obstacle": "rock.1"
-        },
-        {
-            "position": {
-                "x": 21,
-                "y": 14
-            },
-            "surface": "grass"
-        },
-        {
-            "position": {
-                "x": 21,
-                "y": 15
-            },
-            "surface": "grass",
-            "obstacle": "tree.1"
-        },
-        {
-            "position": {
-                "x": 21,
-                "y": 16
-            },
-            "surface": "dirt",
-            "waypoints": "e"
-        },
-        {
-            "position": {
-                "x": 21,
-                "y": 17
-            },
-            "surface": "dirt",
-            "obstacle": "tree.2"
-        },
-        {
-            "position": {
-                "x": 21,
-                "y": 18
-            },
-            "surface": "dirt",
-            "obstacle": "tree.0"
-        },
-        {
-            "position": {
-                "x": 21,
-                "y": 19
-            },
-            "surface": "dirt"
-        },
-        {
-            "position": {
-                "x": 22,
-                "y": 0
-            },
-            "surface": "rock",
-            "obstacle": "rock.2"
-        },
-        {
-            "position": {
-                "x": 22,
-                "y": 1
-            },
-            "surface": "rock",
-            "obstacle": "rock.0"
-        },
-        {
-            "position": {
-                "x": 22,
-                "y": 2
-            },
-            "surface": "rock"
-        },
-        {
-            "position": {
-                "x": 22,
-                "y": 3
-            },
-            "surface": "rock"
-        },
-        {
-            "position": {
-                "x": 22,
-                "y": 4
-            },
-            "surface": "rock",
-            "obstacle": "rock.2"
-        },
-        {
-            "position": {
-                "x": 22,
-                "y": 5
-            },
-            "surface": "dirt"
-        },
-        {
-            "position": {
-                "x": 22,
-                "y": 6
-            },
-            "surface": "dirt"
-        },
-        {
-            "position": {
-                "x": 22,
-                "y": 7
-            },
-            "surface": "dirt",
-            "obstacle": "tree.2"
-        },
-        {
-            "position": {
-                "x": 22,
-                "y": 8
-            },
-            "surface": "dirt",
-            "obstacle": "tree.4"
-        },
-        {
-            "position": {
-                "x": 22,
-                "y": 9
-            },
-            "surface": "dirt",
-            "obstacle": "rock.2"
-        },
-        {
-            "position": {
-                "x": 22,
-                "y": 10
-            },
-            "surface": "dirt",
-            "obstacle": "tree.2"
-        },
-        {
-            "position": {
-                "x": 22,
-                "y": 11
-            },
-            "surface": "dirt"
-        },
-        {
-            "position": {
-                "x": 22,
-                "y": 12
-            },
-            "surface": "dirt"
-        },
-        {
-            "position": {
-                "x": 22,
-                "y": 13
-            },
-            "surface": "grass"
-        },
-        {
-            "position": {
-                "x": 22,
-                "y": 14
-            },
-            "surface": "grass",
-            "obstacle": "tree.2"
-        },
-        {
-            "position": {
-                "x": 22,
-                "y": 15
-            },
-            "surface": "grass"
-        },
-        {
-            "position": {
-                "x": 22,
-                "y": 16
-            },
-            "surface": "dirt",
-            "waypoints": "e"
-        },
-        {
-            "position": {
-                "x": 22,
-                "y": 17
-            },
-            "surface": "dirt"
-        },
-        {
-            "position": {
-                "x": 22,
-                "y": 18
-            },
-            "surface": "dirt"
-        },
-        {
-            "position": {
-                "x": 22,
-                "y": 19
-            },
-            "surface": "dirt",
-            "obstacle": "tree.2"
-        },
-        {
-            "position": {
-                "x": 23,
-                "y": 0
-            },
-            "surface": "rock"
-        },
-        {
-            "position": {
-                "x": 23,
+                "x": 29,
                 "y": 1
             },
             "surface": "rock",
@@ -3465,111 +4362,110 @@
         },
         {
             "position": {
-                "x": 23,
+                "x": 29,
                 "y": 2
             },
             "surface": "rock"
         },
         {
             "position": {
-                "x": 23,
+                "x": 29,
                 "y": 3
+            },
+            "surface": "rock"
+        },
+        {
+            "position": {
+                "x": 29,
+                "y": 4
             },
             "surface": "rock",
             "obstacle": "rock.1"
         },
         {
             "position": {
-                "x": 23,
-                "y": 4
-            },
-            "surface": "rock"
-        },
-        {
-            "position": {
-                "x": 23,
+                "x": 29,
                 "y": 5
             },
+            "surface": "rock",
+            "obstacle": "rock.2"
+        },
+        {
+            "position": {
+                "x": 29,
+                "y": 6
+            },
             "surface": "rock"
         },
         {
             "position": {
-                "x": 23,
-                "y": 6
-            },
-            "surface": "dirt",
-            "obstacle": "rock.1"
-        },
-        {
-            "position": {
-                "x": 23,
+                "x": 29,
                 "y": 7
-            },
-            "surface": "dirt"
-        },
-        {
-            "position": {
-                "x": 23,
-                "y": 8
             },
             "surface": "rock",
             "obstacle": "rock.0"
         },
         {
             "position": {
-                "x": 23,
+                "x": 29,
+                "y": 8
+            },
+            "surface": "rock"
+        },
+        {
+            "position": {
+                "x": 29,
                 "y": 9
             },
             "surface": "rock"
         },
         {
             "position": {
-                "x": 23,
+                "x": 29,
                 "y": 10
+            },
+            "surface": "rock",
+            "obstacle": "rock.1"
+        },
+        {
+            "position": {
+                "x": 29,
+                "y": 11
             },
             "surface": "rock"
         },
         {
             "position": {
-                "x": 23,
-                "y": 11
-            },
-            "surface": "dirt",
-            "obstacle": "rock.1"
-        },
-        {
-            "position": {
-                "x": 23,
+                "x": 29,
                 "y": 12
             },
-            "surface": "dirt"
+            "surface": "rock"
         },
         {
             "position": {
-                "x": 23,
+                "x": 29,
                 "y": 13
             },
-            "surface": "dirt"
+            "surface": "rock"
         },
         {
             "position": {
-                "x": 23,
+                "x": 29,
                 "y": 14
             },
-            "surface": "grass",
-            "obstacle": "tree.0"
+            "surface": "rock",
+            "obstacle": "rock.0"
         },
         {
             "position": {
-                "x": 23,
+                "x": 29,
                 "y": 15
             },
-            "surface": "grass",
-            "obstacle": "tree.0"
+            "surface": "grass"
         },
         {
             "position": {
-                "x": 23,
+                "x": 29,
                 "y": 16
             },
             "surface": "dirt",
@@ -3577,170 +4473,24 @@
         },
         {
             "position": {
-                "x": 23,
+                "x": 29,
                 "y": 17
             },
             "surface": "grass"
         },
         {
             "position": {
-                "x": 23,
+                "x": 29,
                 "y": 18
             },
-            "surface": "dirt",
-            "obstacle": "tree.1"
+            "surface": "rock"
         },
         {
             "position": {
-                "x": 23,
+                "x": 29,
                 "y": 19
             },
-            "surface": "dirt"
-        },
-        {
-            "position": {
-                "x": 24,
-                "y": 0
-            },
             "surface": "rock"
-        },
-        {
-            "position": {
-                "x": 24,
-                "y": 1
-            },
-            "surface": "rock"
-        },
-        {
-            "position": {
-                "x": 24,
-                "y": 2
-            },
-            "surface": "rock",
-            "obstacle": "rock.0"
-        },
-        {
-            "position": {
-                "x": 24,
-                "y": 3
-            },
-            "surface": "rock"
-        },
-        {
-            "position": {
-                "x": 24,
-                "y": 4
-            },
-            "surface": "rock",
-            "obstacle": "rock.0"
-        },
-        {
-            "position": {
-                "x": 24,
-                "y": 5
-            },
-            "surface": "rock"
-        },
-        {
-            "position": {
-                "x": 24,
-                "y": 6
-            },
-            "surface": "rock"
-        },
-        {
-            "position": {
-                "x": 24,
-                "y": 7
-            },
-            "surface": "rock"
-        },
-        {
-            "position": {
-                "x": 24,
-                "y": 8
-            },
-            "surface": "rock"
-        },
-        {
-            "position": {
-                "x": 24,
-                "y": 9
-            },
-            "surface": "rock",
-            "obstacle": "rock.1"
-        },
-        {
-            "position": {
-                "x": 24,
-                "y": 10
-            },
-            "surface": "rock"
-        },
-        {
-            "position": {
-                "x": 24,
-                "y": 11
-            },
-            "surface": "rock"
-        },
-        {
-            "position": {
-                "x": 24,
-                "y": 12
-            },
-            "surface": "dirt"
-        },
-        {
-            "position": {
-                "x": 24,
-                "y": 13
-            },
-            "surface": "dirt",
-            "obstacle": "tree.2"
-        },
-        {
-            "position": {
-                "x": 24,
-                "y": 14
-            },
-            "surface": "grass"
-        },
-        {
-            "position": {
-                "x": 24,
-                "y": 15
-            },
-            "surface": "grass"
-        },
-        {
-            "position": {
-                "x": 24,
-                "y": 16
-            },
-            "surface": "dirt",
-            "waypoints": "e"
-        },
-        {
-            "position": {
-                "x": 24,
-                "y": 17
-            },
-            "surface": "grass"
-        },
-        {
-            "position": {
-                "x": 24,
-                "y": 18
-            },
-            "surface": "dirt"
-        },
-        {
-            "position": {
-                "x": 24,
-                "y": 19
-            },
-            "surface": "dirt"
         }
     ]
 }

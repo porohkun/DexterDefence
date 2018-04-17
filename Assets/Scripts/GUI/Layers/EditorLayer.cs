@@ -110,7 +110,7 @@ namespace Layers
             var filename = _filenameField.text;
             _map.ToJson().ToFile(_filename);
             var maps = MimiJson.JsonValue.ParseFile(_mapsFilename);
-            if (!maps["maps"].Array.Cast<string>().Contains(filename))
+            if (maps["maps"].Array.Count(item => item == filename) == 0)
                 maps["maps"].Array.Add(filename);
             maps.ToFile(_mapsFilename);
         }
