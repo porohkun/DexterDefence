@@ -128,7 +128,7 @@ namespace Game
                 if (waveitem is PauseWaveItem)
                 {
                     var item = waveitem as PauseWaveItem;
-                        yield return new WaitForSeconds(item.Interval);
+                    yield return new WaitForSeconds(item.Interval);
                 }
             }
         }
@@ -229,6 +229,7 @@ namespace Game
                         {
                             case "single_shot": ai = new SingleShotAI(data["levels"]); break;
                             case "multi_shot": ai = new MultiShotAI(data["levels"]); break;
+                            case "rocket_shot": ai = new RocketShotAI(data["levels"], () => Map.Units); break;
                         }
                         var tower = new TowerModel(Shell.Bullet, ai, 1f);
                         Map.AddTower(tower, curPos);
@@ -260,7 +261,9 @@ namespace Game
         {
             if (_bulletViews.ContainsKey(bullet))
             {
-                Destroy(_bulletViews[bullet].gameObject);
+                var bulletView = _bulletViews[bullet];
+                bulletView.Stop();
+                Destroy(bulletView.gameObject, bulletView.DestroyDelay);
                 _bulletViews.Remove(bullet);
             }
         }

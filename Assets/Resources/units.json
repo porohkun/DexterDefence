@@ -9,7 +9,7 @@
     "unit1":{
         "visual":"unit1",
         "health":70,
-        "speed":3,
+        "speed":2,
         "drunk":0.2,
         "reward":20
     },

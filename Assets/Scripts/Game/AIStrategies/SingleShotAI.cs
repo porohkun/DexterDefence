@@ -17,16 +17,16 @@ namespace Game
 
         public event Action<BulletModel> BulletShoot;
 
-        private float _delay;
-        private float _bulletSpeed;
-        private float _damage;
-        private string _bulletVisual;
+        protected float _delay;
+        protected float _bulletSpeed;
+        protected float _damage;
+        protected string _bulletVisual;
 
-        private JsonArray _turretData;
-        private Vector2 _position;
-        private UnitModel _target;
-        private float _lastShotTime;
-        private BulletModel _bullet;
+        protected JsonArray _turretData;
+        protected Vector2 _position;
+        protected UnitModel _target;
+        protected float _lastShotTime;
+        protected BulletModel _bullet;
 
         public SingleShotAI(JsonArray turretData)
         {
@@ -85,11 +85,16 @@ namespace Game
         {
             _bullet = new BulletModel(_bulletVisual, _position, _target, _bulletSpeed);
             _bullet.Hitted += _bullet_Hitted;
+            OnBulletShoot();
+        }
+
+        protected void OnBulletShoot()
+        {
             if (BulletShoot != null)
                 BulletShoot(_bullet);
         }
 
-        private void _bullet_Hitted(BulletModel bullet, UnitModel unit)
+        protected virtual void _bullet_Hitted(BulletModel bullet, UnitModel unit)
         {
             unit.Health -= _damage;
         }

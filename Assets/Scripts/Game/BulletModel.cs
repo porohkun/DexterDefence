@@ -8,16 +8,16 @@ namespace Game
 {
     public class BulletModel
     {
-        public Vector2 Position { get; private set; }
-        public Vector2 Direction { get; private set; }
+        public Vector2 Position { get; protected set; }
+        public Vector2 Direction { get; protected set; }
         public string Visual { get; private set; }
         public event Action<BulletModel, UnitModel> Hitted;
 
-        private Vector2 _startPosition;
-        private UnitModel _target;
-        private float _speed;
-        private float _time;
-        private float _elapsedTime = 0f;
+        protected Vector2 _startPosition;
+        protected UnitModel _target;
+        protected float _speed;
+        protected float _time;
+        protected float _elapsedTime = 0f;
 
         public BulletModel(string visual, Vector2 position, UnitModel target, float speed)
         {
@@ -27,10 +27,12 @@ namespace Game
             _speed = speed;
 
             Position = position + (_target.Position - position).normalized / 2f;
+            _startPosition = Position;
+            Direction = (_target.Position - Position).normalized;
             _time = Position.DistanceTo(_target.Position) / speed;
         }
 
-        public void Update(float deltaTime)
+        public virtual void Update(float deltaTime)
         {
             _elapsedTime += deltaTime;
 
@@ -40,7 +42,12 @@ namespace Game
                 Position = _startPosition + direction * (_elapsedTime / _time);
                 Direction = (_target.Position - Position).normalized;
             }
-            else if (Hitted != null)
+            else OnHitted();
+        }
+
+        protected void OnHitted()
+        {
+            if (Hitted != null)
                 Hitted(this, _target);
         }
     }

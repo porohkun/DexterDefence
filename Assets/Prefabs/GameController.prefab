@@ -158,4 +158,6 @@ MonoBehaviour:
   - {fileID: 114186067781180556, guid: f730df0f72b8df646b1add104e41ca99, type: 2}
   - {fileID: 114318364686316586, guid: 8f1cb47afdb5f154c9eeb4d80c751935, type: 2}
   - {fileID: 114778242526503968, guid: 3c7103dbf61c71a4184175909ef1d290, type: 2}
+  - {fileID: 114715658687637580, guid: bce829b49e5e8f04c852d2da441af881, type: 2}
+  - {fileID: 114473917097793214, guid: fa8cdad2021700f46b982b9493ec402e, type: 2}
   _bulletsRoot: {fileID: 4629475409297602}

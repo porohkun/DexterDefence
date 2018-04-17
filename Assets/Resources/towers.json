@@ -131,84 +131,92 @@
         ]
     },
     "rocket_tower": {
-        "ai": "single_shot",
+        "ai": "rocket_shot",
         "levels": [
             {
-                "cost":100,
-                "cashback":40,
-                "radius": 5,
-                "delay": 1,
-                "bullet_speed": 15,
-                "damage": 35,
-                "bullet_visual": "bullet0"
+                "cost":400,
+                "cashback":160,
+                "radius": 8,
+                "delay": 3,
+                "bullet_speed": 3,
+                "damage": 45,
+                "explosion_radius":1,
+                "bullet_visual": "rocket0"
             },
             {
-                "cost":150,
-                "cashback":100,
-                "radius": 5,
-                "delay": 1,
-                "bullet_speed": 15,
-                "damage": 55,
-                "bullet_visual": "bullet1"
+                "cost":500,
+                "cashback":360,
+                "radius": 8,
+                "delay": 3,
+                "bullet_speed": 3,
+                "damage": 65,
+                "explosion_radius":1,
+                "bullet_visual": "rocket0"
             },
             {
-                "cost":200,
-                "cashback":180,
-                "radius": 5,
-                "delay": 1,
-                "bullet_speed": 15,
-                "damage": 75,
-                "bullet_visual": "bullet2"
+                "cost":600,
+                "cashback":800,
+                "radius": 10,
+                "delay": 3,
+                "bullet_speed": 3,
+                "damage": 90,
+                "explosion_radius":1,
+                "bullet_visual": "rocket0"
             },
             {
-                "cost":250,
-                "cashback":280,
-                "radius": 5,
-                "delay": 1,
-                "bullet_speed": 15,
-                "damage": 100,
-                "bullet_visual": "bullet3"
+                "cost":700,
+                "cashback":1080,
+                "radius": 10,
+                "delay": 3,
+                "bullet_speed": 3,
+                "damage": 120,
+                "explosion_radius":1,
+                "bullet_visual": "rocket0"
             }
         ]
     },
     "mega_rocket_tower": {
-        "ai": "single_shot",
+        "ai": "rocket_shot",
         "levels": [
             {
-                "cost":100,
-                "cashback":40,
-                "radius": 5,
-                "delay": 1,
-                "bullet_speed": 15,
-                "damage": 35,
-                "bullet_visual": "bullet0"
-            },
-            {
-                "cost":150,
-                "cashback":100,
-                "radius": 5,
-                "delay": 1,
-                "bullet_speed": 15,
-                "damage": 55,
-                "bullet_visual": "bullet1"
-            },
-            {
-                "cost":200,
-                "cashback":180,
-                "radius": 5,
-                "delay": 1,
-                "bullet_speed": 15,
+                "cost":600,
+                "cashback":240,
+                "radius": 12,
+                "delay": 4,
+                "bullet_speed": 2,
                 "damage": 75,
-                "bullet_visual": "bullet2"
+                "explosion_radius":1.5,
+                "bullet_visual": "rocket1"
             },
             {
-                "cost":250,
-                "cashback":280,
-                "radius": 5,
-                "delay": 1,
-                "bullet_speed": 15,
-                "damage": 100,
-                "bullet_visual": "bullet3"
+                "cost":750,
+                "cashback":540,
+                "radius": 12,
+                "delay": 4,
+                "bullet_speed": 2,
+                "damage": 95,
+                "explosion_radius":1.5,
+                "bullet_visual": "rocket1"
+            },
+            {
+                "cost":900,
+                "cashback":1200,
+                "radius": 15,
+                "delay": 4,
+                "bullet_speed": 2,
+                "damage": 125,
+                "explosion_radius":1.5,
+                "bullet_visual": "rocket1"
+            },
+            {
+                "cost":1050,
+                "cashback":1620,
+                "radius": 15,
+                "delay": 4,
+                "bullet_speed": 2,
+                "damage": 150,
+                "explosion_radius":1.5,
+                "bullet_visual": "rocket1"
             }
         ]
     }
