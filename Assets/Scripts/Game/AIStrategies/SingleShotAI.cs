@@ -13,7 +13,7 @@ namespace Game
         public int Level { get; private set; }
         public bool CanBeUpgraded { get { return Level < _turretData.Length - 1; } }
         public int UpgradeCost { get { return _turretData[Level + 1]["cost"]; } }
-        public int Cashback { get { return _turretData[Level + 1]["cashback"]; } }
+        public int Cashback { get { return _turretData[Level]["cashback"]; } }
 
         public event Action<BulletModel> BulletShoot;
 

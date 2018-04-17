@@ -19,6 +19,7 @@ namespace Views
         public int Level { get { return _tower.Level; } }
         public bool CanBeUpgraded { get { return _tower.CanBeUpgraded; } }
         public int UpgradeCost { get { return _tower.UpgradeCost; } }
+        public int RemoveCashback { get { return _tower.Cashback; } }
 
         public void AttachTo(TowerModel tower)
         {

@@ -30,6 +30,7 @@ namespace Game
         public IList<UnitModel> Units { get { return _units; } }
         public IList<TowerModel> Towers { get { return _towers; } }
         public event Action<BulletModel> BulletCreated;
+        public event Action UnitsAreOver;
 
         private int _lastStartPosition = -1;
 
@@ -93,6 +94,8 @@ namespace Game
         private void Unit_Died(UnitModel unit)
         {
             _units.Remove(unit);
+            if (_units.Count == 0 && UnitsAreOver != null)
+                UnitsAreOver();
         }
 
         public void AddTower(TowerModel tower, Point position)

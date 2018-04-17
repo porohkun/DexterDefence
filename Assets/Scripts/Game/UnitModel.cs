@@ -24,6 +24,8 @@ namespace Game
             }
         }
         public float Drunk { get; private set; }
+        public int Reward { get; internal set; }
+
         public event System.Action<UnitModel> Died;
         public event System.Action<UnitModel> Finished;
 
@@ -35,12 +37,22 @@ namespace Game
         private IEnumerator<bool> _currentMove = null;
         private float _lastdeltaTime;
 
-        public UnitModel(string visual, int health, float speed, float drunk)
+        public UnitModel(string visual, int health, float speed, float drunk, int reward)
         {
             Visual = visual;
             Health = health;
             Speed = speed;
             Drunk = drunk;
+            Reward = reward;
+        }
+
+        public UnitModel(MimiJson.JsonValue json)
+        {
+            Visual = json["visual"];
+            Health = json["health"];
+            Speed = json["speed"];
+            Drunk = json["drunk"];
+            Reward = json["reward"];
         }
 
         public void Initialize(MapModel map, StartPosition startPosition)

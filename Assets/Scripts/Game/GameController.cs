@@ -13,15 +13,19 @@ namespace Game
     public class GameController : MonoBehaviour
     {
         [SerializeField]
-        private UnitView _unitViewPrefab;
+        private UnitView[] _unitViewPrefabs;
         [SerializeField]
         private Transform _unitsRoot;
+        [SerializeField]
+        private TextAsset _unitConfigs;
+
         [SerializeField]
         private TowerView[] _towerViewPrefabs;
         [SerializeField]
         private Transform _towersRoot;
         [SerializeField]
         private TextAsset _towerAIs;
+
         [SerializeField]
         private BulletView[] _bulletViewPrefabs;
         [SerializeField]
@@ -42,22 +46,31 @@ namespace Game
         }
         public int Money { get; private set; }
         public int Wave { get; private set; }
+        public int Health { get; private set; }
+        public event Action WaveEnded;
 
+        private bool _play;
         private bool _showTowerGrid = false;
         private MapView _mapView;
+        private Wave[] _waves;
         private Dictionary<UnitModel, UnitView> _unitViews = new Dictionary<UnitModel, UnitView>();
         private Dictionary<TowerModel, TowerView> _towerViews = new Dictionary<TowerModel, TowerView>();
         private Dictionary<BulletModel, BulletView> _bulletViews = new Dictionary<BulletModel, BulletView>();
 
         private JsonValue _towerDatas;
-        
-        public void StartGame(JsonValue mapJson)
+        private JsonValue _unitDatas;
+
+        public void StartGame(JsonValue mapJson, Wave[] waves, int health)
         {
+            _waves = waves;
+            Health = health;
             transform.position = Vector3.zero;
             _towerDatas = JsonValue.Parse(_towerAIs.text);
+            _unitDatas = JsonValue.Parse(_unitConfigs.text);
 
             Map = new MapModel(mapJson);
             Map.BulletCreated += Map_BulletCreated;
+            Map.UnitsAreOver += Map_UnitsAreOver;
 
             _mapView = new GameObject("MapView", typeof(MapView)).GetComponent<MapView>();
             _mapView.transform.SetParent(transform);
@@ -67,6 +80,13 @@ namespace Game
             Camera.main.GetComponent<CameraMotor>().SetMapSize(Map.Width, Map.Height);
 
             StartWave();
+            _play = true;
+        }
+
+        private void Map_UnitsAreOver()
+        {
+            if (WaveEnded != null)
+                WaveEnded();
         }
 
         public void NextWave()
@@ -81,33 +101,53 @@ namespace Game
 
         private void Update()
         {
-            Map.Update(Time.deltaTime);
+            if (_play)
+                Map.Update(Time.deltaTime);
         }
 
         private void StartWave()
         {
+            var wave = _waves[Wave];
             Wave++;
-            StartCoroutine(WaveRoutine());
+            StartCoroutine(WaveRoutine(wave));
         }
 
-        private IEnumerator WaveRoutine()
+        private IEnumerator WaveRoutine(Wave wave)
         {
-            for (int i = 0; i < 100; i++)
+            foreach (var waveitem in wave.Items)
             {
-                CreateUnit();
-                yield return new WaitForSeconds(0.4f);
+                if (waveitem is UnitWaveItem)
+                {
+                    var item = waveitem as UnitWaveItem;
+                    for (int i = 0; i < item.Count; i++)
+                    {
+                        CreateUnit(item.Name);
+                        yield return new WaitForSeconds(item.Interval);
+                    }
+                }
+                if (waveitem is PauseWaveItem)
+                {
+                    var item = waveitem as PauseWaveItem;
+                        yield return new WaitForSeconds(item.Interval);
+                }
             }
         }
 
-        private void CreateUnit()
+        private void CreateUnit(string name)
         {
-            var unit = new UnitModel("unit1", 100, 1.0f, 0f);
+            var unit = new UnitModel(_unitDatas[name]);
             Map.AddUnit(unit);
             unit.Died += Unit_Died;
             unit.Finished += Unit_Finished;
-            var unitView = Instantiate(_unitViewPrefab, _unitsRoot);
-            unitView.AttachTo(unit);
-            _unitViews.Add(unit, unitView);
+
+            foreach (var unitPrefab in _unitViewPrefabs)
+                if (unitPrefab.name == name)
+                {
+                    var unitView = Instantiate(unitPrefab, _unitsRoot);
+                    unitView.AttachTo(unit);
+                    _unitViews.Add(unit, unitView);
+                    break;
+                }
         }
 
         public int GetTowerCost(string name, int level)
@@ -118,13 +158,25 @@ namespace Game
 
         private void Unit_Finished(UnitModel unit)
         {
-
+            Health--;
+            if (_unitViews.ContainsKey(unit))
+            {
+                Destroy(_unitViews[unit].gameObject);
+                _unitViews.Remove(unit);
+            }
+            if (Health <= 0)
+            {
+                _play = false;
+                if (WaveEnded != null)
+                    WaveEnded();
+            }
         }
 
         private void Unit_Died(UnitModel unit)
         {
             if (_unitViews.ContainsKey(unit))
             {
+                TryChangeMoney(unit.Reward);
                 Destroy(_unitViews[unit].gameObject);
                 _unitViews.Remove(unit);
             }

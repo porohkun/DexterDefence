@@ -138,9 +138,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d379a725aa5be7948971b1a682a9e6ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _unitViewPrefab: {fileID: 114982889159418224, guid: ca1c62fcafa585a46a3802ea3e25fdca,
-    type: 2}
+  _unitViewPrefabs:
+  - {fileID: 114421063446002924, guid: 169c91ade4fd53d42a8b188cb3bc35db, type: 2}
+  - {fileID: 114434873046039720, guid: d705c48ed73b4ef498ac4dc11bf3ff31, type: 2}
+  - {fileID: 114637344904022620, guid: 8327e4bdef583de4789912ad1e412f27, type: 2}
+  - {fileID: 114345766188259154, guid: e60b858dfd1bde24caac2a3c96d1edde, type: 2}
   _unitsRoot: {fileID: 4526375885339304}
+  _unitConfigs: {fileID: 4900000, guid: 28c86d21b68c7ab438056ff6b01aeb36, type: 3}
   _towerViewPrefabs:
   - {fileID: 114958252425856098, guid: ef8ac0d78a277cc4a9b2b13cbfeb42b7, type: 2}
   - {fileID: 114399165003336296, guid: 30bcce001d9ee9444b815ca7632610a7, type: 2}

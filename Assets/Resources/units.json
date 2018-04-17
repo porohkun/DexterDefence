@@ -1,0 +1,30 @@
+{
+    "unit0":{
+        "visual":"unit0",
+        "health":100,
+        "speed":1,
+        "drunk":0.7,
+        "reward":10
+    },
+    "unit1":{
+        "visual":"unit1",
+        "health":70,
+        "speed":3,
+        "drunk":0.2,
+        "reward":20
+    },
+    "unit2":{
+        "visual":"unit2",
+        "health":180,
+        "speed":1.1,
+        "drunk":0.3,
+        "reward":30
+    },
+    "unit3":{
+        "visual":"unit3",
+        "health":400,
+        "speed":0.7,
+        "drunk":0.1,
+        "reward":80
+    }
+}

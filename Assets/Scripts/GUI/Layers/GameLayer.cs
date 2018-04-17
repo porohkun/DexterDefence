@@ -50,7 +50,7 @@ namespace Layers
                 _cost.text = amount.ToString();
             }
         }
-
+        
         [SerializeField]
         private TowerVisualData[] _towersBrushData;
         [SerializeField]
@@ -63,6 +63,10 @@ namespace Layers
         private RectTransform _selectedTowerPanel;
         [SerializeField]
         private Button _selectedTowerUpgradeButton;
+        [SerializeField]
+        private Text _selectedTowerUpgradeCost;
+        [SerializeField]
+        private Text _selectedTowerRemoveCost;
         [SerializeField]
         private Text _moneyLabel;
         [SerializeField]
@@ -78,9 +82,10 @@ namespace Layers
         private string _brushType = "none";
         private string _brush;
         private TowerView _selectedTower;
-        private int _maxWaves = 10;
-        private int _health = 20;
-
+        private string _mapName;
+        private Wave[] _waves;
+        private int _startMoney;
+        private int _lives;
 
         private void Start()
         {
@@ -95,22 +100,53 @@ namespace Layers
                 towerData.AddBrush(_towerBrush);
         }
 
-        public void Initialize(string mapName)
+        public void Clear()
         {
+            if (_controller != null)
+                Destroy(_controller.gameObject);
+        }
+
+        public void Restart()
+        {
+            Initialize(_mapName, _waves, _startMoney, _lives);
+        }
+
+        public void Initialize(string mapName, Wave[] waves, int startMoney, int lives)
+        {
+            Clear();
+
             var json = JsonValue.Parse(Resources.Load<TextAsset>("Maps/" + mapName).text);
+            _mapName = mapName;
+            _waves = waves;
+            _startMoney = startMoney;
+            _lives = lives;
 
             _controller = Instantiate(_gameControllerPrefab);
-            _controller.TryChangeMoney(4000);
-            _controller.StartGame(json);
+            _controller.TryChangeMoney(_startMoney);
+            _controller.StartGame(json, _waves, _lives);
+            _controller.WaveEnded += _controller_WaveEnded;
             foreach (var towerData in _towersBrushData)
                 towerData.SetCost(_controller.GetTowerCost(towerData.Name, 0));
+        }
+
+        private void _controller_WaveEnded()
+        {
+            _nextWaveButton.SetActive(true);
+            if (_controller.Wave == _waves.Length || _controller.Health <= 0)
+                LayersManager.Push<EndGameLayer>().Initialize(_controller.Health > 0);
+        }
+
+        public void OnNextWave()
+        {
+            _nextWaveButton.SetActive(false);
+            _controller.NextWave();
         }
 
         private void Update()
         {
             _moneyLabel.text = _controller.Money.ToString();
-            _waveLabel.text = string.Format("{0}/{1}", _controller.Wave.ToString(), _maxWaves);
-            _healthLabel.text = _health.ToString();
+            _waveLabel.text = string.Format("{0}/{1}", _controller.Wave.ToString(), _waves.Length);
+            _healthLabel.text = _controller.Health.ToString();
 
             var vectorCurPos = GraphicsManager.ScaleBack(_camera.ScreenToWorldPoint(Input.mousePosition));
             Point curPos = vectorCurPos;
@@ -159,16 +195,21 @@ namespace Layers
             _brushType = "tower_interface";
             _selectedTower = towerView;
             _selectedTowerPanel.gameObject.SetActive(true);
+            _selectedTowerUpgradeCost.text = towerView.CanBeUpgraded ? towerView.UpgradeCost.ToString() : "";
+            _selectedTowerRemoveCost.text = towerView.RemoveCashback.ToString();
         }
 
         public void OnUpgradeSelectedTower()
         {
             _controller.UpgradeTower(_selectedTower);
+            _selectedTowerUpgradeCost.text = _selectedTower.CanBeUpgraded ? _selectedTower.UpgradeCost.ToString() : "";
+            _selectedTowerRemoveCost.text = _selectedTower.RemoveCashback.ToString();
         }
 
         public void OnRemoveSelectedTower()
         {
             _controller.RemoveTower(_selectedTower);
+            DropBrush();
         }
 
         public void OnSelectTower(string name)
